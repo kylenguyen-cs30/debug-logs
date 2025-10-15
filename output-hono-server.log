@@ -1,5 +1,5 @@
-Script started on 2025-10-14 16:17:03-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="252" LINES="53"]
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~/Deployments]1;~/Deployments[0m[27m[24m[J[01;32m➜  [36mDeployments[00m [K[?1h=[?2004hc[32mc[39m[32mc[39m[90md ..[39m
+Script started on 2025-10-14 18:58:32-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="252" LINES="54"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hc[32mc[39m[32mc[39m[90md ../mvp-llm-python-sever[39m[25D
 [0;1;2mcommand[0m
 [0mc                        c++                     c++-15                  c89                 c89-gcc    c99          c99-gcc                    cacaclock          cacademo            cacafire          cacaplay                 cacaserver           
 cacaview                 caffeinate              caffeine                caffeine-indicator  cal        cameratopam  cancel                     capsh              captoinfo           cargo             cargo-clippy             cargo-fmt            
@@ -14,103 +14,42 @@ comptry                  compute-sanitizer       compvalues              conda_p
 corelist                 corepack                coresched               cp                  cpack      cpan         cpan5.36-x86_64-linux-gnu  cpio               cpp                 cpp-11            cpp-12                   cpp-15               
 c_rehash                 crontab                 crt                     csplit              ctest      ctrlaltdel   ctstat                     cudafe++           cuda-gdb            cuda-gdb-minimal  cuda-gdb-python3.10-tui  cuda-gdb-python3.11-tui
 cuda-gdb-python3.12-tui  cuda-gdb-python3.8-tui  cuda-gdb-python3.9-tui  cuda-gdbserver      cu++filt   cuobjdump    cupstestppd                curl               curl-config         current_branch    cut                      cvt                  
-[Jcvtsudoers               [Jcwebp                   [J                                                                                                                                                                                    [15A[0m[27m[24m[15C[32mc[39m[90md ..[39m[K[32mc[32md[39m[32mc[32md[32m [39m
-[J[A[18C[32mc[32md[39m[39m [30m[103m[39m[49m[30m[103m[39m[49m
+[Jcvtsudoers               [Jcwebp                   [J                                                                                                                                                                                    [15A[0m[27m[24m[5C[32mc[39m[90md ../mvp-llm-python-sever[39m[K[25D[32mc[32md[39m
+[J[0;1;2mcommand[0m
+[J[0mcd                 [Jcd-create-profile  [Jcd-fix-profile     [Jcd-iccdump         [Jcd-it8             [Jcdrdao           [J[A[A[0m[27m[24m[5C[32mcd[39m[90m ../mvp-llm-python-sever[39m[K[24D[32mc[32md[32m [39m
+[J[A[8C[32mc[32md[39m[39m 
 [J[0;1;2mdirectory[0m
-[01;34mmcp-server-taskler[0m/    [01;34mmvp-llm-python-sever[0m/
-[J[0;2m[1mcommon substring:[0m [30m[103mm[39m[49m[3A[0m[27m[24m[15C[32mcd[39m [90m..[39m[K
-[J[A[18C[39m.[39m.[4mm[4mc[4mp-server-taskler[1m[4m/[0m[24m
+[J[01;34masus-tools[0m/   [J[01;34mDeployments[0m/  [J[01;34mDesktop[0m/      [J[01;34mDocuments[0m/    [J[01;34mDownloads[0m/    [J[01;34mllama.cpp[0m/    [J[01;34mmcp-env[0m/      [J[01;34mMusic[0m/        [J[01;34mPictures[0m/     [J[01;34mPublic[0m/       [J[01;34mTemplates[0m/    [J[01;34mVideos[0m/     [J[A[A[0m[27m[24m[5C[32mcd[39m [90m../mvp-llm-python-sever[39m[K[23D[39md[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [22D[90mebug-logs[39m[9D[30m[103m[39m[49m[30m[103m[39m[49m
 [J[0;1;2mdirectory[0m
-[J[01;34mdist[0m/          [J[01;34mnode_modules[0m/  [J[01;34msrc[0m/         [J[A[A[0m[27m[24m[15C[32mcd[39m [4mmcp-server-taskler[1m[4m/[0m[24m[K[4mr[24m[0m[24m [?1l>[?2004l
-[J[A[36C
-[J]2;cd mcp-server-taskler]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m)[00m [Kl[32ml[39m[32ml[39m[90ms[39m
+[01;34mDeployments[0m/  [01;34mDesktop[0m/      [01;34mDocuments[0m/    [01;34mDownloads[0m/  
+[J[0;2m[1mcommon substring:[0m [30m[103mD[39m[49m[3A[0m[27m[24m[5C[32mcd[39m d[90mebug-logs[39m[K[9D[39me[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mdirectory[0m
+[01;34mDeployments[0m/  [01;34mDesktop[0m/    
+[J[0;2m[1mcommon substring:[0m [30m[103mDe[39m[49m[3A[0m[27m[24m[5C[32mcd[39m de[90mbug-logs[39m[K[8D
+[J[A[10C[39mb[39mu[39mg[39m-[39ml[39mo[39mg[39ms[8D[4mD[4me[4mp[4ml[4mo[4my[4mm[4me[4mn[4mt[4ms[1m[4m/[0m[24m
+[J[0;1;2mdirectory[0m
+[J[01;34mdebug-logs[0m/            [J[01;34mmcp-server-taskler[0m/    [J[01;34mmvp-llm-python-sever[0m/[J[A[A[0m[27m[24m[5C[32mcd[39m [4mDeployments[1m[4m/[0m[24m[K[1m[4m/[1m[4mm[0m[24m[0m[4m/[0m[4mm[24m[90mvp-llm-python-sever[39m[19D
+[J[0;1;2mdirectory[0m
+[J[01;34mmcp-server-taskler[0m/    [J[01;34mmvp-llm-python-sever[0m/[J[A[A[0m[27m[24m[5C[32mcd[39m [4mDeployments/m[24m[90mvp-llm-python-sever[39m[K[19D[4mm[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90mp-server-taskler[39m[16D
+[J[0;1;2mdirectory[0m
+[J[01;34mmcp-server-taskler[0m/[J[A[A[0m[27m[24m[5C[32mcd[39m [4mDeployments/mc[24m[90mp-server-taskler[39m[K[16D[4mc[39m[4mp[24m
+[J[0;1;2mdirectory[0m
+[J[01;34mmcp-server-taskler[0m/[J[A[A[0m[27m[24m[5C[32mcd[39m [4mDeployments/mcp[24m[90m-server-taskler[39m[K[15D
+[J[A[23C[39m-[39ms[39me[39mr[39mv[39me[39mr[39m-[39mt[39ma[39ms[39mk[39ml[39me[39mr[15D[4mp[4m-[4ms[4me[4mr[4mv[4me[4mr[4m-[4mt[4ma[4ms[4mk[4ml[4me[4mr[1m[4m/[0m[24m
+[J[0;1;2mdirectory[0m
+[J[01;34mdist[0m/          [J[01;34mnode_modules[0m/  [J[01;34msrc[0m/         [J[A[A[0m[27m[24m[5C[32mcd[39m [4mDeployments/mcp-server-taskler[1m[4m/[0m[24m[K[4mr[24m[0m[24m [?1l>[?2004l
+[J[A[38C
+[J]2;cd Deployments/mcp-server-taskler]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m)[00m [Kb[1m[31mb[0m[39m[1m[31mb[0m[39m[90mun test src/tests/api/schedules-bun.test.ts[39m[43D
 [0;1;2mcommand[0m
-[0ml                    l2ping      l2test          la          laptop-detect  last         lastb              lastlog              lastlog2               lazygit          lcf             ld               ldapadd        ldapcompare  ldapdelete         
-ldapexop             ldapmodify  ldapmodrdn      ldappasswd  ldapsearch     ldapurl      ldapvc             ldapwhoami           ldattach               ld.bfd           ldd             ld.gold          ld.so          leaftoppm    less               
-lessecho             lessfile    lesskey         lesspipe    let            lexgrog      lft                lft.db               libdeflate-gunzip      libdeflate-gzip  libnetcfg       libpng16-config  libpng-config  libreoffice  libsixel-config    
-lightsoff            limit       link            linkicc     linux32        linux64      linux-boot-prober  linux-check-removal  linux-update-symlinks  linux-version    lispmtopgm      listres          ll             ln           lnstat             
-loadkeys             loadunimap  local           localc      locale         localectl    localedef          local_tone_map       lodraw                 loffice          lofromtemplate  log              logger         login        loginctl           
-logname              logout      loimpress       lomath      look           losetup      loweb              lowntfs-3g           lowriter               lp               lpoptions       lp_solve         lpstat         ls           lsa                
-lsattr               lsblk       lsb_release     lsclocks    lscpu          lsfd         lsinitramfs        lsipc                lsirq                  lslocks          lslogins        lsmem            lsmod          lsns         lsof               
-lspci                lspgpot     lsusb           lto-dump    lto-dump-11    lto-dump-12  lto-dump-15        lua                  lua-5.4                lua5.4           luac            luac-5.4         luac5.4        luajit       luajit-2.1.1753364724
-lua-language-server  luarocks    luarocks-admin  luit        lwp-download   lwp-dump     lwp-mirror         lwp-request          lxterm                 lynx             lz4             lz4c             lz4cat         lzcat        lzcmp              
-[Jlzdiff               [Jlzegrep     [Jlzfgrep         [Jlzgrep      [Jlzless         [Jlzma         [Jlzmadec            [Jlzmainfo             [Jlzmore                 [J                                                                                       [11A[0m[27m[24m[45C[32ml[39m[90ms[39m[K[32ml[32ms[39m
-[J[0;1;2mcommand[0m
-[J[0mls    [Jlsa    [Jlsattr    [Jlsblk    [Jlsb_release    [Jlsclocks    [Jlscpu    [Jlsfd    [Jlsinitramfs    [Jlsipc    [Jlsirq    [Jlslocks    [Jlslogins    [Jlsmem    [Jlsmod    [Jlsns    [Jlsof    [Jlspci    [Jlspgpot    [Jlsusb    [J[A[A[0m[27m[24m[45C[32mls[39m[K[?1l>[?2004l
-[J[A[47C
-[J]2;eza --color=always --long --no-filesize --icons=always --no-time --no-user ]1;ls babel.config.cjs
- bun.lock
-[34m [1mdist[0m
- jest.config.cjs
- model-relocation.sh
-[34m [1mnode_modules[0m
- other_intents.log
- output.log
-[33m [1;4mpackage.json[0m
-[33m󰂺 [1;4mREADME.md[0m
- resource-presentation.json
-[34m󰣞 [1msrc[0m
-[33m [1;4mtsconfig.json[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m)[00m [K[?1h=[?2004hg[32mg[39m[32mg[39m[90mac "upload log" && gpo framework-change[39m[39D[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
-[0;1;2mcommand[0m
-[0mg++                       g++-11                 g++-12                 g++-15                 gamma4scanimage              gapplication                gatttool               gcalccmd              gcc-11                  gcc-12            
-gcc-15                    gcc-ar-11              gcc-ar-12              gcc-ar-15              gcc-nm                       gcc-ranlib                  gcm-inspect            gcm-viewer            gcov-11                 gcov-12           
-gcov-15                   gcov-dump-11           gcov-dump-12           gcov-dump-15           gcov-tool-11                 gcov-tool-12                gcov-tool-15           gcr-viewer            gd2togif                gd2topng          
-gdbus-codegen             gdialog                gdk-pixbuf-csource     gdm-screenshot         gdparttopng                  gdtopng                     gemtopbm               gemtopnm              genbrk                  genccode          
-gencnval                  gendict                gennorm2               gensprep               geqn                         getent                      getfacl                getpcaps              gettext                 gfortran          
-ghostscript               gif2rgb                gif2webp               gifbuild               giffix                       giftogd2                    giftool                giftopnm              git-lfs                 git-upload-pack   
-gjs                       gkbd-keyboard-display  glib-genmarshal        glib-gettextize        gm2                          gm2-15                      gnome-calculator       gnome-calendar        gnome-chess             gnome-control-center
-gnome-disk-image-mounter  gnome-disks            gnome-extensions       gnome-extensions-app   gnome-keyring                gnome-keyring-daemon        gnome-klotski          gnome-mahjongg        gnome-maps              gnome-mines       
-gnome-music               gnome-session          gnome-session-classic  gnome-session-inhibit  gnome-shell-extension-prefs  gnome-shell-extension-tool  gnome-shell-perf-tool  gnome-sudoku          gnome-system-monitor    gnome-taquin      
-gnome-terminal            gnome-tetravex         gnome-text-editor      gnome-thumbnail-font   gnome-tweaks                 gnome-weather               gnome-www-browser      gouldtoppm            gpasswd                 gpg               
-gpgcompose                gpgsm                  gpgtar                 gpg-wks-server         gpg-zip                      gpic                        gprof                  gprofng               gresource               groff             
-grotty                    grub-file              grub-fstest            grub-glue-efi          grub-kbdcomp                 grub-mkfont                 grub-mkimage           grub-mkpasswd-pbkdf2  grub-mkrelpath          grub-mkrescue     
-grub-mkstandalone         grub-mount             grub-render-label      grub-syslinux2cfg      gs                           gsdj500                     gsettings              gsf                   gsf-office-thumbnailer  gsf-vba-dump      
-gslj                      gslp                   gsnd                   gss-client             gtbl                         gted                        gtester                gtf                   gtk4-broadwayd          gtk4-builder-tool 
-gtk-launch                gtk-query-settings     gzip                                                                                                                                                                              
-[J[30m[104m(MORE)[39m[49m[17A[0m[27m[24m[45C[32mg[39m[90mac "upload log" && gpo framework-change[39m[K[39D[32mg[32mi[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [38D[1m[31mg[1m[31mi[0m[39m[90mt config --global --edit[39m[24D
-[J[0;1;2mcommand[0m
-[0mgi-compile-repository  gi-decompile-typelib  gif2rgb               gif2webp            gifbuild           gifclrmp         giffix               giftext             giftogd2              giftool                 giftopnm               gignore         
-gignored               gi-inspect-typelib    gio                   gio-querymodules    git                git2             git_commits_ahead    git_commits_behind  git_current_branch    git_current_user_email  git_current_user_name  git_develop_branch
-git-lfs                git_main_branch       git_previous_branch   git_prompt_ahead    git_prompt_behind  git_prompt_info  git_prompt_long_sha  git_prompt_remote   git_prompt_short_sha  git_prompt_status       git-receive-pack       git_remote_status
-[Jgit_repo_name          [Jgit-shell             [Jgit-svn-dcommit-push  [Jgit-upload-archive  [Jgit-upload-pack    [J                                                                                                                                   [5A[0m[27m[24m[45C[1m[31mgi[0m[39m[90mt config --global --edit[39m[K[24D[1m[31mg[1m[31mi[1m[31mt[0m[39m[0m[32mg[0m[32mi[0m[32mt[39m
-[J[0;1;2mcommand[0m
-[0mgit                     git2                    git_commits_ahead       git_commits_behind      git_current_branch      git_current_user_email  git_current_user_name   git_develop_branch      git-lfs                 git_main_branch       
-git_previous_branch     git_prompt_ahead        git_prompt_behind       git_prompt_info         git_prompt_long_sha     git_prompt_remote       git_prompt_short_sha    git_prompt_status       git-receive-pack        git_remote_status     
-[Jgit_repo_name           [Jgit-shell               [Jgit-svn-dcommit-push    [Jgit-upload-archive      [Jgit-upload-pack         [J                                                                                                              [4A[0m[27m[24m[45C[32mgit[39m[90m config --global --edit[39m[K[23D[32mg[32mi[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[1m[31mg[1m[31mi[0m[39m[90mt config --global --edit[39m[24D
-[J[0;1;2mcommand[0m
-[0mgi-compile-repository  gi-decompile-typelib  gif2rgb               gif2webp            gifbuild           gifclrmp         giffix               giftext             giftogd2              giftool                 giftopnm               gignore         
-gignored               gi-inspect-typelib    gio                   gio-querymodules    git                git2             git_commits_ahead    git_commits_behind  git_current_branch    git_current_user_email  git_current_user_name  git_develop_branch
-git-lfs                git_main_branch       git_previous_branch   git_prompt_ahead    git_prompt_behind  git_prompt_info  git_prompt_long_sha  git_prompt_remote   git_prompt_short_sha  git_prompt_status       git-receive-pack       git_remote_status
-[Jgit_repo_name          [Jgit-shell             [Jgit-svn-dcommit-push  [Jgit-upload-archive  [Jgit-upload-pack    [J                                                                                                                                   [5A[0m[27m[24m[45C[1m[31mgi[0m[39m[90mt config --global --edit[39m[K[24D[1m[31mg[0m[39m[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[0m[32mg[39m[32mg[39m[90mac "upload log" && gpo framework-change[39m[39D[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
-[J[0;1;2mcommand[0m
-[0mg++                       g++-11                 g++-12                 g++-15                 gamma4scanimage              gapplication                gatttool               gcalccmd              gcc-11                  gcc-12            
-gcc-15                    gcc-ar-11              gcc-ar-12              gcc-ar-15              gcc-nm                       gcc-ranlib                  gcm-inspect            gcm-viewer            gcov-11                 gcov-12           
-gcov-15                   gcov-dump-11           gcov-dump-12           gcov-dump-15           gcov-tool-11                 gcov-tool-12                gcov-tool-15           gcr-viewer            gd2togif                gd2topng          
-gdbus-codegen             gdialog                gdk-pixbuf-csource     gdm-screenshot         gdparttopng                  gdtopng                     gemtopbm               gemtopnm              genbrk                  genccode          
-gencnval                  gendict                gennorm2               gensprep               geqn                         getent                      getfacl                getpcaps              gettext                 gfortran          
-ghostscript               gif2rgb                gif2webp               gifbuild               giffix                       giftogd2                    giftool                giftopnm              git-lfs                 git-upload-pack   
-gjs                       gkbd-keyboard-display  glib-genmarshal        glib-gettextize        gm2                          gm2-15                      gnome-calculator       gnome-calendar        gnome-chess             gnome-control-center
-gnome-disk-image-mounter  gnome-disks            gnome-extensions       gnome-extensions-app   gnome-keyring                gnome-keyring-daemon        gnome-klotski          gnome-mahjongg        gnome-maps              gnome-mines       
-gnome-music               gnome-session          gnome-session-classic  gnome-session-inhibit  gnome-shell-extension-prefs  gnome-shell-extension-tool  gnome-shell-perf-tool  gnome-sudoku          gnome-system-monitor    gnome-taquin      
-gnome-terminal            gnome-tetravex         gnome-text-editor      gnome-thumbnail-font   gnome-tweaks                 gnome-weather               gnome-www-browser      gouldtoppm            gpasswd                 gpg               
-gpgcompose                gpgsm                  gpgtar                 gpg-wks-server         gpg-zip                      gpic                        gprof                  gprofng               gresource               groff             
-grotty                    grub-file              grub-fstest            grub-glue-efi          grub-kbdcomp                 grub-mkfont                 grub-mkimage           grub-mkpasswd-pbkdf2  grub-mkrelpath          grub-mkrescue     
-grub-mkstandalone         grub-mount             grub-render-label      grub-syslinux2cfg      gs                           gsdj500                     gsettings              gsf                   gsf-office-thumbnailer  gsf-vba-dump      
-gslj                      gslp                   gsnd                   gss-client             gtbl                         gted                        gtester                gtf                   gtk4-broadwayd          gtk4-builder-tool 
-gtk-launch                gtk-query-settings     gzip                                                                                                                                                                              
-[J[30m[104m(MORE)[39m[49m[17A[0m[27m[24m[45C[32mg[39m[90mac "upload log" && gpo framework-change[39m[K[39D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [40D
-[J[A[45Cb[1m[31mb[0m[39m[1m[31mb[0m[39m[90mun test src/tests/api/schedules-bun.test.ts | tee output.log[39m[60D
-[J[0;1;2mcommand[0m
 [0mb2sum        baobab    base32      base64      basename        basenc     bash           bashbug       bashcompinit  bc           bdftogd          bdftopcf  bdftruncate   benchmark_xl      bf_compact             bf_compact-bdb  bf_copy       
 bf_copy-bdb  bf_tar    bf_tar-bdb  bg          bin2c           bindkey    bioradtopgm    bitmap        bits          blkdiscard   blkid            blkpr     blkzone       blockdev          bluemoon               bluetoothctl    bluetooth-sendto
 bmptopnm     bmptoppm  bmtoa       bogofilter  bogofilter-bdb  bogolexer  bogolexer-bdb  bogotune      bogotune-bdb  bogoupgrade  bogoupgrade-bdb  bogoutil  bogoutil-bdb  boltctl           bracketed-paste-magic  break           brew          
 broadwayd    brotli    brushtopbm  btattach    btmgmt          btmon      buildhash      builtin       bun           bunx         bunzip2          busctl    busybox       butteraugli_main  bwrap                  bye             bzcat         
-[Jbzcmp        [Jbzdiff    [Jbzegrep     [Jbzexe       [Jbzfgrep         [Jbzgrep     [Jbzip2          [Jbzip2recover  [Jbzless        [Jbzmore       [Jbzr_prompt_info  [J                                                                                     [6A[0m[27m[24m[45C[1m[31mb[0m[39m[90mun test src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[60D[1m[31mb[1m[31mu[0m[39m
+[Jbzcmp        [Jbzdiff    [Jbzegrep     [Jbzexe       [Jbzfgrep         [Jbzgrep     [Jbzip2          [Jbzip2recover  [Jbzless        [Jbzmore       [Jbzr_prompt_info  [J                                                                                     [6A[0m[27m[24m[45C[1m[31mb[0m[39m[90mun test src/tests/api/schedules-bun.test.ts[39m[K[43D[1m[31mb[1m[31mu[0m[39m
 [J[0;1;2mcommand[0m
-[J[0mbuildhash         [Jbuiltin           [Jbun               [Jbunx              [Jbunzip2           [Jbusctl            [Jbusybox           [Jbutteraugli_main[J[A[A[0m[27m[24m[45C[1m[31mbu[0m[39m[90mn test src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[59D[1m[31mb[1m[31mu[1m[31mn[0m[39m[0m[32mb[0m[32mu[0m[32mn[39m
+[J[0mbuildhash         [Jbuiltin           [Jbun               [Jbunx              [Jbunzip2           [Jbusctl            [Jbusybox           [Jbutteraugli_main[J[A[A[0m[27m[24m[45C[1m[31mbu[0m[39m[90mn test src/tests/api/schedules-bun.test.ts[39m[K[42D[1m[31mb[1m[31mu[1m[31mn[0m[39m[0m[32mb[0m[32mu[0m[32mn[39m
 [J[0;1;2mcommand[0m
-[J[0mbun      [Jbunx     [Jbunzip2[J[A[A[0m[27m[24m[45C[32mbun[39m[90m test src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[58D[32mn[32m [39m
+[J[0mbun      [Jbunx     [Jbunzip2[J[A[A[0m[27m[24m[45C[32mbun[39m[90m test src/tests/api/schedules-bun.test.ts[39m[K[41D[32mn[32m [39m
 [J[A[49C[32mn[39m[39m [32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[30m[104m[39m[49m[32m[39m[32m[39m[30m[104m[39m[49m[32m[39m[32m[39m[30m[104m[39m[49m
 [J[32m-- scripts --[39m
 [0mdev        start      typecheck
@@ -128,77 +67,20 @@ test      -- Run unit tests with Bun
 unlink    -- Globally unlink an npm package
 update    -- Update outdated dependencies & save to package.json
 x         -- Install and execute a package bin (bunx)
-[J[30m[104m(MORE)[39m[49m[17A[0m[27m[24m[45C[32mbun[39m [90mtest src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[57D[39mt[4mt[24m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m
+[J[30m[104m(MORE)[39m[49m[17A[0m[27m[24m[45C[32mbun[39m [90mtest src/tests/api/schedules-bun.test.ts[39m[K[40D[39mt[4mt[24m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m
 [J[32m-- scripts --[39m
 [0mtypecheck
 [32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[4A[0m[27m[24m[45C[32mbun[39m [4mt[24m[90mest src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[56D[4mt[39m[4me[24m[24mt[24me[39ms[32m[39m[32m[39m[32m[39m[32m[39m
+[J[0mtest  -- Run unit tests with Bun[J[4A[0m[27m[24m[45C[32mbun[39m [4mt[24m[90mest src/tests/api/schedules-bun.test.ts[39m[K[39D[4mt[39m[4me[24m[24mt[24me[39ms[32m[39m[32m[39m[32m[39m[32m[39m
 [J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m tes[90mt src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[54D[39mt[32m[39m[32m[39m[32m[39m[32m[39m
+[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m tes[90mt src/tests/api/schedules-bun.test.ts[39m[K[37D[39mt[32m[39m[32m[39m[32m[39m[32m[39m
 [J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m test[90m src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[53D[39ms[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [52Dr[32m[39m[32m[39m[32m[39m[32m[39m
-[J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m testsr[Kc
-[J[J[0;1;2mno matching `scripts', `command', `files', or `corrections' completions[0m[A[0m[27m[24m[45C[32mbun[39m testsrc[K
-[J[A[56C  [32m[39m[32m[39m[32m[39m[32m[39m
-[J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m tests[K [90m src/tests/api/schedules-bun.test.ts | tee output.log[39m[53D[32m[39m[32m[39m[32m[39m[32m[39m
-[J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m test[90m src/tests/api/schedules-bun.test.ts | tee output.log[39m[K[53D[39m 
-[J[A[54C
-[J[0;1;2mdirectory[0m
-[J[01;34mdist[0m/          [J[01;34mnode_modules[0m/  [J[01;34msrc[0m/         [J[A[A[0m[27m[24m[45C[32mbun[39m test [90msrc/tests/api/schedules-bun.test.ts | tee output.log[39m[K[52D[39ms[4ms[24m
-[J[0;1;2mdirectory[0m
-[J[01;34msrc[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4ms[24m[90mrc/tests/api/schedules-bun.test.ts | tee output.log[39m[K[51D[4ms[39m[4mr[24m
-[J[0;1;2mdirectory[0m
-[J[01;34msrc[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msr[24m[90mc/tests/api/schedules-bun.test.ts | tee output.log[39m[K[50D[4mr[39m[4mc[24m
-[J[0;1;2mdirectory[0m
-[J[01;34msrc[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc[24m[90m/tests/api/schedules-bun.test.ts | tee output.log[39m[K[49D
-[J[A[57C[39m/[39mt[39me[39ms[39mt[39ms[39m/[39ma[39mp[39mi[39m/[39ms[39mc[39mh[39me[39md[39mu[39ml[39me[39ms[39m-[39mb[39mu[39mn[39m.[39mt[39me[39ms[39mt[39m.[39mt[39ms[39m [39m|[39m [39mt[39me[39me[39m [39mo[39mu[39mt[39mp[39mu[39mt[39m.[39ml[39mo[39mg[49D[4mc[1m[4m/[0m[24m                                                [48D
-[J[0;1;2mdirectory[0m
-[J[01;34mconfig[0m/             [J[01;34mgenerate-response[0m/  [J[01;34mintents[0m/            [J[01;34mscheduling[0m/         [J[01;34mtests[0m/            [J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc[1m[4m/[0m[24m[K[1m[4m/[1m[4mt[0m[24m[0m[4m/[0m[4mt[24m[90mests/api/schedules-bun.test.ts | tee output.log[39m[47D
-[J[0;1;2mdirectory[0m
-[J[01;34mtests[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/t[24m[90mests/api/schedules-bun.test.ts | tee output.log[39m[K[47D[4mt[39m[4me[24m[4me[39m[4ms[24m
-[J[0;1;2mdirectory[0m
-[J[01;34mtests[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tes[24m[90mts/api/schedules-bun.test.ts | tee output.log[39m[K[45D[4ms[39m[4mt[24m
-[J[0;1;2mdirectory[0m
-[J[01;34mtests[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/test[24m[90ms/api/schedules-bun.test.ts | tee output.log[39m[K[44D
-[J[A[62C[39ms[39m/[39ma[39mp[39mi[39m/[39ms[39mc[39mh[39me[39md[39mu[39ml[39me[39ms[39m-[39mb[39mu[39mn[39m.[39mt[39me[39ms[39mt[39m.[39mt[39ms[39m [39m|[39m [39mt[39me[39me[39m [39mo[39mu[39mt[39mp[39mu[39mt[39m.[39ml[39mo[39mg[44D[4mt[4ms[1m[4m/[0m[24m                                          [42D
-[J[0;1;2mdirectory[0m
-[J[01;34mapi[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests[1m[4m/[0m[24m[K[1m[4m/[1m[4ma[0m[24m[0m[4m/[0m[4ma[24m[90mpi/schedules-bun.test.ts | tee output.log[39m[41D
-[J[0;1;2mdirectory[0m
-[J[01;34mapi[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/a[24m[90mpi/schedules-bun.test.ts | tee output.log[39m[K[41D[4ma[39m[4mp[24m
-[J[0;1;2mdirectory[0m
-[J[01;34mapi[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/ap[24m[90mi/schedules-bun.test.ts | tee output.log[39m[K[40D[4mp[39m[4mi[24m
-[J[0;1;2mdirectory[0m
-[J[01;34mapi[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api[24m[90m/schedules-bun.test.ts | tee output.log[39m[K[39D[4mi[39m[4m [24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [38D
-[J[A[68C[4mi[24m[24m 
-[J[0;1;2mdirectory[0m
-[J[01;34mdist[0m/          [J[01;34mnode_modules[0m/  [J[01;34msrc[0m/         [J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api[24m[K[1C[90m/schedules-bun.test.ts | tee output.log[39m[39D
-[J[0;1;2mdirectory[0m
-[J[01;34mapi[0m/[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api[24m[90m/schedules-bun.test.ts | tee output.log[39m[K[39D
-[J[A[67C[39m/[39ms[39mc[39mh[39me[39md[39mu[39ml[39me[39ms[39m-[39mb[39mu[39mn[39m.[39mt[39me[39ms[39mt[39m.[39mt[39ms[39m [39m|[39m [39mt[39me[39me[39m [39mo[39mu[39mt[39mp[39mu[39mt[39m.[39ml[39mo[39mg[39D[4mi[1m[4m/[0m[24m                                      [38D
-[J[0;1;2mdirectory[0m
-[01;34mtest_outputs[0m/
-[0;1;2mfile[0m
-[J[0mschedules-bun.test.ts  [Jschedules.test.ts    [J[4A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api[1m[4m/[0m[24m[K[1m[4m/[1m[4ms[0m[24m[0m[4m/[0m[4ms[24m[90mchedules-bun.test.ts | tee output.log[39m[37D[4ms[39m[4mc[24m[30m[103m[39m[49m[30m[103m[39m[49m
-[J[0;1;2mfile[0m
-[0mschedules-bun.test.ts  schedules.test.ts    
-[J[0;2m[1mcommon substring:[0m [30m[103msrc/tests/api/schedules[39m[49m[3A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api/sc[24m[90mhedules-bun.test.ts | tee output.log[39m[K[36D[4mc[39m[4mh[24m[30m[103m[39m[49m[30m[103m[39m[49m
-[J[0;1;2mfile[0m
-[0mschedules-bun.test.ts  schedules.test.ts    
-[J[0;2m[1mcommon substring:[0m [30m[103msrc/tests/api/schedules[39m[49m[3A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api/sch[24m[90medules-bun.test.ts | tee output.log[39m[K[35D[4mh[39m[4me[24m[30m[103m[39m[49m[30m[103m[39m[49m
-[J[0;1;2mfile[0m
-[0mschedules-bun.test.ts  schedules.test.ts    
-[J[0;2m[1mcommon substring:[0m [30m[103msrc/tests/api/schedules[39m[49m[3A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api/sche[24m[90mdules-bun.test.ts | tee output.log[39m[K[34D
-[J[A[72C[39md[39mu[39ml[39me[39ms[39m-[39mb[39mu[39mn[39m.[39mt[39me[39ms[39mt[39m.[39mt[39ms[39m [39m|[39m [39mt[39me[39me[39m [39mo[39mu[39mt[39mp[39mu[39mt[39m.[39ml[39mo[39mg[34D[4me[4md[4mu[4ml[4me[4ms[4m-[4mb[4mu[4mn[4m.[4mt[4me[4ms[4mt[4m.[4mt[4ms[24m                 [17D
-[J[0;1;2mfile[0m
-[J[0mschedules-bun.test.ts[J[A[A[0m[27m[24m[45C[32mbun[39m test [4msrc/tests/api/schedules-bun.test.ts[24m[K[?1l>[?2004l
-[J[A[89C
-[J]2;bun test src/tests/api/schedules-bun.test.ts]1;bun[0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
+[J[0mtest  -- Run unit tests with Bun[J[A[A[0m[27m[24m[45C[32mbun[39m test[90m src/tests/api/schedules-bun.test.ts[39m[K[36D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[?1l>[?2004l
+[J[A[53C
+[J]2;bun test]1;bun[0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
-src/tests/api/schedules-bun.test.ts:
-[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild[0m
+src/tests/api/schedules.test.ts:
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 📡 add observability to secrets: https://dotenvx.com/ops[0m
 Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 []
 User Input:  How are you doing?
@@ -209,24 +91,39 @@ response from LLM SERVER :  {
 }
 Generated response:  I'm here to help with your schedule! What task can I assist with today?
 naturalResponse/other :  I'm here to help with your schedule! What task can I assist with today?
-[0m[1m4 |[0m [0m[35mimport[0m { describe, expect, test, jest } [0m[35mfrom[0m [0m[32m"bun:test"[0m[0m[2m;[0m
-[0m[1m5 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
-[0m[1m6 |[0m 
-[0m[1m7 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
-[0m[1m8 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
-[0m[1m9 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
-                             [31m[1m^[0m
+ [0m[1m5 |[0m [0m[35mimport[0m { describe, expect, it, jest } [0m[35mfrom[0m [0m[32m"@jest/globals"[0m[0m[2m;[0m
+ [0m[1m6 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
+ [0m[1m7 |[0m 
+ [0m[1m8 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
+ [0m[1m9 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
+[0m[1m10 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
+                              [31m[1m^[0m
 [0m[31mTypeError[0m[2m:[0m [1mres.text.split is not a function. (In 'res.text.split(`
 `)', 'res.text.split' is undefined)[0m
-[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m49[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[0m[33m29382.93ms[0m[2m][0m
+[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m10[0m[2m:[33m26[0m[2m)[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m50[0m[2m:[33m20[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1379.63ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
 Intent returned :  other
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[0m[33m30000.39ms[0m[2m][0m
-  [2m^[0m [31mthis test timed out after 30000ms.[0m
+response from LLM SERVER :  {
+  [0mnatural_response[2m:[0m [0m[32m[0m[32m"Result: t. How does this relate to your schedule ? "[0m[0m[0m[2m,[0m
+}
+Generated response:  Result: t. How does this relate to your schedule ? 
+naturalResponse/other :  Result: t. How does this relate to your schedule ? 
+ [0m[1m5 |[0m [0m[35mimport[0m { describe, expect, it, jest } [0m[35mfrom[0m [0m[32m"@jest/globals"[0m[0m[2m;[0m
+ [0m[1m6 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
+ [0m[1m7 |[0m 
+ [0m[1m8 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
+ [0m[1m9 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
+[0m[1m10 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
+                              [31m[1m^[0m
+[0m[31mTypeError[0m[2m:[0m [1mres.text.split is not a function. (In 'res.text.split(`
+`)', 'res.text.split' is undefined)[0m
+[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m10[0m[2m:[33m26[0m[2m)[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m79[0m[2m:[33m20[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m440.73ms[0m[2m][0m
 [{"text":"tomorrow at 10 AM","start":"2025-10-10T17:00:00.000Z","end":null}]
 User Input:  Schedule a meeting tomorrow at 10 AM in PDT
 classifyIntent is called
@@ -252,7 +149,7 @@ Ready to send Payload:  {
   }[0m[2m,[0m
   [0minput[2m:[0m [0m[32m[0m[32m"Schedule a meeting tomorrow at 10 AM in PDT"[0m[0m[0m[2m,[0m
   [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
-  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-14"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
   [0mparsed_results[2m:[0m [
     {
       [0mtext[2m:[0m [0m[32m[0m[32m"tomorrow at 10 AM"[0m[0m[0m[2m,[0m
@@ -261,28 +158,71 @@ Ready to send Payload:  {
     }
   ][0m[2m,[0m
 }
-response from LLM SERVER :  {
-  [0mnatural_response[2m:[0m [0m[32m[0m[32m"Result: t. How does this relate to your schedule ? "[0m[0m[0m[2m,[0m
+Refined from server:  {
+  [0mevents[2m:[0m [
+    {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Event"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[2mundefined[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM in PDT"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+  [0mconfirm[2m:[0m [0m[32m[0m[32m"Partial parse-confirm?"[0m[0m[0m[2m,[0m
 }
-Generated response:  Result: t. How does this relate to your schedule ? 
-naturalResponse/other :  Result: t. How does this relate to your schedule ? 
-[0m
-[1m[2m#[0m [31m[1mUnhandled error[0m[2m between tests[0m
-[2m-------------------------------[0m
-[0m[1m4 |[0m [0m[35mimport[0m { describe, expect, test, jest } [0m[35mfrom[0m [0m[32m"bun:test"[0m[0m[2m;[0m
-[0m[1m5 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
-[0m[1m6 |[0m 
-[0m[1m7 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
-[0m[1m8 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
-[0m[1m9 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
-                             [31m[1m^[0m
+Parsing Completed
+Time Completed Parsing:  [0m[33m15904.134897[0m
+ [0m[1m5 |[0m [0m[35mimport[0m { describe, expect, it, jest } [0m[35mfrom[0m [0m[32m"@jest/globals"[0m[0m[2m;[0m
+ [0m[1m6 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
+ [0m[1m7 |[0m 
+ [0m[1m8 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
+ [0m[1m9 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
+[0m[1m10 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
+                              [31m[1m^[0m
 [0m[31mTypeError[0m[2m:[0m [1mres.text.split is not a function. (In 'res.text.split(`
 `)', 'res.text.split' is undefined)[0m
-[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m78[0m[2m:[33m20[0m[2m)[0m
-[0m[2m-------------------------------[0m
-
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[0m[33m30000.33ms[0m[2m][0m
+[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m10[0m[2m:[33m26[0m[2m)[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m109[0m[2m:[33m20[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[0m[33m15907.22ms[0m[2m][0m
+[{"text":"tomorrow at 10 AM","start":"2025-10-10T17:00:00.000Z","end":null}]
+User Input:  Schedule a meeting tomorrow at 10 AM in PDT
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Event"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[2mundefined[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM in PDT"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m {
+    [0mevents[2m:[0m [
+      [0m[36m[Object ...][0m
+    ][0m[2m,[0m
+    [0mconfirm[2m:[0m [0m[32m[0m[32m"Missing end time. Confirm default 60 minutes?"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Schedule a meeting tomorrow at 10 AM in PDT"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"tomorrow at 10 AM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[33m[Bun.serve][0m[2m:[0m request timed out after 10 seconds. Pass [2m[36m`idleTimeout`[0m to configure.
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[0m[33m30000.80ms[0m[2m][0m
   [2m^[0m [31mthis test timed out after 30000ms.[0m
 [{"text":"October 1, 2025 from 10am to 11am","start":"2025-10-01T17:00:00.000Z","end":"2025-10-01T18:00:00.000Z"},{"text":"October 2, 2025 from 12pm to 1pm","start":"2025-10-02T19:00:00.000Z","end":"2025-10-02T20:00:00.000Z"},{"text":"October 3, 2025 from 2pm to 3pm","start":"2025-10-03T21:00:00.000Z","end":"2025-10-03T22:00:00.000Z"},{"text":"October 4, 2025 from 6am to 7am","start":"2025-10-04T13:00:00.000Z","end":"2025-10-04T14:00:00.000Z"},{"text":"October 5, 2025 from 8pm to 10pm","start":"2025-10-06T03:00:00.000Z","end":"2025-10-06T05:00:00.000Z"},{"text":"October 6, 2025 from 9am to 12pm","start":"2025-10-06T16:00:00.000Z","end":"2025-10-06T19:00:00.000Z"},{"text":"October 7, 2025 from 7pm to 8pm","start":"2025-10-08T02:00:00.000Z","end":"2025-10-08T03:00:00.000Z"}]
 User Input:  Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home
@@ -423,7 +363,7 @@ Ready to send Payload:  {
   ][0m[2m,[0m
   [0minput[2m:[0m [0m[32m[0m[32m"Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home"[0m[0m[0m[2m,[0m
   [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
-  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-14"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
   [0mparsed_results[2m:[0m [
     {
       [0mtext[2m:[0m [0m[32m[0m[32m"October 1, 2025 from 10am to 11am"[0m[0m[0m[2m,[0m
@@ -526,19 +466,19 @@ Refined from server:  {
   [0mconfirm[2m:[0m [0m[32m[0m[32m"Partial parse-confirm?"[0m[0m[0m[2m,[0m
 }
 Parsing Completed
-Time Completed Parsing:  [0m[33m17.861762[0m
-[0m[1m4 |[0m [0m[35mimport[0m { describe, expect, test, jest } [0m[35mfrom[0m [0m[32m"bun:test"[0m[0m[2m;[0m
-[0m[1m5 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
-[0m[1m6 |[0m 
-[0m[1m7 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
-[0m[1m8 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
-[0m[1m9 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
-                             [31m[1m^[0m
+Time Completed Parsing:  [0m[33m879.694012[0m
+ [0m[1m5 |[0m [0m[35mimport[0m { describe, expect, it, jest } [0m[35mfrom[0m [0m[32m"@jest/globals"[0m[0m[2m;[0m
+ [0m[1m6 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
+ [0m[1m7 |[0m 
+ [0m[1m8 |[0m [0m[35mfunction[0m parseNdjsonResponse(res: [0m[34many[0m): [0m[34many[0m[] {
+ [0m[1m9 |[0m   [0m[35mconst[0m chunks: [0m[34many[0m[] = [][0m[2m;[0m
+[0m[1m10 |[0m   [0m[35mconst[0m lines = res.text[0m[3m[1m.split[0m([0m[32m"\n"[0m)[0m[3m[1m.filter[0m((line) => line[0m[3m[1m.trim[0m())[0m[2m;[0m
+                              [31m[1m^[0m
 [0m[31mTypeError[0m[2m:[0m [1mres.text.split is not a function. (In 'res.text.split(`
 `)', 'res.text.split' is undefined)[0m
-[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m137[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-days events add query ("add" intent with refinement)[0m [0m[2m[[1m23.16ms[0m[2m][0m
+[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m10[0m[2m:[33m26[0m[2m)[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m172[0m[2m:[33m20[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-days events add query ("add" intent with refinement)[0m [0m[2m[[1m884.20ms[0m[2m][0m
 [{"text":"at 10 AM to 11 AM","start":"2025-10-10T17:00:00.000Z","end":"2025-10-10T18:00:00.000Z"},{"text":"at 12 PM to 1 PM","start":"2025-10-10T19:00:00.000Z","end":"2025-10-10T20:00:00.000Z"}]
 User Input:  Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow
 classifyIntent is called
@@ -588,7 +528,7 @@ Ready to send Payload:  {
   ][0m[2m,[0m
   [0minput[2m:[0m [0m[32m[0m[32m"Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
   [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
-  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-14"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
   [0mparsed_results[2m:[0m [
     {
       [0mtext[2m:[0m [0m[32m[0m[32m"at 10 AM to 11 AM"[0m[0m[0m[2m,[0m
@@ -601,20 +541,834 @@ Ready to send Payload:  {
     }
   ][0m[2m,[0m
 }
-[0m[33m[Bun.serve][0m[2m:[0m request timed out after 10 seconds. Pass [2m[36m`idleTimeout`[0m to configure.
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-events in one day add query ("add" intent)[0m [0m[2m[[0m[33m30000.07ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-events in one day add query ("add" intent)[0m [0m[2m[[0m[33m30000.60ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[0m
+src/tests/api/schedules-bun.test.ts:
+[]
+User Input:  How are you doing?
+classifyIntent is called
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[0m[33m30000.56ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[]
+User Input:  What is 2 + 3 * 4?
+classifyIntent is called
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[0m[33m30000.53ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"tomorrow at 10 AM","start":"2025-10-10T17:00:00.000Z","end":null}]
+User Input:  Schedule a meeting tomorrow at 10 AM in PDT
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Event"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[2mundefined[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM in PDT"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m {
+    [0mevents[2m:[0m [
+      [0m[36m[Object ...][0m
+    ][0m[2m,[0m
+    [0mconfirm[2m:[0m [0m[32m[0m[32m"Missing end time. Confirm default 60 minutes?"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Schedule a meeting tomorrow at 10 AM in PDT"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"tomorrow at 10 AM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[0m[33m30000.51ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"October 1, 2025 from 10am to 11am","start":"2025-10-01T17:00:00.000Z","end":"2025-10-01T18:00:00.000Z"},{"text":"October 2, 2025 from 12pm to 1pm","start":"2025-10-02T19:00:00.000Z","end":"2025-10-02T20:00:00.000Z"},{"text":"October 3, 2025 from 2pm to 3pm","start":"2025-10-03T21:00:00.000Z","end":"2025-10-03T22:00:00.000Z"},{"text":"October 4, 2025 from 6am to 7am","start":"2025-10-04T13:00:00.000Z","end":"2025-10-04T14:00:00.000Z"},{"text":"October 5, 2025 from 8pm to 10pm","start":"2025-10-06T03:00:00.000Z","end":"2025-10-06T05:00:00.000Z"},{"text":"October 6, 2025 from 9am to 12pm","start":"2025-10-06T16:00:00.000Z","end":"2025-10-06T19:00:00.000Z"},{"text":"October 7, 2025 from 7pm to 8pm","start":"2025-10-08T02:00:00.000Z","end":"2025-10-08T03:00:00.000Z"}]
+User Input:  Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"events: Meeting on October 1, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-01"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"office"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Lunch on October 2, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-02"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"cafe"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Call on October 3, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-03"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"14:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"15:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"14:00 pm"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Workout on October 4, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-04"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"06:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"07:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"gym"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"06:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Movie on October 5, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-05"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"22:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m120[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"theater"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"20:00 pm"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Hiking on October 6, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-06"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"09:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m180[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"park"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"09:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Dinner on October 7, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-07"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"19:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"home"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"19:00 pm"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m [
+    {
+      [0msummary[2m:[0m [0m[32m[0m[32m"events: Meeting on October 1, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-01"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"office"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Lunch on October 2, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-02"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"cafe"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Call on October 3, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-03"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"14:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"15:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"14:00 pm"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Workout on October 4, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-04"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"06:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"07:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"gym"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"06:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Movie on October 5, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-05"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"22:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m120[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"theater"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"20:00 pm"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Hiking on October 6, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-06"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"09:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m180[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"park"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"09:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Dinner on October 7, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-07"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"19:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"home"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"19:00 pm"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 1, 2025 from 10am to 11am"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-01T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-01T18:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 2, 2025 from 12pm to 1pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-02T19:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-02T20:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 3, 2025 from 2pm to 3pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-03T21:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-03T22:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 4, 2025 from 6am to 7am"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-04T13:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-04T14:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 5, 2025 from 8pm to 10pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-06T03:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-06T05:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 6, 2025 from 9am to 12pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-06T16:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-06T19:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 7, 2025 from 7pm to 8pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-08T02:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-08T03:00:00.000Z"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-days events add query ("add" intent with refinement)[0m [0m[2m[[0m[33m30000.47ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"at 10 AM to 11 AM","start":"2025-10-10T17:00:00.000Z","end":"2025-10-10T18:00:00.000Z"},{"text":"at 12 PM to 1 PM","start":"2025-10-10T19:00:00.000Z","end":"2025-10-10T20:00:00.000Z"}]
+User Input:  Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m [
+    {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"at 10 AM to 11 AM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-10T18:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"at 12 PM to 1 PM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T19:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-10T20:00:00.000Z"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-events in one day add query ("add" intent)[0m [0m[2m[[0m[33m30000.24ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[0m
+dist/tests/api/schedules.test.js:
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }[0m
+Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+[]
+User Input:  How are you doing?
+classifyIntent is called
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[0m[33m30000.41ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[]
+User Input:  What is 2 + 3 * 4?
+classifyIntent is called
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[0m[33m30000.06ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"tomorrow at 10 AM","start":"2025-10-10T17:00:00.000Z","end":null}]
+User Input:  Schedule a meeting tomorrow at 10 AM in PDT
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Event"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[2mundefined[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM in PDT"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m {
+    [0mevents[2m:[0m [
+      [0m[36m[Object ...][0m
+    ][0m[2m,[0m
+    [0mconfirm[2m:[0m [0m[32m[0m[32m"Missing end time. Confirm default 60 minutes?"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Schedule a meeting tomorrow at 10 AM in PDT"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"tomorrow at 10 AM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[31mDetailed LLM setup error: DOMException {
+  [0mstack[2m:[0m [0m[32m""[0m[0m[2m,[0m
+  [0mcode[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mname[2m:[0m [0m[32m[0m[32m"TimeoutError"[0m[0m[0m[2m,[0m
+  [0mmessage[2m:[0m [0m[32m[0m[32m"The operation timed out."[0m[0m[0m[2m,[0m
+  [0mINDEX_SIZE_ERR[2m:[0m [0m[33m1[0m[0m[2m,[0m
+  [0mDOMSTRING_SIZE_ERR[2m:[0m [0m[33m2[0m[0m[2m,[0m
+  [0mHIERARCHY_REQUEST_ERR[2m:[0m [0m[33m3[0m[0m[2m,[0m
+  [0mWRONG_DOCUMENT_ERR[2m:[0m [0m[33m4[0m[0m[2m,[0m
+  [0mINVALID_CHARACTER_ERR[2m:[0m [0m[33m5[0m[0m[2m,[0m
+  [0mNO_DATA_ALLOWED_ERR[2m:[0m [0m[33m6[0m[0m[2m,[0m
+  [0mNO_MODIFICATION_ALLOWED_ERR[2m:[0m [0m[33m7[0m[0m[2m,[0m
+  [0mNOT_FOUND_ERR[2m:[0m [0m[33m8[0m[0m[2m,[0m
+  [0mNOT_SUPPORTED_ERR[2m:[0m [0m[33m9[0m[0m[2m,[0m
+  [0mINUSE_ATTRIBUTE_ERR[2m:[0m [0m[33m10[0m[0m[2m,[0m
+  [0mINVALID_STATE_ERR[2m:[0m [0m[33m11[0m[0m[2m,[0m
+  [0mSYNTAX_ERR[2m:[0m [0m[33m12[0m[0m[2m,[0m
+  [0mINVALID_MODIFICATION_ERR[2m:[0m [0m[33m13[0m[0m[2m,[0m
+  [0mNAMESPACE_ERR[2m:[0m [0m[33m14[0m[0m[2m,[0m
+  [0mINVALID_ACCESS_ERR[2m:[0m [0m[33m15[0m[0m[2m,[0m
+  [0mVALIDATION_ERR[2m:[0m [0m[33m16[0m[0m[2m,[0m
+  [0mTYPE_MISMATCH_ERR[2m:[0m [0m[33m17[0m[0m[2m,[0m
+  [0mSECURITY_ERR[2m:[0m [0m[33m18[0m[0m[2m,[0m
+  [0mNETWORK_ERR[2m:[0m [0m[33m19[0m[0m[2m,[0m
+  [0mABORT_ERR[2m:[0m [0m[33m20[0m[0m[2m,[0m
+  [0mURL_MISMATCH_ERR[2m:[0m [0m[33m21[0m[0m[2m,[0m
+  [0mQUOTA_EXCEEDED_ERR[2m:[0m [0m[33m22[0m[0m[2m,[0m
+  [0mTIMEOUT_ERR[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mINVALID_NODE_TYPE_ERR[2m:[0m [0m[33m24[0m[0m[2m,[0m
+  [0mDATA_CLONE_ERR[2m:[0m [0m[33m25[0m[0m[2m,[0m
+  [0mtoString[2m:[0m [36m[Function: toString][0m[0m[2m,[0m
+}[0m
+Parsing Completed
+Time Completed Parsing:  [0m[33m251388.615887[0m
+[0m[31mFetch error in [generateNaturalResponse] :  DOMException {
+  [0mstack[2m:[0m [0m[32m""[0m[0m[2m,[0m
+  [0mcode[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mname[2m:[0m [0m[32m[0m[32m"TimeoutError"[0m[0m[0m[2m,[0m
+  [0mmessage[2m:[0m [0m[32m[0m[32m"The operation timed out."[0m[0m[0m[2m,[0m
+  [0mINDEX_SIZE_ERR[2m:[0m [0m[33m1[0m[0m[2m,[0m
+  [0mDOMSTRING_SIZE_ERR[2m:[0m [0m[33m2[0m[0m[2m,[0m
+  [0mHIERARCHY_REQUEST_ERR[2m:[0m [0m[33m3[0m[0m[2m,[0m
+  [0mWRONG_DOCUMENT_ERR[2m:[0m [0m[33m4[0m[0m[2m,[0m
+  [0mINVALID_CHARACTER_ERR[2m:[0m [0m[33m5[0m[0m[2m,[0m
+  [0mNO_DATA_ALLOWED_ERR[2m:[0m [0m[33m6[0m[0m[2m,[0m
+  [0mNO_MODIFICATION_ALLOWED_ERR[2m:[0m [0m[33m7[0m[0m[2m,[0m
+  [0mNOT_FOUND_ERR[2m:[0m [0m[33m8[0m[0m[2m,[0m
+  [0mNOT_SUPPORTED_ERR[2m:[0m [0m[33m9[0m[0m[2m,[0m
+  [0mINUSE_ATTRIBUTE_ERR[2m:[0m [0m[33m10[0m[0m[2m,[0m
+  [0mINVALID_STATE_ERR[2m:[0m [0m[33m11[0m[0m[2m,[0m
+  [0mSYNTAX_ERR[2m:[0m [0m[33m12[0m[0m[2m,[0m
+  [0mINVALID_MODIFICATION_ERR[2m:[0m [0m[33m13[0m[0m[2m,[0m
+  [0mNAMESPACE_ERR[2m:[0m [0m[33m14[0m[0m[2m,[0m
+  [0mINVALID_ACCESS_ERR[2m:[0m [0m[33m15[0m[0m[2m,[0m
+  [0mVALIDATION_ERR[2m:[0m [0m[33m16[0m[0m[2m,[0m
+  [0mTYPE_MISMATCH_ERR[2m:[0m [0m[33m17[0m[0m[2m,[0m
+  [0mSECURITY_ERR[2m:[0m [0m[33m18[0m[0m[2m,[0m
+  [0mNETWORK_ERR[2m:[0m [0m[33m19[0m[0m[2m,[0m
+  [0mABORT_ERR[2m:[0m [0m[33m20[0m[0m[2m,[0m
+  [0mURL_MISMATCH_ERR[2m:[0m [0m[33m21[0m[0m[2m,[0m
+  [0mQUOTA_EXCEEDED_ERR[2m:[0m [0m[33m22[0m[0m[2m,[0m
+  [0mTIMEOUT_ERR[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mINVALID_NODE_TYPE_ERR[2m:[0m [0m[33m24[0m[0m[2m,[0m
+  [0mDATA_CLONE_ERR[2m:[0m [0m[33m25[0m[0m[2m,[0m
+  [0mtoString[2m:[0m [36m[Function: toString][0m[0m[2m,[0m
+}[0m
+Natural Response generated with intent add in 251391.505877 
+[0m[31mDetailed LLM setup error: DOMException {
+  [0mstack[2m:[0m [0m[32m""[0m[0m[2m,[0m
+  [0mcode[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mname[2m:[0m [0m[32m[0m[32m"TimeoutError"[0m[0m[0m[2m,[0m
+  [0mmessage[2m:[0m [0m[32m[0m[32m"The operation timed out."[0m[0m[0m[2m,[0m
+  [0mINDEX_SIZE_ERR[2m:[0m [0m[33m1[0m[0m[2m,[0m
+  [0mDOMSTRING_SIZE_ERR[2m:[0m [0m[33m2[0m[0m[2m,[0m
+  [0mHIERARCHY_REQUEST_ERR[2m:[0m [0m[33m3[0m[0m[2m,[0m
+  [0mWRONG_DOCUMENT_ERR[2m:[0m [0m[33m4[0m[0m[2m,[0m
+  [0mINVALID_CHARACTER_ERR[2m:[0m [0m[33m5[0m[0m[2m,[0m
+  [0mNO_DATA_ALLOWED_ERR[2m:[0m [0m[33m6[0m[0m[2m,[0m
+  [0mNO_MODIFICATION_ALLOWED_ERR[2m:[0m [0m[33m7[0m[0m[2m,[0m
+  [0mNOT_FOUND_ERR[2m:[0m [0m[33m8[0m[0m[2m,[0m
+  [0mNOT_SUPPORTED_ERR[2m:[0m [0m[33m9[0m[0m[2m,[0m
+  [0mINUSE_ATTRIBUTE_ERR[2m:[0m [0m[33m10[0m[0m[2m,[0m
+  [0mINVALID_STATE_ERR[2m:[0m [0m[33m11[0m[0m[2m,[0m
+  [0mSYNTAX_ERR[2m:[0m [0m[33m12[0m[0m[2m,[0m
+  [0mINVALID_MODIFICATION_ERR[2m:[0m [0m[33m13[0m[0m[2m,[0m
+  [0mNAMESPACE_ERR[2m:[0m [0m[33m14[0m[0m[2m,[0m
+  [0mINVALID_ACCESS_ERR[2m:[0m [0m[33m15[0m[0m[2m,[0m
+  [0mVALIDATION_ERR[2m:[0m [0m[33m16[0m[0m[2m,[0m
+  [0mTYPE_MISMATCH_ERR[2m:[0m [0m[33m17[0m[0m[2m,[0m
+  [0mSECURITY_ERR[2m:[0m [0m[33m18[0m[0m[2m,[0m
+  [0mNETWORK_ERR[2m:[0m [0m[33m19[0m[0m[2m,[0m
+  [0mABORT_ERR[2m:[0m [0m[33m20[0m[0m[2m,[0m
+  [0mURL_MISMATCH_ERR[2m:[0m [0m[33m21[0m[0m[2m,[0m
+  [0mQUOTA_EXCEEDED_ERR[2m:[0m [0m[33m22[0m[0m[2m,[0m
+  [0mTIMEOUT_ERR[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mINVALID_NODE_TYPE_ERR[2m:[0m [0m[33m24[0m[0m[2m,[0m
+  [0mDATA_CLONE_ERR[2m:[0m [0m[33m25[0m[0m[2m,[0m
+  [0mtoString[2m:[0m [36m[Function: toString][0m[0m[2m,[0m
+}[0m
+Parsing Completed
+Time Completed Parsing:  [0m[33m282273.291838[0m
+[0m[31mFetch error in [generateNaturalResponse] :  DOMException {
+  [0mstack[2m:[0m [0m[32m""[0m[0m[2m,[0m
+  [0mcode[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mname[2m:[0m [0m[32m[0m[32m"TimeoutError"[0m[0m[0m[2m,[0m
+  [0mmessage[2m:[0m [0m[32m[0m[32m"The operation timed out."[0m[0m[0m[2m,[0m
+  [0mINDEX_SIZE_ERR[2m:[0m [0m[33m1[0m[0m[2m,[0m
+  [0mDOMSTRING_SIZE_ERR[2m:[0m [0m[33m2[0m[0m[2m,[0m
+  [0mHIERARCHY_REQUEST_ERR[2m:[0m [0m[33m3[0m[0m[2m,[0m
+  [0mWRONG_DOCUMENT_ERR[2m:[0m [0m[33m4[0m[0m[2m,[0m
+  [0mINVALID_CHARACTER_ERR[2m:[0m [0m[33m5[0m[0m[2m,[0m
+  [0mNO_DATA_ALLOWED_ERR[2m:[0m [0m[33m6[0m[0m[2m,[0m
+  [0mNO_MODIFICATION_ALLOWED_ERR[2m:[0m [0m[33m7[0m[0m[2m,[0m
+  [0mNOT_FOUND_ERR[2m:[0m [0m[33m8[0m[0m[2m,[0m
+  [0mNOT_SUPPORTED_ERR[2m:[0m [0m[33m9[0m[0m[2m,[0m
+  [0mINUSE_ATTRIBUTE_ERR[2m:[0m [0m[33m10[0m[0m[2m,[0m
+  [0mINVALID_STATE_ERR[2m:[0m [0m[33m11[0m[0m[2m,[0m
+  [0mSYNTAX_ERR[2m:[0m [0m[33m12[0m[0m[2m,[0m
+  [0mINVALID_MODIFICATION_ERR[2m:[0m [0m[33m13[0m[0m[2m,[0m
+  [0mNAMESPACE_ERR[2m:[0m [0m[33m14[0m[0m[2m,[0m
+  [0mINVALID_ACCESS_ERR[2m:[0m [0m[33m15[0m[0m[2m,[0m
+  [0mVALIDATION_ERR[2m:[0m [0m[33m16[0m[0m[2m,[0m
+  [0mTYPE_MISMATCH_ERR[2m:[0m [0m[33m17[0m[0m[2m,[0m
+  [0mSECURITY_ERR[2m:[0m [0m[33m18[0m[0m[2m,[0m
+  [0mNETWORK_ERR[2m:[0m [0m[33m19[0m[0m[2m,[0m
+  [0mABORT_ERR[2m:[0m [0m[33m20[0m[0m[2m,[0m
+  [0mURL_MISMATCH_ERR[2m:[0m [0m[33m21[0m[0m[2m,[0m
+  [0mQUOTA_EXCEEDED_ERR[2m:[0m [0m[33m22[0m[0m[2m,[0m
+  [0mTIMEOUT_ERR[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mINVALID_NODE_TYPE_ERR[2m:[0m [0m[33m24[0m[0m[2m,[0m
+  [0mDATA_CLONE_ERR[2m:[0m [0m[33m25[0m[0m[2m,[0m
+  [0mtoString[2m:[0m [36m[Function: toString][0m[0m[2m,[0m
+}[0m
+Natural Response generated with intent add in 282276.017846 
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[0m[33m30000.34ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"tomorrow at 10 AM","start":"2025-10-10T17:00:00.000Z","end":null}]
+User Input:  Schedule a meeting tomorrow at 10 AM in PDT
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Event"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[2mundefined[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM in PDT"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m {
+    [0mevents[2m:[0m [
+      [0m[36m[Object ...][0m
+    ][0m[2m,[0m
+    [0mconfirm[2m:[0m [0m[32m[0m[32m"Missing end time. Confirm default 60 minutes?"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Schedule a meeting tomorrow at 10 AM in PDT"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"tomorrow at 10 AM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[0m[33m30000.06ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"October 1, 2025 from 10am to 11am","start":"2025-10-01T17:00:00.000Z","end":"2025-10-01T18:00:00.000Z"},{"text":"October 2, 2025 from 12pm to 1pm","start":"2025-10-02T19:00:00.000Z","end":"2025-10-02T20:00:00.000Z"},{"text":"October 3, 2025 from 2pm to 3pm","start":"2025-10-03T21:00:00.000Z","end":"2025-10-03T22:00:00.000Z"},{"text":"October 4, 2025 from 6am to 7am","start":"2025-10-04T13:00:00.000Z","end":"2025-10-04T14:00:00.000Z"},{"text":"October 5, 2025 from 8pm to 10pm","start":"2025-10-06T03:00:00.000Z","end":"2025-10-06T05:00:00.000Z"},{"text":"October 6, 2025 from 9am to 12pm","start":"2025-10-06T16:00:00.000Z","end":"2025-10-06T19:00:00.000Z"},{"text":"October 7, 2025 from 7pm to 8pm","start":"2025-10-08T02:00:00.000Z","end":"2025-10-08T03:00:00.000Z"}]
+User Input:  Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"events: Meeting on October 1, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-01"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"office"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Lunch on October 2, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-02"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"cafe"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Call on October 3, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-03"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"14:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"15:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"14:00 pm"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Workout on October 4, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-04"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"06:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"07:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"gym"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"06:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Movie on October 5, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-05"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"22:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m120[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"theater"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"20:00 pm"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Hiking on October 6, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-06"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"09:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m180[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"park"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"09:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Dinner on October 7, 2025"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-07"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"19:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"home"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"19:00 pm"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m [
+    {
+      [0msummary[2m:[0m [0m[32m[0m[32m"events: Meeting on October 1, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-01"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"office"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Lunch on October 2, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-02"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"cafe"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Call on October 3, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-03"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"14:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"15:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"14:00 pm"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Workout on October 4, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-04"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"06:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"07:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"gym"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"06:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Movie on October 5, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-05"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"22:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m120[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"theater"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"20:00 pm"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Hiking on October 6, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-06"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"09:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m180[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"park"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"09:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Dinner on October 7, 2025"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-07"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"19:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"20:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"home"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"19:00 pm"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 1, 2025 from 10am to 11am"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-01T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-01T18:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 2, 2025 from 12pm to 1pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-02T19:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-02T20:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 3, 2025 from 2pm to 3pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-03T21:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-03T22:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 4, 2025 from 6am to 7am"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-04T13:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-04T14:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 5, 2025 from 8pm to 10pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-06T03:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-06T05:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 6, 2025 from 9am to 12pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-06T16:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-06T19:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"October 7, 2025 from 7pm to 8pm"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-08T02:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-08T03:00:00.000Z"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+Removed stale event: b7d2a1d4-d23e-49ad-9564-1a6d725f4b7d
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+Removed stale event: 188581d6-9587-42af-9f87-73b320b2dc66
+[0m[31mError in classifyIntent LLM fallback: DOMException {
+  [0mstack[2m:[0m [0m[32m""[0m[0m[2m,[0m
+  [0mcode[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mname[2m:[0m [0m[32m[0m[32m"TimeoutError"[0m[0m[0m[2m,[0m
+  [0mmessage[2m:[0m [0m[32m[0m[32m"The operation timed out."[0m[0m[0m[2m,[0m
+  [0mINDEX_SIZE_ERR[2m:[0m [0m[33m1[0m[0m[2m,[0m
+  [0mDOMSTRING_SIZE_ERR[2m:[0m [0m[33m2[0m[0m[2m,[0m
+  [0mHIERARCHY_REQUEST_ERR[2m:[0m [0m[33m3[0m[0m[2m,[0m
+  [0mWRONG_DOCUMENT_ERR[2m:[0m [0m[33m4[0m[0m[2m,[0m
+  [0mINVALID_CHARACTER_ERR[2m:[0m [0m[33m5[0m[0m[2m,[0m
+  [0mNO_DATA_ALLOWED_ERR[2m:[0m [0m[33m6[0m[0m[2m,[0m
+  [0mNO_MODIFICATION_ALLOWED_ERR[2m:[0m [0m[33m7[0m[0m[2m,[0m
+  [0mNOT_FOUND_ERR[2m:[0m [0m[33m8[0m[0m[2m,[0m
+  [0mNOT_SUPPORTED_ERR[2m:[0m [0m[33m9[0m[0m[2m,[0m
+  [0mINUSE_ATTRIBUTE_ERR[2m:[0m [0m[33m10[0m[0m[2m,[0m
+  [0mINVALID_STATE_ERR[2m:[0m [0m[33m11[0m[0m[2m,[0m
+  [0mSYNTAX_ERR[2m:[0m [0m[33m12[0m[0m[2m,[0m
+  [0mINVALID_MODIFICATION_ERR[2m:[0m [0m[33m13[0m[0m[2m,[0m
+  [0mNAMESPACE_ERR[2m:[0m [0m[33m14[0m[0m[2m,[0m
+  [0mINVALID_ACCESS_ERR[2m:[0m [0m[33m15[0m[0m[2m,[0m
+  [0mVALIDATION_ERR[2m:[0m [0m[33m16[0m[0m[2m,[0m
+  [0mTYPE_MISMATCH_ERR[2m:[0m [0m[33m17[0m[0m[2m,[0m
+  [0mSECURITY_ERR[2m:[0m [0m[33m18[0m[0m[2m,[0m
+  [0mNETWORK_ERR[2m:[0m [0m[33m19[0m[0m[2m,[0m
+  [0mABORT_ERR[2m:[0m [0m[33m20[0m[0m[2m,[0m
+  [0mURL_MISMATCH_ERR[2m:[0m [0m[33m21[0m[0m[2m,[0m
+  [0mQUOTA_EXCEEDED_ERR[2m:[0m [0m[33m22[0m[0m[2m,[0m
+  [0mTIMEOUT_ERR[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mINVALID_NODE_TYPE_ERR[2m:[0m [0m[33m24[0m[0m[2m,[0m
+  [0mDATA_CLONE_ERR[2m:[0m [0m[33m25[0m[0m[2m,[0m
+  [0mtoString[2m:[0m [36m[Function: toString][0m[0m[2m,[0m
+}[0m
+[0m[31mError in classifyIntent LLM fallback: DOMException {
+  [0mstack[2m:[0m [0m[32m""[0m[0m[2m,[0m
+  [0mcode[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mname[2m:[0m [0m[32m[0m[32m"TimeoutError"[0m[0m[0m[2m,[0m
+  [0mmessage[2m:[0m [0m[32m[0m[32m"The operation timed out."[0m[0m[0m[2m,[0m
+  [0mINDEX_SIZE_ERR[2m:[0m [0m[33m1[0m[0m[2m,[0m
+  [0mDOMSTRING_SIZE_ERR[2m:[0m [0m[33m2[0m[0m[2m,[0m
+  [0mHIERARCHY_REQUEST_ERR[2m:[0m [0m[33m3[0m[0m[2m,[0m
+  [0mWRONG_DOCUMENT_ERR[2m:[0m [0m[33m4[0m[0m[2m,[0m
+  [0mINVALID_CHARACTER_ERR[2m:[0m [0m[33m5[0m[0m[2m,[0m
+  [0mNO_DATA_ALLOWED_ERR[2m:[0m [0m[33m6[0m[0m[2m,[0m
+  [0mNO_MODIFICATION_ALLOWED_ERR[2m:[0m [0m[33m7[0m[0m[2m,[0m
+  [0mNOT_FOUND_ERR[2m:[0m [0m[33m8[0m[0m[2m,[0m
+  [0mNOT_SUPPORTED_ERR[2m:[0m [0m[33m9[0m[0m[2m,[0m
+  [0mINUSE_ATTRIBUTE_ERR[2m:[0m [0m[33m10[0m[0m[2m,[0m
+  [0mINVALID_STATE_ERR[2m:[0m [0m[33m11[0m[0m[2m,[0m
+  [0mSYNTAX_ERR[2m:[0m [0m[33m12[0m[0m[2m,[0m
+  [0mINVALID_MODIFICATION_ERR[2m:[0m [0m[33m13[0m[0m[2m,[0m
+  [0mNAMESPACE_ERR[2m:[0m [0m[33m14[0m[0m[2m,[0m
+  [0mINVALID_ACCESS_ERR[2m:[0m [0m[33m15[0m[0m[2m,[0m
+  [0mVALIDATION_ERR[2m:[0m [0m[33m16[0m[0m[2m,[0m
+  [0mTYPE_MISMATCH_ERR[2m:[0m [0m[33m17[0m[0m[2m,[0m
+  [0mSECURITY_ERR[2m:[0m [0m[33m18[0m[0m[2m,[0m
+  [0mNETWORK_ERR[2m:[0m [0m[33m19[0m[0m[2m,[0m
+  [0mABORT_ERR[2m:[0m [0m[33m20[0m[0m[2m,[0m
+  [0mURL_MISMATCH_ERR[2m:[0m [0m[33m21[0m[0m[2m,[0m
+  [0mQUOTA_EXCEEDED_ERR[2m:[0m [0m[33m22[0m[0m[2m,[0m
+  [0mTIMEOUT_ERR[2m:[0m [0m[33m23[0m[0m[2m,[0m
+  [0mINVALID_NODE_TYPE_ERR[2m:[0m [0m[33m24[0m[0m[2m,[0m
+  [0mDATA_CLONE_ERR[2m:[0m [0m[33m25[0m[0m[2m,[0m
+  [0mtoString[2m:[0m [36m[Function: toString][0m[0m[2m,[0m
+}[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-days events add query ("add" intent with refinement)[0m [0m[2m[[0m[33m30000.28ms[0m[2m][0m
+  [2m^[0m [31mthis test timed out after 30000ms.[0m
+[{"text":"at 10 AM to 11 AM","start":"2025-10-10T17:00:00.000Z","end":"2025-10-10T18:00:00.000Z"},{"text":"at 12 PM to 1 PM","start":"2025-10-10T19:00:00.000Z","end":"2025-10-10T20:00:00.000Z"}]
+User Input:  Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow
+classifyIntent is called
+events is parsed with regex:  [
+  {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+  }[0m[2m,[0m {
+    [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+    [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+    [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+    [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+    [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+    [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+    [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+    [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+  }
+]
+Regex partial imperfect-refining with LLM
+Ready to send Payload:  {
+  [0mpartial[2m:[0m [
+    {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"10:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"11:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"10:00 am"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0msummary[2m:[0m [0m[32m[0m[32m"Schedule meeting"[0m[0m[0m[2m,[0m
+      [0mdate[2m:[0m [0m[32m[0m[32m"2025-10-10"[0m[0m[0m[2m,[0m
+      [0mstartTime[2m:[0m [0m[32m[0m[32m"12:00"[0m[0m[0m[2m,[0m
+      [0mendTime[2m:[0m [0m[32m[0m[32m"13:00"[0m[0m[0m[2m,[0m
+      [0mduration_minutes[2m:[0m [0m[33m60[0m[0m[2m,[0m
+      [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+      [0mlocation[2m:[0m [0m[32m[0m[32m"10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+      [0mdisplayTime[2m:[0m [0m[32m[0m[32m"12:00 pm"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+  [0minput[2m:[0m [0m[32m[0m[32m"Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow"[0m[0m[0m[2m,[0m
+  [0mtimezone[2m:[0m [0m[32m[0m[32m"America/Los_Angeles"[0m[0m[0m[2m,[0m
+  [0mreference_date[2m:[0m [0m[32m[0m[32m"2025-10-15"[0m[0m[0m[2m,[0m
+  [0mparsed_results[2m:[0m [
+    {
+      [0mtext[2m:[0m [0m[32m[0m[32m"at 10 AM to 11 AM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T17:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-10T18:00:00.000Z"[0m[0m[0m[2m,[0m
+    }[0m[2m,[0m {
+      [0mtext[2m:[0m [0m[32m[0m[32m"at 12 PM to 1 PM"[0m[0m[0m[2m,[0m
+      [0mstart[2m:[0m [0m[32m[0m[32m"2025-10-10T19:00:00.000Z"[0m[0m[0m[2m,[0m
+      [0mend[2m:[0m [0m[32m[0m[32m"2025-10-10T20:00:00.000Z"[0m[0m[0m[2m,[0m
+    }
+  ][0m[2m,[0m
+}
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-events in one day add query ("add" intent)[0m [0m[2m[[0m[33m30000.06ms[0m[2m][0m
   [2m^[0m [31mthis test timed out after 30000ms.[0m
 
  0 pass[0m
-[0m[31m 5 fail[0m
- [0m[31m1 error[0m
-Ran 5 tests across 1 file. [0m[2m[[1m119.60s[0m[2m][0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;31m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m)[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key  && gfgp[39m[68D
+[0m[31m 17 fail[0m
+Ran 17 tests across 3 files. [0m[2m[[1m408.71s[0m[2m][0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;31m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m)[00m [K[?1h=[?2004he[32me[39m
 [0;1;2mcommand[0m
 [0me          echo             echotc  echoti  edit    edit-command-line  editor    editres   efibootdump  efibootmgr  egrep    eject           elfedit       elif         else        emulate           enable              enc2xs      encguess
 enchant-2  enchant-lsmod-2  end     enosys  env     env_default        envsubst  eog       eps2eps      eqn         esac     escapesrc       escp2topbm    eval         evince      evince-previewer  evince-thumbnailer  evolution   ex     
 exch       exec             exit    expand  expiry  export             expr      exr2aces  exrenvmap    exrheader   exrinfo  exrmakepreview  exrmaketiled  exrmanifest  exrmetrics  exrmultipart      exrmultiview        exrstdattr  exr_to_pq
-[Jeyuvtoppm  [Jeza              [J                                                                                                                                                                                 [5A[0m[27m[24m[45C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key  && gfgp[39m[K[68D[32me[32mx[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [67D[90mit[39m
+[Jeyuvtoppm  [Jeza              [J                                                                                                                                                                                 [5A[0m[27m[24m[45C[32me[39m[K[32me[32mx[39m[90mit[39m
 [J[0;1;2mcommand[0m
 [J[0mex  [Jexch  [Jexec  [Jexit  [Jexpand  [Jexpiry  [Jexport  [Jexpr  [Jexr2aces  [Jexrenvmap  [Jexrheader  [Jexrinfo  [Jexrmakepreview  [Jexrmaketiled  [Jexrmanifest  [Jexrmetrics  [Jexrmultipart  [Jexrmultiview  [Jexrstdattr  [Jexr_to_pq  [J[A[A[0m[27m[24m[45C[32mex[39m[90mit[39m[K[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m
 [J[0;1;2mcommand[0m
@@ -623,4 +1377,4 @@ exch       exec             exit    expand  expiry  export             expr     
 [J[0mexit[J[A[A[0m[27m[24m[45C[32mexit[39m[K[?1l>[?2004l
 [J[A[49C
 [J]2;exit]1;exit
-Script done on 2025-10-14 16:19:34-07:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-10-14 19:07:39-07:00 [COMMAND_EXIT_CODE="1"]

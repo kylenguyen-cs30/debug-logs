@@ -1,1433 +1,55 @@
-Script started on 2025-10-14 22:13:01-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="84" LINES="54"]
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [Kg[32mg[39m[32mg[39m[90ms[39m[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
-[0;1;2mcommand[0m
-[0mgcc-ar-11              gcc-ar-12              gcc-ar-15            
-gcc-nm                 genccode               getpcaps             
-gif2webp               giftool                gjs                  
-gkbd-keyboard-display  gm2                    gnome-calculator     
-gnome-calendar         gnome-music            gnome-session-classic
-gnome-shell-perf-tool  gnome-system-monitor   gnome-terminal       
-gnome-thumbnail-font   gpg                    gpg-wks-server       
-gpg-zip                gpic                   grub-glue-efi        
-grub-kbdcomp           grub-mkfont            gs                   
-gsf                    gslj                   gslp                 
-gsnd                                                             
-[J[30m[104m(MORE)[39m[49m[13A[0m[27m[24m[35C[32mg[39m[90ms[39m[K[39m [39m 
-[J[A[35Ce[32me[39m[32me[39m[90mxit[39m
+Script started on 2025-10-15 00:19:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="84" LINES="54"]
+[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [Ks[1m[31ms[0m[39m[1m[31ms[0m[39m[90mcript /home/kyle/Deployments/debug-logs/fastapi-[90ms[90merver-log.txt[39m[K[A[22C[1m[31ms[1m[31mo[0m[39m[K[1B[K[A[37C[1B[0;1;2mcommand[0m
+[J[0msoelim  [Jsoffice  [Jsoftware-properties-gtk  [Jsol  [Jsort  [Jsotruss  [Jsource  [J[A[A[0m[27m[24m[35C[1m[31mso[0m[39m[K[90murce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[3C[1B
 [J[0;1;2mcommand[0m
-[0me                    echo          echotc       echoti         edit           
-edit-command-line    editor        editres      efibootdump    efibootmgr     
-egrep                eject         elfedit      elif           else           
-emulate              enable        enc2xs       encguess       enchant-2      
-enchant-lsmod-2      end           enosys       env            env_default    
-envsubst             eog           eps2eps      eqn            esac           
-escapesrc            escp2topbm    eval         evince         evince-previewer
-evince-thumbnailer   evolution     ex           exch           exec           
-exit                 expand        expiry       export         expr           
-exr2aces             exrenvmap     exrheader    exrinfo        exrmakepreview 
-exrmaketiled         exrmanifest   exrmetrics   exrmultipart   exrmultiview   
-[Jexrstdattr           [Jexr_to_pq     [Jeyuvtoppm    [Jeza            [J               [13A[0m[27m[24m[35C[32me[39m[90mxit[39m[K[32me[32mv[39m[39m [39m [1m[31me[1m[31mv[0m[39m[90mal "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh[90m/[90mgithub-key  [39m[K[A[24C[1B
+[J[0msoelim  [Jsoffice  [Jsoftware-properties-gtk  [Jsol  [Jsort  [Jsotruss  [Jsource  [J[3A[0m[27m[24m[35C[1m[31mso[0m[39m[90murce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[3C[1m[31ms[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mr[0m[39m[1B
 [J[0;1;2mcommand[0m
-[J[0meval   [Jevince   [Jevince-previewer   [Jevince-thumbnailer   [Jevolution   [J[3A[0m[27m[24m[35C[1m[31mev[0m[39m[90mal "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh[90m/[90mgithub-key  [39m[K[A[24C[1m[31me[1m[31mv[1m[31ma[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0meval[J[3A[0m[27m[24m[35C[1m[31meva[0m[39m[90ml "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh[90m/[90mgithub-key  [39m[K[A[25C[39ml[39m [39m"[39m$[39m([39ms[39ms[39mh[39m-[39ma[39mg[39me[39mn[39mt[39m [39m-[39ms[39m)[39m"[39m [39m&[39m&[39m [39ms[39ms[39mh[39m-[39ma[39md[39md[39m [39m/[39mh[39mo[39mm[39me[39m/[39mk[39my[39ml[39me[39m/[39m.[39ms[39ms[39mh/[39mg[39mi[39mt[39mh[39mu[39mb[39m-[39mk[39me[39my[K[2C[A[22C[0m[32me[0m[32mv[0m[32ma[32ml[39m [33m"[39m[35m$[35m([39m[4m[32ms[4m[32ms[4m[32mh[4m[32m-[4m[32ma[4m[32mg[4m[32me[4m[32mn[4m[32mt[24m[39m[3C[35m)[39m[33m"[39m[4C[32ms[32ms[32mh[32m-[32ma[32md[32md[39m [4m/[4mh[4mo[4mm[4me[4m/[4mk[4my[4ml[4me[4m/[4m.[4ms[4ms[4mh[4m/[4mg[4mi[4mt[4mh[4mu[4mb[4m-[4mk[4me[4my[24m[2C
-[J[0;1;2mdirectory[0m
-[01;34mgenerate_response[0m/   [01;34mintents[0m/   [01;34m__pycache__[0m/   [01;34mrefine[0m/   [01;34mutils[0m/   [01;34mvenv[0m/   
-[0;1;2mSSH identity file[0m
-[J[0mapp.log             [Jmain.py             [Jother_intents.log   [Jrequirements.txt  [J[5A[0m[27m[24m[35C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/kyle/.ssh[4m/[4mgithub-key[24m[K[2C[1C
-[J[A[14C
-[J[0;1;2mdirectory[0m
-[01;34mgenerate_response[0m/   [01;34mintents[0m/   [01;34m__pycache__[0m/   [01;34mrefine[0m/   [01;34mutils[0m/   [01;34mvenv[0m/   
-[0;1;2mSSH identity file[0m
-[J[0mapp.log             [Jmain.py             [Jother_intents.log   [Jrequirements.txt  [J[5A[0m[27m[24m[35C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/kyle/.ssh[4m/[4mgithub-key[24m[K[3C&
-[J[A[15C&
-[J[A[16C  
-[J[0;1;2mdirectory[0m
-[01;34mgenerate_response[0m/   [01;34mintents[0m/   [01;34m__pycache__[0m/   [01;34mrefine[0m/   [01;34mutils[0m/   [01;34mvenv[0m/   
-[0;1;2mSSH identity file[0m
-[J[0mapp.log             [Jmain.py             [Jother_intents.log   [Jrequirements.txt  [J[5A[0m[27m[24m[35C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/kyle/.ssh[4m/[4mgithub-key[24m[K[3C
-[J[0;1;2mdirectory[0m
-[01;34mgenerate_response[0m/   [01;34mintents[0m/   [01;34m__pycache__[0m/   [01;34mrefine[0m/   [01;34mutils[0m/   [01;34mvenv[0m/   
-[0;1;2mSSH identity file[0m
-[J[0mapp.log             [Jmain.py             [Jother_intents.log   [Jrequirements.txt  [J[5A[0m[27m[24m[35C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/kyle/.ssh[4m/[4mgithub-key[24m[K[2C&
-[J[A[14C[90m& gfgp[39m[39m&[39m [39mg[39mf[39mg[39mp[32mg[32mf[32mg[32mp[39m
-[J[0;1;2mcommand[0m
-[J[0mgfgp[J[3A[0m[27m[24m[35C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/kyle/.ssh[4m/[4mgithub-key[24m  && [32mgfgp[39m[K[?1l>[?2004l
-[J[A[20C
-[J]2;eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && ]1;evalAgent pid 88898
-Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
-remote: Enumerating objects: 7, done.[K
-remote: Counting objects:  14% (1/7)[Kremote: Counting objects:  28% (2/7)[Kremote: Counting objects:  42% (3/7)[Kremote: Counting objects:  57% (4/7)[Kremote: Counting objects:  71% (5/7)[Kremote: Counting objects:  85% (6/7)[Kremote: Counting objects: 100% (7/7)[Kremote: Counting objects: 100% (7/7), done.[K
-remote: Compressing objects: 100% (1/1)[Kremote: Compressing objects: 100% (1/1), done.[K
-remote: Total 4 (delta 2), reused 4 (delta 2), pack-reused 0 (from 0)[K
-Unpacking objects:  25% (1/4)Unpacking objects:  50% (2/4)Unpacking objects:  75% (3/4)Unpacking objects: 100% (4/4)Unpacking objects: 100% (4/4), 353 bytes | 353.00 KiB/s, done.
-From github.com:kylenguyen-cs30/mvp-llm-python-sever
-   72639f7..4e7fc22  main       -> origin/main
-Updating 72639f7..4e7fc22
-Fast-forward
- utils/utils.py | 2 [32m+[m[31m-[m
- 1 file changed, 1 insertion(+), 1 deletion(-)
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hs[1m[31ms[0m[39m[1m[31ms[0m[39m[90mcript /home/kyle/Deployments/debug-logs/fastapi-[90ms[90merver-log.txt[39m[K[A[22C[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m[1B
-[0;1;2mcommand[0m
-[0msbigtopgm          scanimage        scriptlive   sdiff        sed        
-see                seq              setleds      setmetamode  shasum     
-showconsolefont    showkey          sleep        sol          spa-json-dump
-speech-dispatcher  sqlite3          sserver      ssh          ssh-add    
-ssh-keygen         ssimulacra_main  stream       stream-im6   sudoedit   
-swapoff            swell-foop       switch_root  systemd      systemd-cgls
-systemd-escape                                                     
-[J[30m[104m(MORE)[39m[49m[10A[0m[27m[24m[35C[1m[31ms[0m[39m[90mcript /home/kyle/Deployments/debug-logs/fastapi-[90ms[90merver-log.txt[39m[K[A[22C[1m[31ms[1m[31mo[0m[39m[K[1B[K[A[37C[90murce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[3C[1B
-[J[0;1;2mcommand[0m
-[J[0msoelim  [Jsoffice  [Jsoftware-properties-gtk  [Jsol  [Jsort  [Jsotruss  [Jsource  [J[3A[0m[27m[24m[35C[1m[31mso[0m[39m[90murce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[3C[1m[31ms[1m[31mo[1m[31mu[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0msource[J[3A[0m[27m[24m[35C[1m[31msou[0m[39m[90mrce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[4C[1m[31mu[1m[31mr[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0msource[J[3A[0m[27m[24m[35C[1m[31msour[0m[39m[90mce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[5C[1m[31mr[1m[31mc[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0msource[J[3A[0m[27m[24m[35C[1m[31msourc[0m[39m[90me venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[6C[1m[31mc[1m[31me[0m[39m[0m[32ms[0m[32mo[0m[32mu[0m[32mr[0m[32mc[0m[32me[39m[1B
+[J[0msource[J[3A[0m[27m[24m[35C[1m[31msour[0m[39m[90mce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[5C[1m[31mr[1m[31mc[0m[39m[1m[31mc[1m[31me[0m[39m[0m[32ms[0m[32mo[0m[32mu[0m[32mr[0m[32mc[0m[32me[39m[1B
 [J[0;1;2mcommand[0m
 [J[0msource[J[3A[0m[27m[24m[35C[32msource[39m[90m venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[7C[39m [39mv[39me[39mn[39mv[39m/[39mb[39mi[39mn[39m/[39ma[39mc[39mt[39mi[39mv[39ma[39mt[39me[39m [39m&[39m&[39m [39mu[39mv[39mi[39mc[39mo[39mr[39mn[39m [39mm[39ma[39mi[39mn[39m:[39ma[39mp[39mp[39m [39m-[39m-[39mh[39mos[39mt[39m [39m0[39m.[39m0[39m.[39m0[39m.[39m0[39m [39m-[39m-[39mp[39mo[39mr[39mt[39m [39m8[39m0[39m0[39m0[39m [39m-[39m-[39mw[39mo[39mr[39mk[39me[39mr[39ms[39m [39m4[A[8C[4mv[4me[4mn[4mv[4m/[4mb[4mi[4mn[4m/[4ma[4mc[4mt[4mi[4mv[4ma[4mt[4me[24m[4C[1m[31mu[1m[31mv[1m[31mi[1m[31mc[1m[31mo[1m[31mr[1m[31mn[0m[39m[1B[36D
 [J[A[34C[?1l>[?2004l
 [J[A[34C
 [J]2;source venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000  4]1;source[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
-[32mINFO[0m:     Started parent process [[36m[1m89125[0m]
-[32mINFO[0m:     Started server process [[36m89128[0m]
-[32mINFO[0m:     Started server process [[36m89127[0m]
-[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Started parent process [[36m[1m93723[0m]
+[32mINFO[0m:     Started server process [[36m93725[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m89130[0m]
-[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Started server process [[36m93727[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m89129[0m]
+[32mINFO[0m:     Started server process [[36m93726[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-SERVER REACH HERE [classify_intent_service]
-MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
-Attempting GPU LLM with n_gpu_layers = -1
-ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
-ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
-ggml_cuda_init: found 1 CUDA devices:
-  Device 0: NVIDIA GeForce RTX 4060 Laptop GPU, compute capability 8.9, VMM: yes
-llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 4060 Laptop GPU) - 7689 MiB free
-llama_model_loader: loaded meta data with 35 key-value pairs and 255 tensors from /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf (version GGUF V3 (latest))
-llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
-llama_model_loader: - kv   0:                       general.architecture str              = llama
-llama_model_loader: - kv   1:                               general.type str              = model
-llama_model_loader: - kv   2:                               general.name str              = Llama 3.2 3B Instruct
-llama_model_loader: - kv   3:                           general.finetune str              = Instruct
-llama_model_loader: - kv   4:                           general.basename str              = Llama-3.2
-llama_model_loader: - kv   5:                         general.size_label str              = 3B
-llama_model_loader: - kv   6:                            general.license str              = llama3.2
-llama_model_loader: - kv   7:                               general.tags arr[str,6]       = ["facebook", "meta", "pytorch", "llam...
-llama_model_loader: - kv   8:                          general.languages arr[str,8]       = ["en", "de", "fr", "it", "pt", "hi", ...
-llama_model_loader: - kv   9:                          llama.block_count u32              = 28
-llama_model_loader: - kv  10:                       llama.context_length u32              = 131072
-llama_model_loader: - kv  11:                     llama.embedding_length u32              = 3072
-llama_model_loader: - kv  12:                  llama.feed_forward_length u32              = 8192
-llama_model_loader: - kv  13:                 llama.attention.head_count u32              = 24
-llama_model_loader: - kv  14:              llama.attention.head_count_kv u32              = 8
-llama_model_loader: - kv  15:                       llama.rope.freq_base f32              = 500000.000000
-llama_model_loader: - kv  16:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
-llama_model_loader: - kv  17:                 llama.attention.key_length u32              = 128
-llama_model_loader: - kv  18:               llama.attention.value_length u32              = 128
-llama_model_loader: - kv  19:                          general.file_type u32              = 17
-llama_model_loader: - kv  20:                           llama.vocab_size u32              = 128256
-llama_model_loader: - kv  21:                 llama.rope.dimension_count u32              = 128
-llama_model_loader: - kv  22:                       tokenizer.ggml.model str              = gpt2
-llama_model_loader: - kv  23:                         tokenizer.ggml.pre str              = llama-bpe
-llama_model_loader: - kv  24:                      tokenizer.ggml.tokens arr[str,128256]  = ["!", "\"", "#", "$", "%", "&", "'", ...
-llama_model_loader: - kv  25:                  tokenizer.ggml.token_type arr[i32,128256]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
-llama_model_loader: - kv  26:                      tokenizer.ggml.merges arr[str,280147]  = ["Ġ Ġ", "Ġ ĠĠĠ", "ĠĠ ĠĠ", "...
-llama_model_loader: - kv  27:                tokenizer.ggml.bos_token_id u32              = 128000
-llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 128009
-llama_model_loader: - kv  29:                    tokenizer.chat_template str              = {{- bos_token }}\n{%- if custom_tools ...
-llama_model_loader: - kv  30:               general.quantization_version u32              = 2
-llama_model_loader: - kv  31:                      quantize.imatrix.file str              = /models_out/Llama-3.2-3B-Instruct-GGU...
-llama_model_loader: - kv  32:                   quantize.imatrix.dataset str              = /training_dir/calibration_datav3.txt
-llama_model_loader: - kv  33:             quantize.imatrix.entries_count i32              = 196
-llama_model_loader: - kv  34:              quantize.imatrix.chunks_count i32              = 125
-llama_model_loader: - type  f32:   58 tensors
-llama_model_loader: - type q5_K:  168 tensors
-llama_model_loader: - type q6_K:   29 tensors
-print_info: file format = GGUF V3 (latest)
-print_info: file type   = Q5_K - Medium
-print_info: file size   = 2.16 GiB (5.76 BPW) 
-init_tokenizer: initializing tokenizer for type 2
-load: control token: 128254 '<|reserved_special_token_246|>' is not marked as EOG
-load: control token: 128249 '<|reserved_special_token_241|>' is not marked as EOG
-load: control token: 128246 '<|reserved_special_token_238|>' is not marked as EOG
-load: control token: 128243 '<|reserved_special_token_235|>' is not marked as EOG
-load: control token: 128242 '<|reserved_special_token_234|>' is not marked as EOG
-load: control token: 128241 '<|reserved_special_token_233|>' is not marked as EOG
-load: control token: 128240 '<|reserved_special_token_232|>' is not marked as EOG
-load: control token: 128235 '<|reserved_special_token_227|>' is not marked as EOG
-load: control token: 128231 '<|reserved_special_token_223|>' is not marked as EOG
-load: control token: 128230 '<|reserved_special_token_222|>' is not marked as EOG
-load: control token: 128228 '<|reserved_special_token_220|>' is not marked as EOG
-load: control token: 128225 '<|reserved_special_token_217|>' is not marked as EOG
-load: control token: 128218 '<|reserved_special_token_210|>' is not marked as EOG
-load: control token: 128214 '<|reserved_special_token_206|>' is not marked as EOG
-load: control token: 128213 '<|reserved_special_token_205|>' is not marked as EOG
-load: control token: 128207 '<|reserved_special_token_199|>' is not marked as EOG
-load: control token: 128206 '<|reserved_special_token_198|>' is not marked as EOG
-load: control token: 128204 '<|reserved_special_token_196|>' is not marked as EOG
-load: control token: 128200 '<|reserved_special_token_192|>' is not marked as EOG
-load: control token: 128199 '<|reserved_special_token_191|>' is not marked as EOG
-load: control token: 128198 '<|reserved_special_token_190|>' is not marked as EOG
-load: control token: 128196 '<|reserved_special_token_188|>' is not marked as EOG
-load: control token: 128194 '<|reserved_special_token_186|>' is not marked as EOG
-load: control token: 128193 '<|reserved_special_token_185|>' is not marked as EOG
-load: control token: 128188 '<|reserved_special_token_180|>' is not marked as EOG
-load: control token: 128187 '<|reserved_special_token_179|>' is not marked as EOG
-load: control token: 128185 '<|reserved_special_token_177|>' is not marked as EOG
-load: control token: 128184 '<|reserved_special_token_176|>' is not marked as EOG
-load: control token: 128180 '<|reserved_special_token_172|>' is not marked as EOG
-load: control token: 128179 '<|reserved_special_token_171|>' is not marked as EOG
-load: control token: 128178 '<|reserved_special_token_170|>' is not marked as EOG
-load: control token: 128177 '<|reserved_special_token_169|>' is not marked as EOG
-load: control token: 128176 '<|reserved_special_token_168|>' is not marked as EOG
-load: control token: 128175 '<|reserved_special_token_167|>' is not marked as EOG
-load: control token: 128171 '<|reserved_special_token_163|>' is not marked as EOG
-load: control token: 128170 '<|reserved_special_token_162|>' is not marked as EOG
-load: control token: 128169 '<|reserved_special_token_161|>' is not marked as EOG
-load: control token: 128168 '<|reserved_special_token_160|>' is not marked as EOG
-load: control token: 128165 '<|reserved_special_token_157|>' is not marked as EOG
-load: control token: 128162 '<|reserved_special_token_154|>' is not marked as EOG
-load: control token: 128158 '<|reserved_special_token_150|>' is not marked as EOG
-load: control token: 128156 '<|reserved_special_token_148|>' is not marked as EOG
-load: control token: 128155 '<|reserved_special_token_147|>' is not marked as EOG
-load: control token: 128154 '<|reserved_special_token_146|>' is not marked as EOG
-load: control token: 128151 '<|reserved_special_token_143|>' is not marked as EOG
-load: control token: 128149 '<|reserved_special_token_141|>' is not marked as EOG
-load: control token: 128147 '<|reserved_special_token_139|>' is not marked as EOG
-load: control token: 128146 '<|reserved_special_token_138|>' is not marked as EOG
-load: control token: 128144 '<|reserved_special_token_136|>' is not marked as EOG
-load: control token: 128142 '<|reserved_special_token_134|>' is not marked as EOG
-load: control token: 128141 '<|reserved_special_token_133|>' is not marked as EOG
-load: control token: 128138 '<|reserved_special_token_130|>' is not marked as EOG
-load: control token: 128136 '<|reserved_special_token_128|>' is not marked as EOG
-load: control token: 128135 '<|reserved_special_token_127|>' is not marked as EOG
-load: control token: 128134 '<|reserved_special_token_126|>' is not marked as EOG
-load: control token: 128133 '<|reserved_special_token_125|>' is not marked as EOG
-load: control token: 128131 '<|reserved_special_token_123|>' is not marked as EOG
-load: control token: 128128 '<|reserved_special_token_120|>' is not marked as EOG
-load: control token: 128124 '<|reserved_special_token_116|>' is not marked as EOG
-load: control token: 128123 '<|reserved_special_token_115|>' is not marked as EOG
-load: control token: 128122 '<|reserved_special_token_114|>' is not marked as EOG
-load: control token: 128119 '<|reserved_special_token_111|>' is not marked as EOG
-load: control token: 128115 '<|reserved_special_token_107|>' is not marked as EOG
-load: control token: 128112 '<|reserved_special_token_104|>' is not marked as EOG
-load: control token: 128110 '<|reserved_special_token_102|>' is not marked as EOG
-load: control token: 128109 '<|reserved_special_token_101|>' is not marked as EOG
-load: control token: 128108 '<|reserved_special_token_100|>' is not marked as EOG
-load: control token: 128106 '<|reserved_special_token_98|>' is not marked as EOG
-load: control token: 128103 '<|reserved_special_token_95|>' is not marked as EOG
-load: control token: 128102 '<|reserved_special_token_94|>' is not marked as EOG
-load: control token: 128101 '<|reserved_special_token_93|>' is not marked as EOG
-load: control token: 128097 '<|reserved_special_token_89|>' is not marked as EOG
-load: control token: 128091 '<|reserved_special_token_83|>' is not marked as EOG
-load: control token: 128090 '<|reserved_special_token_82|>' is not marked as EOG
-load: control token: 128089 '<|reserved_special_token_81|>' is not marked as EOG
-load: control token: 128087 '<|reserved_special_token_79|>' is not marked as EOG
-load: control token: 128085 '<|reserved_special_token_77|>' is not marked as EOG
-load: control token: 128081 '<|reserved_special_token_73|>' is not marked as EOG
-load: control token: 128078 '<|reserved_special_token_70|>' is not marked as EOG
-load: control token: 128076 '<|reserved_special_token_68|>' is not marked as EOG
-load: control token: 128075 '<|reserved_special_token_67|>' is not marked as EOG
-load: control token: 128073 '<|reserved_special_token_65|>' is not marked as EOG
-load: control token: 128068 '<|reserved_special_token_60|>' is not marked as EOG
-load: control token: 128067 '<|reserved_special_token_59|>' is not marked as EOG
-load: control token: 128065 '<|reserved_special_token_57|>' is not marked as EOG
-load: control token: 128063 '<|reserved_special_token_55|>' is not marked as EOG
-load: control token: 128062 '<|reserved_special_token_54|>' is not marked as EOG
-load: control token: 128060 '<|reserved_special_token_52|>' is not marked as EOG
-load: control token: 128059 '<|reserved_special_token_51|>' is not marked as EOG
-load: control token: 128057 '<|reserved_special_token_49|>' is not marked as EOG
-load: control token: 128054 '<|reserved_special_token_46|>' is not marked as EOG
-load: control token: 128046 '<|reserved_special_token_38|>' is not marked as EOG
-load: control token: 128045 '<|reserved_special_token_37|>' is not marked as EOG
-load: control token: 128044 '<|reserved_special_token_36|>' is not marked as EOG
-load: control token: 128043 '<|reserved_special_token_35|>' is not marked as EOG
-load: control token: 128038 '<|reserved_special_token_30|>' is not marked as EOG
-load: control token: 128036 '<|reserved_special_token_28|>' is not marked as EOG
-load: control token: 128035 '<|reserved_special_token_27|>' is not marked as EOG
-load: control token: 128032 '<|reserved_special_token_24|>' is not marked as EOG
-load: control token: 128028 '<|reserved_special_token_20|>' is not marked as EOG
-load: control token: 128027 '<|reserved_special_token_19|>' is not marked as EOG
-load: control token: 128024 '<|reserved_special_token_16|>' is not marked as EOG
-load: control token: 128023 '<|reserved_special_token_15|>' is not marked as EOG
-load: control token: 128022 '<|reserved_special_token_14|>' is not marked as EOG
-load: control token: 128021 '<|reserved_special_token_13|>' is not marked as EOG
-load: control token: 128018 '<|reserved_special_token_10|>' is not marked as EOG
-load: control token: 128016 '<|reserved_special_token_8|>' is not marked as EOG
-load: control token: 128015 '<|reserved_special_token_7|>' is not marked as EOG
-load: control token: 128013 '<|reserved_special_token_5|>' is not marked as EOG
-load: control token: 128011 '<|reserved_special_token_3|>' is not marked as EOG
-load: control token: 128005 '<|reserved_special_token_2|>' is not marked as EOG
-load: control token: 128004 '<|finetune_right_pad_id|>' is not marked as EOG
-load: control token: 128002 '<|reserved_special_token_0|>' is not marked as EOG
-load: control token: 128252 '<|reserved_special_token_244|>' is not marked as EOG
-load: control token: 128190 '<|reserved_special_token_182|>' is not marked as EOG
-load: control token: 128183 '<|reserved_special_token_175|>' is not marked as EOG
-load: control token: 128137 '<|reserved_special_token_129|>' is not marked as EOG
-load: control token: 128182 '<|reserved_special_token_174|>' is not marked as EOG
-load: control token: 128040 '<|reserved_special_token_32|>' is not marked as EOG
-load: control token: 128048 '<|reserved_special_token_40|>' is not marked as EOG
-load: control token: 128092 '<|reserved_special_token_84|>' is not marked as EOG
-load: control token: 128215 '<|reserved_special_token_207|>' is not marked as EOG
-load: control token: 128107 '<|reserved_special_token_99|>' is not marked as EOG
-load: control token: 128208 '<|reserved_special_token_200|>' is not marked as EOG
-load: control token: 128145 '<|reserved_special_token_137|>' is not marked as EOG
-load: control token: 128031 '<|reserved_special_token_23|>' is not marked as EOG
-load: control token: 128129 '<|reserved_special_token_121|>' is not marked as EOG
-load: control token: 128201 '<|reserved_special_token_193|>' is not marked as EOG
-load: control token: 128074 '<|reserved_special_token_66|>' is not marked as EOG
-load: control token: 128095 '<|reserved_special_token_87|>' is not marked as EOG
-load: control token: 128186 '<|reserved_special_token_178|>' is not marked as EOG
-load: control token: 128143 '<|reserved_special_token_135|>' is not marked as EOG
-load: control token: 128229 '<|reserved_special_token_221|>' is not marked as EOG
-load: control token: 128007 '<|end_header_id|>' is not marked as EOG
-load: control token: 128055 '<|reserved_special_token_47|>' is not marked as EOG
-load: control token: 128056 '<|reserved_special_token_48|>' is not marked as EOG
-load: control token: 128061 '<|reserved_special_token_53|>' is not marked as EOG
-load: control token: 128153 '<|reserved_special_token_145|>' is not marked as EOG
-load: control token: 128152 '<|reserved_special_token_144|>' is not marked as EOG
-load: control token: 128212 '<|reserved_special_token_204|>' is not marked as EOG
-load: control token: 128172 '<|reserved_special_token_164|>' is not marked as EOG
-load: control token: 128160 '<|reserved_special_token_152|>' is not marked as EOG
-load: control token: 128041 '<|reserved_special_token_33|>' is not marked as EOG
-load: control token: 128181 '<|reserved_special_token_173|>' is not marked as EOG
-load: control token: 128094 '<|reserved_special_token_86|>' is not marked as EOG
-load: control token: 128118 '<|reserved_special_token_110|>' is not marked as EOG
-load: control token: 128236 '<|reserved_special_token_228|>' is not marked as EOG
-load: control token: 128148 '<|reserved_special_token_140|>' is not marked as EOG
-load: control token: 128042 '<|reserved_special_token_34|>' is not marked as EOG
-load: control token: 128139 '<|reserved_special_token_131|>' is not marked as EOG
-load: control token: 128173 '<|reserved_special_token_165|>' is not marked as EOG
-load: control token: 128239 '<|reserved_special_token_231|>' is not marked as EOG
-load: control token: 128157 '<|reserved_special_token_149|>' is not marked as EOG
-load: control token: 128052 '<|reserved_special_token_44|>' is not marked as EOG
-load: control token: 128026 '<|reserved_special_token_18|>' is not marked as EOG
-load: control token: 128003 '<|reserved_special_token_1|>' is not marked as EOG
-load: control token: 128019 '<|reserved_special_token_11|>' is not marked as EOG
-load: control token: 128116 '<|reserved_special_token_108|>' is not marked as EOG
-load: control token: 128161 '<|reserved_special_token_153|>' is not marked as EOG
-load: control token: 128226 '<|reserved_special_token_218|>' is not marked as EOG
-load: control token: 128159 '<|reserved_special_token_151|>' is not marked as EOG
-load: control token: 128012 '<|reserved_special_token_4|>' is not marked as EOG
-load: control token: 128088 '<|reserved_special_token_80|>' is not marked as EOG
-load: control token: 128163 '<|reserved_special_token_155|>' is not marked as EOG
-load: control token: 128113 '<|reserved_special_token_105|>' is not marked as EOG
-load: control token: 128250 '<|reserved_special_token_242|>' is not marked as EOG
-load: control token: 128125 '<|reserved_special_token_117|>' is not marked as EOG
-load: control token: 128053 '<|reserved_special_token_45|>' is not marked as EOG
-load: control token: 128224 '<|reserved_special_token_216|>' is not marked as EOG
-load: control token: 128247 '<|reserved_special_token_239|>' is not marked as EOG
-load: control token: 128251 '<|reserved_special_token_243|>' is not marked as EOG
-load: control token: 128216 '<|reserved_special_token_208|>' is not marked as EOG
-load: control token: 128006 '<|start_header_id|>' is not marked as EOG
-load: control token: 128211 '<|reserved_special_token_203|>' is not marked as EOG
-load: control token: 128077 '<|reserved_special_token_69|>' is not marked as EOG
-load: control token: 128237 '<|reserved_special_token_229|>' is not marked as EOG
-load: control token: 128086 '<|reserved_special_token_78|>' is not marked as EOG
-load: control token: 128227 '<|reserved_special_token_219|>' is not marked as EOG
-load: control token: 128058 '<|reserved_special_token_50|>' is not marked as EOG
-load: control token: 128100 '<|reserved_special_token_92|>' is not marked as EOG
-load: control token: 128209 '<|reserved_special_token_201|>' is not marked as EOG
-load: control token: 128084 '<|reserved_special_token_76|>' is not marked as EOG
-load: control token: 128071 '<|reserved_special_token_63|>' is not marked as EOG
-load: control token: 128070 '<|reserved_special_token_62|>' is not marked as EOG
-load: control token: 128049 '<|reserved_special_token_41|>' is not marked as EOG
-load: control token: 128197 '<|reserved_special_token_189|>' is not marked as EOG
-load: control token: 128072 '<|reserved_special_token_64|>' is not marked as EOG
-load: control token: 128000 '<|begin_of_text|>' is not marked as EOG
-load: control token: 128223 '<|reserved_special_token_215|>' is not marked as EOG
-load: control token: 128217 '<|reserved_special_token_209|>' is not marked as EOG
-load: control token: 128111 '<|reserved_special_token_103|>' is not marked as EOG
-load: control token: 128203 '<|reserved_special_token_195|>' is not marked as EOG
-load: control token: 128051 '<|reserved_special_token_43|>' is not marked as EOG
-load: control token: 128030 '<|reserved_special_token_22|>' is not marked as EOG
-load: control token: 128117 '<|reserved_special_token_109|>' is not marked as EOG
-load: control token: 128010 '<|python_tag|>' is not marked as EOG
-load: control token: 128238 '<|reserved_special_token_230|>' is not marked as EOG
-load: control token: 128255 '<|reserved_special_token_247|>' is not marked as EOG
-load: control token: 128202 '<|reserved_special_token_194|>' is not marked as EOG
-load: control token: 128132 '<|reserved_special_token_124|>' is not marked as EOG
-load: control token: 128248 '<|reserved_special_token_240|>' is not marked as EOG
-load: control token: 128167 '<|reserved_special_token_159|>' is not marked as EOG
-load: control token: 128127 '<|reserved_special_token_119|>' is not marked as EOG
-load: control token: 128105 '<|reserved_special_token_97|>' is not marked as EOG
-load: control token: 128039 '<|reserved_special_token_31|>' is not marked as EOG
-load: control token: 128232 '<|reserved_special_token_224|>' is not marked as EOG
-load: control token: 128166 '<|reserved_special_token_158|>' is not marked as EOG
-load: control token: 128130 '<|reserved_special_token_122|>' is not marked as EOG
-load: control token: 128114 '<|reserved_special_token_106|>' is not marked as EOG
-load: control token: 128234 '<|reserved_special_token_226|>' is not marked as EOG
-load: control token: 128191 '<|reserved_special_token_183|>' is not marked as EOG
-load: control token: 128064 '<|reserved_special_token_56|>' is not marked as EOG
-load: control token: 128140 '<|reserved_special_token_132|>' is not marked as EOG
-load: control token: 128096 '<|reserved_special_token_88|>' is not marked as EOG
-load: control token: 128098 '<|reserved_special_token_90|>' is not marked as EOG
-load: control token: 128192 '<|reserved_special_token_184|>' is not marked as EOG
-load: control token: 128093 '<|reserved_special_token_85|>' is not marked as EOG
-load: control token: 128150 '<|reserved_special_token_142|>' is not marked as EOG
-load: control token: 128222 '<|reserved_special_token_214|>' is not marked as EOG
-load: control token: 128233 '<|reserved_special_token_225|>' is not marked as EOG
-load: control token: 128220 '<|reserved_special_token_212|>' is not marked as EOG
-load: control token: 128034 '<|reserved_special_token_26|>' is not marked as EOG
-load: control token: 128033 '<|reserved_special_token_25|>' is not marked as EOG
-load: control token: 128253 '<|reserved_special_token_245|>' is not marked as EOG
-load: control token: 128195 '<|reserved_special_token_187|>' is not marked as EOG
-load: control token: 128099 '<|reserved_special_token_91|>' is not marked as EOG
-load: control token: 128189 '<|reserved_special_token_181|>' is not marked as EOG
-load: control token: 128210 '<|reserved_special_token_202|>' is not marked as EOG
-load: control token: 128174 '<|reserved_special_token_166|>' is not marked as EOG
-load: control token: 128083 '<|reserved_special_token_75|>' is not marked as EOG
-load: control token: 128080 '<|reserved_special_token_72|>' is not marked as EOG
-load: control token: 128104 '<|reserved_special_token_96|>' is not marked as EOG
-load: control token: 128082 '<|reserved_special_token_74|>' is not marked as EOG
-load: control token: 128219 '<|reserved_special_token_211|>' is not marked as EOG
-load: control token: 128017 '<|reserved_special_token_9|>' is not marked as EOG
-load: control token: 128050 '<|reserved_special_token_42|>' is not marked as EOG
-load: control token: 128205 '<|reserved_special_token_197|>' is not marked as EOG
-load: control token: 128047 '<|reserved_special_token_39|>' is not marked as EOG
-load: control token: 128164 '<|reserved_special_token_156|>' is not marked as EOG
-load: control token: 128020 '<|reserved_special_token_12|>' is not marked as EOG
-load: control token: 128069 '<|reserved_special_token_61|>' is not marked as EOG
-load: control token: 128245 '<|reserved_special_token_237|>' is not marked as EOG
-load: control token: 128121 '<|reserved_special_token_113|>' is not marked as EOG
-load: control token: 128079 '<|reserved_special_token_71|>' is not marked as EOG
-load: control token: 128037 '<|reserved_special_token_29|>' is not marked as EOG
-load: control token: 128244 '<|reserved_special_token_236|>' is not marked as EOG
-load: control token: 128029 '<|reserved_special_token_21|>' is not marked as EOG
-load: control token: 128221 '<|reserved_special_token_213|>' is not marked as EOG
-load: control token: 128066 '<|reserved_special_token_58|>' is not marked as EOG
-load: control token: 128120 '<|reserved_special_token_112|>' is not marked as EOG
-load: control token: 128014 '<|reserved_special_token_6|>' is not marked as EOG
-load: control token: 128025 '<|reserved_special_token_17|>' is not marked as EOG
-load: control token: 128126 '<|reserved_special_token_118|>' is not marked as EOG
-load: printing all EOG tokens:
-load:   - 128001 ('<|end_of_text|>')
-load:   - 128008 ('<|eom_id|>')
-load:   - 128009 ('<|eot_id|>')
-load: special tokens cache size = 256
-load: token to piece cache size = 0.7999 MB
-print_info: arch             = llama
-print_info: vocab_only       = 0
-print_info: n_ctx_train      = 131072
-print_info: n_embd           = 3072
-print_info: n_layer          = 28
-print_info: n_head           = 24
-print_info: n_head_kv        = 8
-print_info: n_rot            = 128
-print_info: n_swa            = 0
-print_info: is_swa_any       = 0
-print_info: n_embd_head_k    = 128
-print_info: n_embd_head_v    = 128
-print_info: n_gqa            = 3
-print_info: n_embd_k_gqa     = 1024
-print_info: n_embd_v_gqa     = 1024
-print_info: f_norm_eps       = 0.0e+00
-print_info: f_norm_rms_eps   = 1.0e-05
-print_info: f_clamp_kqv      = 0.0e+00
-print_info: f_max_alibi_bias = 0.0e+00
-print_info: f_logit_scale    = 0.0e+00
-print_info: f_attn_scale     = 0.0e+00
-print_info: n_ff             = 8192
-print_info: n_expert         = 0
-print_info: n_expert_used    = 0
-print_info: causal attn      = 1
-print_info: pooling type     = 0
-print_info: rope type        = 0
-print_info: rope scaling     = linear
-print_info: freq_base_train  = 500000.0
-print_info: freq_scale_train = 1
-print_info: n_ctx_orig_yarn  = 131072
-print_info: rope_finetuned   = unknown
-print_info: model type       = 3B
-print_info: model params     = 3.21 B
-print_info: general.name     = Llama 3.2 3B Instruct
-print_info: vocab type       = BPE
-print_info: n_vocab          = 128256
-print_info: n_merges         = 280147
-print_info: BOS token        = 128000 '<|begin_of_text|>'
-print_info: EOS token        = 128009 '<|eot_id|>'
-print_info: EOT token        = 128009 '<|eot_id|>'
-print_info: EOM token        = 128008 '<|eom_id|>'
-print_info: LF token         = 198 'Ċ'
-print_info: EOG token        = 128001 '<|end_of_text|>'
-print_info: EOG token        = 128008 '<|eom_id|>'
-print_info: EOG token        = 128009 '<|eot_id|>'
-print_info: max token length = 256
-load_tensors: loading model tensors, this can take a while... (mmap = true)
-load_tensors: layer   0 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   1 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   2 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   3 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   4 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   5 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   6 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   7 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   8 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   9 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  10 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  11 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  12 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  13 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  14 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  15 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  16 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  17 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  18 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  19 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  20 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  21 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  22 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  23 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  24 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  25 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  26 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  27 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  28 assigned to device CUDA0, is_swa = 0
-load_tensors: tensor 'token_embd.weight' (q6_K) (and 0 others) cannot be used with preferred buffer type CUDA_Host, using CPU instead
-load_tensors: offloading 28 repeating layers to GPU
-load_tensors: offloading output layer to GPU
-load_tensors: offloaded 29/29 layers to GPU
-load_tensors:        CUDA0 model buffer size =  2207.10 MiB
-load_tensors:   CPU_Mapped model buffer size =   308.23 MiB
-.............................................................................
-llama_context: constructing llama_context
-llama_context: n_seq_max     = 1
-llama_context: n_ctx         = 1024
-llama_context: n_ctx_per_seq = 1024
-llama_context: n_batch       = 128
-llama_context: n_ubatch      = 128
-llama_context: causal_attn   = 1
-llama_context: flash_attn    = 0
-llama_context: kv_unified    = false
-llama_context: freq_base     = 10000.0
-llama_context: freq_scale    = 1
-llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
-set_abort_callback: call
-llama_context:  CUDA_Host  output buffer size =     0.49 MiB
-create_memory: n_ctx = 1024 (padded)
-llama_kv_cache_unified: layer   0: dev = CUDA0
-llama_kv_cache_unified: layer   1: dev = CUDA0
-llama_kv_cache_unified: layer   2: dev = CUDA0
-llama_kv_cache_unified: layer   3: dev = CUDA0
-llama_kv_cache_unified: layer   4: dev = CUDA0
-llama_kv_cache_unified: layer   5: dev = CUDA0
-llama_kv_cache_unified: layer   6: dev = CUDA0
-llama_kv_cache_unified: layer   7: dev = CUDA0
-llama_kv_cache_unified: layer   8: dev = CUDA0
-llama_kv_cache_unified: layer   9: dev = CUDA0
-llama_kv_cache_unified: layer  10: dev = CUDA0
-llama_kv_cache_unified: layer  11: dev = CUDA0
-llama_kv_cache_unified: layer  12: dev = CUDA0
-llama_kv_cache_unified: layer  13: dev = CUDA0
-llama_kv_cache_unified: layer  14: dev = CUDA0
-llama_kv_cache_unified: layer  15: dev = CUDA0
-llama_kv_cache_unified: layer  16: dev = CUDA0
-llama_kv_cache_unified: layer  17: dev = CUDA0
-llama_kv_cache_unified: layer  18: dev = CUDA0
-llama_kv_cache_unified: layer  19: dev = CUDA0
-llama_kv_cache_unified: layer  20: dev = CUDA0
-llama_kv_cache_unified: layer  21: dev = CUDA0
-llama_kv_cache_unified: layer  22: dev = CUDA0
-llama_kv_cache_unified: layer  23: dev = CUDA0
-llama_kv_cache_unified: layer  24: dev = CUDA0
-llama_kv_cache_unified: layer  25: dev = CUDA0
-llama_kv_cache_unified: layer  26: dev = CUDA0
-llama_kv_cache_unified: layer  27: dev = CUDA0
-llama_kv_cache_unified:      CUDA0 KV buffer size =   112.00 MiB
-llama_kv_cache_unified: size =  112.00 MiB (  1024 cells,  28 layers,  1/1 seqs), K (f16):   56.00 MiB, V (f16):   56.00 MiB
-llama_context: enumerating backends
-llama_context: backend_ptrs.size() = 2
-llama_context: max_nodes = 2048
-llama_context: worst-case: n_tokens = 128, n_seqs = 1, n_outputs = 0
-graph_reserve: reserving a graph for ubatch with n_tokens =  128, n_seqs =  1, n_outputs =  128
-graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1
-graph_reserve: reserving a graph for ubatch with n_tokens =  128, n_seqs =  1, n_outputs =  128
-llama_context:      CUDA0 compute buffer size =    64.12 MiB
-llama_context:  CUDA_Host compute buffer size =     3.00 MiB
-llama_context: graph nodes  = 986
-llama_context: graph splits = 2
-CUDA : ARCHS = 890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
-Model metadata: {'llama.embedding_length': '3072', 'llama.feed_forward_length': '8192', 'general.license': 'llama3.2', 'llama.attention.value_length': '128', 'general.size_label': '3B', 'general.type': 'model', 'quantize.imatrix.chunks_count': '125', 'llama.context_length': '131072', 'general.name': 'Llama 3.2 3B Instruct', 'tokenizer.ggml.bos_token_id': '128000', 'general.basename': 'Llama-3.2', 'general.architecture': 'llama', 'llama.rope.freq_base': '500000.000000', 'llama.block_count': '28', 'llama.attention.head_count': '24', 'llama.attention.key_length': '128', 'general.finetune': 'Instruct', 'general.file_type': '17', 'tokenizer.ggml.pre': 'llama-bpe', 'llama.vocab_size': '128256', 'tokenizer.ggml.model': 'gpt2', 'general.quantization_version': '2', 'llama.attention.layer_norm_rms_epsilon': '0.000010', 'tokenizer.ggml.eos_token_id': '128009', 'tokenizer.chat_template': '{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now("%d %b %Y") %}\n    {%- else %}\n        {%- set date_string = "26 Jul 2024" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0][\'role\'] == \'system\' %}\n    {%- set system_message = messages[0][\'content\']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = "" %}\n{%- endif %}\n\n{#- System message #}\n{{- "<|start_header_id|>system<|end_header_id|>\\n\\n" }}\n{%- if tools is not none %}\n    {{- "Environment: ipython\\n" }}\n{%- endif %}\n{{- "Cutting Knowledge Date: December 2023\\n" }}\n{{- "Today Date: " + date_string + "\\n\\n" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- "You have access to the following functions. To call a function, please respond with JSON for a function call." }}\n    {{- \'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.\' }}\n    {{- "Do not use variables.\\n\\n" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- "\\n\\n" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- "<|eot_id|>" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0][\'content\']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception("Cannot put tools in the first user message when there\'s no first user message!") }}\n{%- endif %}\n    {{- \'<|start_header_id|>user<|end_header_id|>\\n\\n\' -}}\n    {{- "Given the following functions, please respond with a JSON for a function call " }}\n    {{- "with its proper arguments that best answers the given prompt.\\n\\n" }}\n    {{- \'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.\' }}\n    {{- "Do not use variables.\\n\\n" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- "\\n\\n" }}\n    {%- endfor %}\n    {{- first_user_message + "<|eot_id|>"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == \'ipython\' or message.role == \'tool\' or \'tool_calls\' in message) %}\n        {{- \'<|start_header_id|>\' + message[\'role\'] + \'<|end_header_id|>\\n\\n\'+ message[\'content\'] | trim + \'<|eot_id|>\' }}\n    {%- elif \'tool_calls\' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception("This model only supports single tool-calls at once!") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- \'<|start_header_id|>assistant<|end_header_id|>\\n\\n\' -}}\n        {{- \'{"name": "\' + tool_call.name + \'", \' }}\n        {{- \'"parameters": \' }}\n        {{- tool_call.arguments | tojson }}\n        {{- "}" }}\n        {{- "<|eot_id|>" }}\n    {%- elif message.role == "tool" or message.role == "ipython" %}\n        {{- "<|start_header_id|>ipython<|end_header_id|>\\n\\n" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- "<|eot_id|>" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- \'<|start_header_id|>assistant<|end_header_id|>\\n\\n\' }}\n{%- endif %}\n', 'llama.rope.dimension_count': '128', 'quantize.imatrix.file': '/models_out/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct.imatrix', 'quantize.imatrix.dataset': '/training_dir/calibration_datav3.txt', 'llama.attention.head_count_kv': '8', 'quantize.imatrix.entries_count': '196'}
-Available chat formats from metadata: chat_template.default
-Using gguf chat template: {{- bos_token }}
-{%- if custom_tools is defined %}
-    {%- set tools = custom_tools %}
-{%- endif %}
-{%- if not tools_in_user_message is defined %}
-    {%- set tools_in_user_message = true %}
-{%- endif %}
-{%- if not date_string is defined %}
-    {%- if strftime_now is defined %}
-        {%- set date_string = strftime_now("%d %b %Y") %}
-    {%- else %}
-        {%- set date_string = "26 Jul 2024" %}
-    {%- endif %}
-{%- endif %}
-{%- if not tools is defined %}
-    {%- set tools = none %}
-{%- endif %}
-
-{#- This block extracts the system message, so we can slot it into the right place. #}
-{%- if messages[0]['role'] == 'system' %}
-    {%- set system_message = messages[0]['content']|trim %}
-    {%- set messages = messages[1:] %}
-{%- else %}
-    {%- set system_message = "" %}
-{%- endif %}
-
-{#- System message #}
-{{- "<|start_header_id|>system<|end_header_id|>\n\n" }}
-{%- if tools is not none %}
-    {{- "Environment: ipython\n" }}
-{%- endif %}
-{{- "Cutting Knowledge Date: December 2023\n" }}
-{{- "Today Date: " + date_string + "\n\n" }}
-{%- if tools is not none and not tools_in_user_message %}
-    {{- "You have access to the following functions. To call a function, please respond with JSON for a function call." }}
-    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
-    {{- "Do not use variables.\n\n" }}
-    {%- for t in tools %}
-        {{- t | tojson(indent=4) }}
-        {{- "\n\n" }}
-    {%- endfor %}
-{%- endif %}
-{{- system_message }}
-{{- "<|eot_id|>" }}
-
-{#- Custom tools are passed in a user message with some extra guidance #}
-{%- if tools_in_user_message and not tools is none %}
-    {#- Extract the first user message so we can plug it in here #}
-    {%- if messages | length != 0 %}
-        {%- set first_user_message = messages[0]['content']|trim %}
-        {%- set messages = messages[1:] %}
-    {%- else %}
-        {{- raise_exception("Cannot put tools in the first user message when there's no first user message!") }}
-{%- endif %}
-    {{- '<|start_header_id|>user<|end_header_id|>\n\n' -}}
-    {{- "Given the following functions, please respond with a JSON for a function call " }}
-    {{- "with its proper arguments that best answers the given prompt.\n\n" }}
-    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
-    {{- "Do not use variables.\n\n" }}
-    {%- for t in tools %}
-        {{- t | tojson(indent=4) }}
-        {{- "\n\n" }}
-    {%- endfor %}
-    {{- first_user_message + "<|eot_id|>"}}
-{%- endif %}
-
-{%- for message in messages %}
-    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}
-        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' }}
-    {%- elif 'tool_calls' in message %}
-        {%- if not message.tool_calls|length == 1 %}
-            {{- raise_exception("This model only supports single tool-calls at once!") }}
-        {%- endif %}
-        {%- set tool_call = message.tool_calls[0].function %}
-        {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' -}}
-        {{- '{"name": "' + tool_call.name + '", ' }}
-        {{- '"parameters": ' }}
-        {{- tool_call.arguments | tojson }}
-        {{- "}" }}
-        {{- "<|eot_id|>" }}
-    {%- elif message.role == "tool" or message.role == "ipython" %}
-        {{- "<|start_header_id|>ipython<|end_header_id|>\n\n" }}
-        {%- if message.content is mapping or message.content is iterable %}
-            {{- message.content | tojson }}
-        {%- else %}
-            {{- message.content }}
-        {%- endif %}
-        {{- "<|eot_id|>" }}
-    {%- endif %}
-{%- endfor %}
-{%- if add_generation_prompt %}
-    {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' }}
-{%- endif %}
-
-Using chat eos_token: <|eot_id|>
-Using chat bos_token: <|begin_of_text|>
-GPU LLM loaded Successfully
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =      94.68 ms /    83 tokens (    1.14 ms per token,   876.65 tokens per second)
-llama_perf_context_print:        eval time =      17.69 ms /     1 runs   (   17.69 ms per token,    56.52 tokens per second)
-llama_perf_context_print:       total time =     115.07 ms /    84 tokens
-llama_perf_context_print:    graphs reused =          0
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
-CODE REACH HERE 1️⃣
-CODE REACH HERE 2️⃣
-[DEBUG] Server reach sub_classify_other_intent
-Llama.generate: 27 prefix-match hit, remaining 132 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =      48.04 ms /   132 tokens (    0.36 ms per token,  2747.82 tokens per second)
-llama_perf_context_print:        eval time =      57.66 ms /     5 runs   (   11.53 ms per token,    86.72 tokens per second)
-llama_perf_context_print:       total time =     112.25 ms /   137 tokens
-llama_perf_context_print:    graphs reused =          3
-[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--b90a8ad3-5f3b-44ed-a937-723e1989e2de-0'
-[DEBUG] Raw LLM output: Response: chit-chat
-[DEBUG] logic reach in isinstance condition
-[DEBUG] match: <re.Match object; span=(0, 19), match='Response: chit-chat'>
-[DEBUG] extracted: chit-chat
-[DEBUG] category: chit-chat
-[DEBUG] category: chit-chat
-CODE REACH HERE 4️⃣
-SubType :  chit-chat
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-SERVER REACH HERE [classify_intent_service]
-Llama.generate: 27 prefix-match hit, remaining 62 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =      18.99 ms /    62 tokens (    0.31 ms per token,  3264.19 tokens per second)
-llama_perf_context_print:        eval time =      12.01 ms /     1 runs   (   12.01 ms per token,    83.28 tokens per second)
-llama_perf_context_print:       total time =      33.08 ms /    63 tokens
-llama_perf_context_print:    graphs reused =          0
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
-CODE REACH HERE 1️⃣
-CODE REACH HERE 2️⃣
-[DEBUG] Server reach sub_classify_other_intent
-Llama.generate: 27 prefix-match hit, remaining 138 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =      41.39 ms /   138 tokens (    0.30 ms per token,  3333.98 tokens per second)
-llama_perf_context_print:        eval time =      55.85 ms /     5 runs   (   11.17 ms per token,    89.52 tokens per second)
-llama_perf_context_print:       total time =     102.65 ms /   143 tokens
-llama_perf_context_print:    graphs reused =          4
-[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--803f214c-6857-43b9-ad20-e885d72bf5f5-0'
-[DEBUG] Raw LLM output: Response: computational-math
-[DEBUG] logic reach in isinstance condition
-[DEBUG] match: <re.Match object; span=(0, 28), match='Response: computational-math'>
-[DEBUG] extracted: computational-math
-[DEBUG] category: computational-math
-[DEBUG] category: computational-math
-CODE REACH HERE 4️⃣
-SubType :  computational-math
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-[DEBUG] Instance LLM initialization successfully
-Format Instructions:  
-Output valid JSON exactly like this example structure (replace with actual data):
-{
-  "events": [
-    {
-      "summary": "Example Meeting",
-      "date": "2025-10-10",
-      "startTime": "09:00",
-      "endTime": "10:00",
-      "duration_minutes": 60,
-      "timezone": "America/Los_Angeles",
-      "location": null,
-      "notes": null,
-      "displayTime": null
-    }
-  ],
-  "isComplete": true,
-  "fixes": null
-}
-
-format_instructions is found
-chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '1'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(client=<llama_cpp.llama.Llama object at 0x7f150b16ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
-| ChatLlamaCpp(client=<llama_cpp.llama.Llama object at 0x7f150b16ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
-| StrOutputParser())
-Llama.generate: 25 prefix-match hit, remaining 494 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =     120.24 ms /   494 tokens (    0.24 ms per token,  4108.38 tokens per second)
-llama_perf_context_print:        eval time =    1068.59 ms /    96 runs   (   11.13 ms per token,    89.84 tokens per second)
-llama_perf_context_print:       total time =    1288.14 ms /   590 tokens
-llama_perf_context_print:    graphs reused =         92
-Llama.generate: 25 prefix-match hit, remaining 309 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =      77.18 ms /   309 tokens (    0.25 ms per token,  4003.73 tokens per second)
-llama_perf_context_print:        eval time =     737.01 ms /    64 runs   (   11.52 ms per token,    86.84 tokens per second)
-llama_perf_context_print:       total time =     882.09 ms /   373 tokens
-llama_perf_context_print:    graphs reused =         61
-Refined Result from LLM :  {'events': [{'summary': None, 'date': '2025-10-11', 'startTime': '17:00'}], 'confirm': 'Meeting scheduled.', 'isComplete': True, 'fixes': ''}
-Passing clean up 
-[DEBUG] Complete parsing
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [32m200 OK[0m
-CODE REACH HERE 1️⃣
-[LOG] Condition 'add' met
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-[DEBUG] Instance LLM initialization successfully
-Format Instructions:  
-Output valid JSON exactly like this example structure (replace with actual data):
-{
-  "events": [
-    {
-      "summary": "Example Meeting",
-      "date": "2025-10-10",
-      "startTime": "09:00",
-      "endTime": "10:00",
-      "duration_minutes": 60,
-      "timezone": "America/Los_Angeles",
-      "location": null,
-      "notes": null,
-      "displayTime": null
-    }
-  ],
-  "isComplete": true,
-  "fixes": null
-}
-
-format_instructions is found
-chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '7'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(client=<llama_cpp.llama.Llama object at 0x7f150b16ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
-| ChatLlamaCpp(client=<llama_cpp.llama.Llama object at 0x7f150b16ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
-| StrOutputParser())
-Refinement error: Requested tokens (1488) exceed context window of 1024
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
-CODE REACH HERE 1️⃣
-[LOG] Condition 'add' met
-Llama.generate: 25 prefix-match hit, remaining 394 prompt tokens to eval
-MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
-Attempting GPU LLM with n_gpu_layers = -1
-ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
-ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
-ggml_cuda_init: found 1 CUDA devices:
-  Device 0: NVIDIA GeForce RTX 4060 Laptop GPU, compute capability 8.9, VMM: yes
-llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 4060 Laptop GPU) - 5170 MiB free
-llama_model_loader: loaded meta data with 35 key-value pairs and 255 tensors from /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf (version GGUF V3 (latest))
-llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
-llama_model_loader: - kv   0:                       general.architecture str              = llama
-llama_model_loader: - kv   1:                               general.type str              = model
-llama_model_loader: - kv   2:                               general.name str              = Llama 3.2 3B Instruct
-llama_model_loader: - kv   3:                           general.finetune str              = Instruct
-llama_model_loader: - kv   4:                           general.basename str              = Llama-3.2
-llama_model_loader: - kv   5:                         general.size_label str              = 3B
-llama_model_loader: - kv   6:                            general.license str              = llama3.2
-llama_model_loader: - kv   7:                               general.tags arr[str,6]       = ["facebook", "meta", "pytorch", "llam...
-llama_model_loader: - kv   8:                          general.languages arr[str,8]       = ["en", "de", "fr", "it", "pt", "hi", ...
-llama_model_loader: - kv   9:                          llama.block_count u32              = 28
-llama_model_loader: - kv  10:                       llama.context_length u32              = 131072
-llama_model_loader: - kv  11:                     llama.embedding_length u32              = 3072
-llama_model_loader: - kv  12:                  llama.feed_forward_length u32              = 8192
-llama_model_loader: - kv  13:                 llama.attention.head_count u32              = 24
-llama_model_loader: - kv  14:              llama.attention.head_count_kv u32              = 8
-llama_model_loader: - kv  15:                       llama.rope.freq_base f32              = 500000.000000
-llama_model_loader: - kv  16:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
-llama_model_loader: - kv  17:                 llama.attention.key_length u32              = 128
-llama_model_loader: - kv  18:               llama.attention.value_length u32              = 128
-llama_model_loader: - kv  19:                          general.file_type u32              = 17
-llama_model_loader: - kv  20:                           llama.vocab_size u32              = 128256
-llama_model_loader: - kv  21:                 llama.rope.dimension_count u32              = 128
-llama_model_loader: - kv  22:                       tokenizer.ggml.model str              = gpt2
-llama_model_loader: - kv  23:                         tokenizer.ggml.pre str              = llama-bpe
-llama_model_loader: - kv  24:                      tokenizer.ggml.tokens arr[str,128256]  = ["!", "\"", "#", "$", "%", "&", "'", ...
-llama_model_loader: - kv  25:                  tokenizer.ggml.token_type arr[i32,128256]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
-llama_model_loader: - kv  26:                      tokenizer.ggml.merges arr[str,280147]  = ["Ġ Ġ", "Ġ ĠĠĠ", "ĠĠ ĠĠ", "...
-llama_model_loader: - kv  27:                tokenizer.ggml.bos_token_id u32              = 128000
-llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 128009
-llama_model_loader: - kv  29:                    tokenizer.chat_template str              = {{- bos_token }}\n{%- if custom_tools ...
-llama_model_loader: - kv  30:               general.quantization_version u32              = 2
-llama_model_loader: - kv  31:                      quantize.imatrix.file str              = /models_out/Llama-3.2-3B-Instruct-GGU...
-llama_model_loader: - kv  32:                   quantize.imatrix.dataset str              = /training_dir/calibration_datav3.txt
-llama_model_loader: - kv  33:             quantize.imatrix.entries_count i32              = 196
-llama_model_loader: - kv  34:              quantize.imatrix.chunks_count i32              = 125
-llama_model_loader: - type  f32:   58 tensors
-llama_model_loader: - type q5_K:  168 tensors
-llama_model_loader: - type q6_K:   29 tensors
-print_info: file format = GGUF V3 (latest)
-print_info: file type   = Q5_K - Medium
-print_info: file size   = 2.16 GiB (5.76 BPW) 
-init_tokenizer: initializing tokenizer for type 2
-load: control token: 128254 '<|reserved_special_token_246|>' is not marked as EOG
-load: control token: 128249 '<|reserved_special_token_241|>' is not marked as EOG
-load: control token: 128246 '<|reserved_special_token_238|>' is not marked as EOG
-load: control token: 128243 '<|reserved_special_token_235|>' is not marked as EOG
-load: control token: 128242 '<|reserved_special_token_234|>' is not marked as EOG
-load: control token: 128241 '<|reserved_special_token_233|>' is not marked as EOG
-load: control token: 128240 '<|reserved_special_token_232|>' is not marked as EOG
-load: control token: 128235 '<|reserved_special_token_227|>' is not marked as EOG
-load: control token: 128231 '<|reserved_special_token_223|>' is not marked as EOG
-load: control token: 128230 '<|reserved_special_token_222|>' is not marked as EOG
-load: control token: 128228 '<|reserved_special_token_220|>' is not marked as EOG
-load: control token: 128225 '<|reserved_special_token_217|>' is not marked as EOG
-load: control token: 128218 '<|reserved_special_token_210|>' is not marked as EOG
-load: control token: 128214 '<|reserved_special_token_206|>' is not marked as EOG
-load: control token: 128213 '<|reserved_special_token_205|>' is not marked as EOG
-load: control token: 128207 '<|reserved_special_token_199|>' is not marked as EOG
-load: control token: 128206 '<|reserved_special_token_198|>' is not marked as EOG
-load: control token: 128204 '<|reserved_special_token_196|>' is not marked as EOG
-load: control token: 128200 '<|reserved_special_token_192|>' is not marked as EOG
-load: control token: 128199 '<|reserved_special_token_191|>' is not marked as EOG
-load: control token: 128198 '<|reserved_special_token_190|>' is not marked as EOG
-load: control token: 128196 '<|reserved_special_token_188|>' is not marked as EOG
-load: control token: 128194 '<|reserved_special_token_186|>' is not marked as EOG
-load: control token: 128193 '<|reserved_special_token_185|>' is not marked as EOG
-load: control token: 128188 '<|reserved_special_token_180|>' is not marked as EOG
-load: control token: 128187 '<|reserved_special_token_179|>' is not marked as EOG
-load: control token: 128185 '<|reserved_special_token_177|>' is not marked as EOG
-load: control token: 128184 '<|reserved_special_token_176|>' is not marked as EOG
-load: control token: 128180 '<|reserved_special_token_172|>' is not marked as EOG
-load: control token: 128179 '<|reserved_special_token_171|>' is not marked as EOG
-load: control token: 128178 '<|reserved_special_token_170|>' is not marked as EOG
-load: control token: 128177 '<|reserved_special_token_169|>' is not marked as EOG
-load: control token: 128176 '<|reserved_special_token_168|>' is not marked as EOG
-load: control token: 128175 '<|reserved_special_token_167|>' is not marked as EOG
-load: control token: 128171 '<|reserved_special_token_163|>' is not marked as EOG
-load: control token: 128170 '<|reserved_special_token_162|>' is not marked as EOG
-load: control token: 128169 '<|reserved_special_token_161|>' is not marked as EOG
-load: control token: 128168 '<|reserved_special_token_160|>' is not marked as EOG
-load: control token: 128165 '<|reserved_special_token_157|>' is not marked as EOG
-load: control token: 128162 '<|reserved_special_token_154|>' is not marked as EOG
-load: control token: 128158 '<|reserved_special_token_150|>' is not marked as EOG
-load: control token: 128156 '<|reserved_special_token_148|>' is not marked as EOG
-load: control token: 128155 '<|reserved_special_token_147|>' is not marked as EOG
-load: control token: 128154 '<|reserved_special_token_146|>' is not marked as EOG
-load: control token: 128151 '<|reserved_special_token_143|>' is not marked as EOG
-load: control token: 128149 '<|reserved_special_token_141|>' is not marked as EOG
-load: control token: 128147 '<|reserved_special_token_139|>' is not marked as EOG
-load: control token: 128146 '<|reserved_special_token_138|>' is not marked as EOG
-load: control token: 128144 '<|reserved_special_token_136|>' is not marked as EOG
-load: control token: 128142 '<|reserved_special_token_134|>' is not marked as EOG
-load: control token: 128141 '<|reserved_special_token_133|>' is not marked as EOG
-load: control token: 128138 '<|reserved_special_token_130|>' is not marked as EOG
-load: control token: 128136 '<|reserved_special_token_128|>' is not marked as EOG
-load: control token: 128135 '<|reserved_special_token_127|>' is not marked as EOG
-load: control token: 128134 '<|reserved_special_token_126|>' is not marked as EOG
-load: control token: 128133 '<|reserved_special_token_125|>' is not marked as EOG
-load: control token: 128131 '<|reserved_special_token_123|>' is not marked as EOG
-load: control token: 128128 '<|reserved_special_token_120|>' is not marked as EOG
-load: control token: 128124 '<|reserved_special_token_116|>' is not marked as EOG
-load: control token: 128123 '<|reserved_special_token_115|>' is not marked as EOG
-load: control token: 128122 '<|reserved_special_token_114|>' is not marked as EOG
-load: control token: 128119 '<|reserved_special_token_111|>' is not marked as EOG
-load: control token: 128115 '<|reserved_special_token_107|>' is not marked as EOG
-load: control token: 128112 '<|reserved_special_token_104|>' is not marked as EOG
-load: control token: 128110 '<|reserved_special_token_102|>' is not marked as EOG
-load: control token: 128109 '<|reserved_special_token_101|>' is not marked as EOG
-load: control token: 128108 '<|reserved_special_token_100|>' is not marked as EOG
-load: control token: 128106 '<|reserved_special_token_98|>' is not marked as EOG
-load: control token: 128103 '<|reserved_special_token_95|>' is not marked as EOG
-load: control token: 128102 '<|reserved_special_token_94|>' is not marked as EOG
-load: control token: 128101 '<|reserved_special_token_93|>' is not marked as EOG
-load: control token: 128097 '<|reserved_special_token_89|>' is not marked as EOG
-load: control token: 128091 '<|reserved_special_token_83|>' is not marked as EOG
-load: control token: 128090 '<|reserved_special_token_82|>' is not marked as EOG
-load: control token: 128089 '<|reserved_special_token_81|>' is not marked as EOG
-load: control token: 128087 '<|reserved_special_token_79|>' is not marked as EOG
-load: control token: 128085 '<|reserved_special_token_77|>' is not marked as EOG
-load: control token: 128081 '<|reserved_special_token_73|>' is not marked as EOG
-load: control token: 128078 '<|reserved_special_token_70|>' is not marked as EOG
-load: control token: 128076 '<|reserved_special_token_68|>' is not marked as EOG
-load: control token: 128075 '<|reserved_special_token_67|>' is not marked as EOG
-load: control token: 128073 '<|reserved_special_token_65|>' is not marked as EOG
-load: control token: 128068 '<|reserved_special_token_60|>' is not marked as EOG
-load: control token: 128067 '<|reserved_special_token_59|>' is not marked as EOG
-load: control token: 128065 '<|reserved_special_token_57|>' is not marked as EOG
-load: control token: 128063 '<|reserved_special_token_55|>' is not marked as EOG
-load: control token: 128062 '<|reserved_special_token_54|>' is not marked as EOG
-load: control token: 128060 '<|reserved_special_token_52|>' is not marked as EOG
-load: control token: 128059 '<|reserved_special_token_51|>' is not marked as EOG
-load: control token: 128057 '<|reserved_special_token_49|>' is not marked as EOG
-load: control token: 128054 '<|reserved_special_token_46|>' is not marked as EOG
-load: control token: 128046 '<|reserved_special_token_38|>' is not marked as EOG
-load: control token: 128045 '<|reserved_special_token_37|>' is not marked as EOG
-load: control token: 128044 '<|reserved_special_token_36|>' is not marked as EOG
-load: control token: 128043 '<|reserved_special_token_35|>' is not marked as EOG
-load: control token: 128038 '<|reserved_special_token_30|>' is not marked as EOG
-load: control token: 128036 '<|reserved_special_token_28|>' is not marked as EOG
-load: control token: 128035 '<|reserved_special_token_27|>' is not marked as EOG
-load: control token: 128032 '<|reserved_special_token_24|>' is not marked as EOG
-load: control token: 128028 '<|reserved_special_token_20|>' is not marked as EOG
-load: control token: 128027 '<|reserved_special_token_19|>' is not marked as EOG
-load: control token: 128024 '<|reserved_special_token_16|>' is not marked as EOG
-load: control token: 128023 '<|reserved_special_token_15|>' is not marked as EOG
-load: control token: 128022 '<|reserved_special_token_14|>' is not marked as EOG
-load: control token: 128021 '<|reserved_special_token_13|>' is not marked as EOG
-load: control token: 128018 '<|reserved_special_token_10|>' is not marked as EOG
-load: control token: 128016 '<|reserved_special_token_8|>' is not marked as EOG
-load: control token: 128015 '<|reserved_special_token_7|>' is not marked as EOG
-load: control token: 128013 '<|reserved_special_token_5|>' is not marked as EOG
-load: control token: 128011 '<|reserved_special_token_3|>' is not marked as EOG
-load: control token: 128005 '<|reserved_special_token_2|>' is not marked as EOG
-load: control token: 128004 '<|finetune_right_pad_id|>' is not marked as EOG
-load: control token: 128002 '<|reserved_special_token_0|>' is not marked as EOG
-load: control token: 128252 '<|reserved_special_token_244|>' is not marked as EOG
-load: control token: 128190 '<|reserved_special_token_182|>' is not marked as EOG
-load: control token: 128183 '<|reserved_special_token_175|>' is not marked as EOG
-load: control token: 128137 '<|reserved_special_token_129|>' is not marked as EOG
-load: control token: 128182 '<|reserved_special_token_174|>' is not marked as EOG
-load: control token: 128040 '<|reserved_special_token_32|>' is not marked as EOG
-load: control token: 128048 '<|reserved_special_token_40|>' is not marked as EOG
-load: control token: 128092 '<|reserved_special_token_84|>' is not marked as EOG
-load: control token: 128215 '<|reserved_special_token_207|>' is not marked as EOG
-load: control token: 128107 '<|reserved_special_token_99|>' is not marked as EOG
-load: control token: 128208 '<|reserved_special_token_200|>' is not marked as EOG
-load: control token: 128145 '<|reserved_special_token_137|>' is not marked as EOG
-load: control token: 128031 '<|reserved_special_token_23|>' is not marked as EOG
-load: control token: 128129 '<|reserved_special_token_121|>' is not marked as EOG
-load: control token: 128201 '<|reserved_special_token_193|>' is not marked as EOG
-load: control token: 128074 '<|reserved_special_token_66|>' is not marked as EOG
-load: control token: 128095 '<|reserved_special_token_87|>' is not marked as EOG
-load: control token: 128186 '<|reserved_special_token_178|>' is not marked as EOG
-load: control token: 128143 '<|reserved_special_token_135|>' is not marked as EOG
-load: control token: 128229 '<|reserved_special_token_221|>' is not marked as EOG
-load: control token: 128007 '<|end_header_id|>' is not marked as EOG
-load: control token: 128055 '<|reserved_special_token_47|>' is not marked as EOG
-load: control token: 128056 '<|reserved_special_token_48|>' is not marked as EOG
-load: control token: 128061 '<|reserved_special_token_53|>' is not marked as EOG
-load: control token: 128153 '<|reserved_special_token_145|>' is not marked as EOG
-load: control token: 128152 '<|reserved_special_token_144|>' is not marked as EOG
-load: control token: 128212 '<|reserved_special_token_204|>' is not marked as EOG
-load: control token: 128172 '<|reserved_special_token_164|>' is not marked as EOG
-load: control token: 128160 '<|reserved_special_token_152|>' is not marked as EOG
-load: control token: 128041 '<|reserved_special_token_33|>' is not marked as EOG
-load: control token: 128181 '<|reserved_special_token_173|>' is not marked as EOG
-load: control token: 128094 '<|reserved_special_token_86|>' is not marked as EOG
-load: control token: 128118 '<|reserved_special_token_110|>' is not marked as EOG
-load: control token: 128236 '<|reserved_special_token_228|>' is not marked as EOG
-load: control token: 128148 '<|reserved_special_token_140|>' is not marked as EOG
-load: control token: 128042 '<|reserved_special_token_34|>' is not marked as EOG
-load: control token: 128139 '<|reserved_special_token_131|>' is not marked as EOG
-load: control token: 128173 '<|reserved_special_token_165|>' is not marked as EOG
-load: control token: 128239 '<|reserved_special_token_231|>' is not marked as EOG
-load: control token: 128157 '<|reserved_special_token_149|>' is not marked as EOG
-load: control token: 128052 '<|reserved_special_token_44|>' is not marked as EOG
-load: control token: 128026 '<|reserved_special_token_18|>' is not marked as EOG
-load: control token: 128003 '<|reserved_special_token_1|>' is not marked as EOG
-load: control token: 128019 '<|reserved_special_token_11|>' is not marked as EOG
-load: control token: 128116 '<|reserved_special_token_108|>' is not marked as EOG
-load: control token: 128161 '<|reserved_special_token_153|>' is not marked as EOG
-load: control token: 128226 '<|reserved_special_token_218|>' is not marked as EOG
-load: control token: 128159 '<|reserved_special_token_151|>' is not marked as EOG
-load: control token: 128012 '<|reserved_special_token_4|>' is not marked as EOG
-load: control token: 128088 '<|reserved_special_token_80|>' is not marked as EOG
-load: control token: 128163 '<|reserved_special_token_155|>' is not marked as EOG
-load: control token: 128113 '<|reserved_special_token_105|>' is not marked as EOG
-load: control token: 128250 '<|reserved_special_token_242|>' is not marked as EOG
-load: control token: 128125 '<|reserved_special_token_117|>' is not marked as EOG
-load: control token: 128053 '<|reserved_special_token_45|>' is not marked as EOG
-load: control token: 128224 '<|reserved_special_token_216|>' is not marked as EOG
-load: control token: 128247 '<|reserved_special_token_239|>' is not marked as EOG
-load: control token: 128251 '<|reserved_special_token_243|>' is not marked as EOG
-load: control token: 128216 '<|reserved_special_token_208|>' is not marked as EOG
-load: control token: 128006 '<|start_header_id|>' is not marked as EOG
-load: control token: 128211 '<|reserved_special_token_203|>' is not marked as EOG
-load: control token: 128077 '<|reserved_special_token_69|>' is not marked as EOG
-load: control token: 128237 '<|reserved_special_token_229|>' is not marked as EOG
-load: control token: 128086 '<|reserved_special_token_78|>' is not marked as EOG
-load: control token: 128227 '<|reserved_special_token_219|>' is not marked as EOG
-load: control token: 128058 '<|reserved_special_token_50|>' is not marked as EOG
-load: control token: 128100 '<|reserved_special_token_92|>' is not marked as EOG
-load: control token: 128209 '<|reserved_special_token_201|>' is not marked as EOG
-load: control token: 128084 '<|reserved_special_token_76|>' is not marked as EOG
-load: control token: 128071 '<|reserved_special_token_63|>' is not marked as EOG
-load: control token: 128070 '<|reserved_special_token_62|>' is not marked as EOG
-load: control token: 128049 '<|reserved_special_token_41|>' is not marked as EOG
-load: control token: 128197 '<|reserved_special_token_189|>' is not marked as EOG
-load: control token: 128072 '<|reserved_special_token_64|>' is not marked as EOG
-load: control token: 128000 '<|begin_of_text|>' is not marked as EOG
-load: control token: 128223 '<|reserved_special_token_215|>' is not marked as EOG
-load: control token: 128217 '<|reserved_special_token_209|>' is not marked as EOG
-load: control token: 128111 '<|reserved_special_token_103|>' is not marked as EOG
-load: control token: 128203 '<|reserved_special_token_195|>' is not marked as EOG
-load: control token: 128051 '<|reserved_special_token_43|>' is not marked as EOG
-load: control token: 128030 '<|reserved_special_token_22|>' is not marked as EOG
-load: control token: 128117 '<|reserved_special_token_109|>' is not marked as EOG
-load: control token: 128010 '<|python_tag|>' is not marked as EOG
-load: control token: 128238 '<|reserved_special_token_230|>' is not marked as EOG
-load: control token: 128255 '<|reserved_special_token_247|>' is not marked as EOG
-load: control token: 128202 '<|reserved_special_token_194|>' is not marked as EOG
-load: control token: 128132 '<|reserved_special_token_124|>' is not marked as EOG
-load: control token: 128248 '<|reserved_special_token_240|>' is not marked as EOG
-load: control token: 128167 '<|reserved_special_token_159|>' is not marked as EOG
-load: control token: 128127 '<|reserved_special_token_119|>' is not marked as EOG
-load: control token: 128105 '<|reserved_special_token_97|>' is not marked as EOG
-load: control token: 128039 '<|reserved_special_token_31|>' is not marked as EOG
-load: control token: 128232 '<|reserved_special_token_224|>' is not marked as EOG
-load: control token: 128166 '<|reserved_special_token_158|>' is not marked as EOG
-load: control token: 128130 '<|reserved_special_token_122|>' is not marked as EOG
-load: control token: 128114 '<|reserved_special_token_106|>' is not marked as EOG
-load: control token: 128234 '<|reserved_special_token_226|>' is not marked as EOG
-load: control token: 128191 '<|reserved_special_token_183|>' is not marked as EOG
-load: control token: 128064 '<|reserved_special_token_56|>' is not marked as EOG
-load: control token: 128140 '<|reserved_special_token_132|>' is not marked as EOG
-load: control token: 128096 '<|reserved_special_token_88|>' is not marked as EOG
-load: control token: 128098 '<|reserved_special_token_90|>' is not marked as EOG
-load: control token: 128192 '<|reserved_special_token_184|>' is not marked as EOG
-load: control token: 128093 '<|reserved_special_token_85|>' is not marked as EOG
-load: control token: 128150 '<|reserved_special_token_142|>' is not marked as EOG
-load: control token: 128222 '<|reserved_special_token_214|>' is not marked as EOG
-load: control token: 128233 '<|reserved_special_token_225|>' is not marked as EOG
-load: control token: 128220 '<|reserved_special_token_212|>' is not marked as EOG
-load: control token: 128034 '<|reserved_special_token_26|>' is not marked as EOG
-load: control token: 128033 '<|reserved_special_token_25|>' is not marked as EOG
-load: control token: 128253 '<|reserved_special_token_245|>' is not marked as EOG
-load: control token: 128195 '<|reserved_special_token_187|>' is not marked as EOG
-load: control token: 128099 '<|reserved_special_token_91|>' is not marked as EOG
-load: control token: 128189 '<|reserved_special_token_181|>' is not marked as EOG
-load: control token: 128210 '<|reserved_special_token_202|>' is not marked as EOG
-load: control token: 128174 '<|reserved_special_token_166|>' is not marked as EOG
-load: control token: 128083 '<|reserved_special_token_75|>' is not marked as EOG
-load: control token: 128080 '<|reserved_special_token_72|>' is not marked as EOG
-load: control token: 128104 '<|reserved_special_token_96|>' is not marked as EOG
-load: control token: 128082 '<|reserved_special_token_74|>' is not marked as EOG
-load: control token: 128219 '<|reserved_special_token_211|>' is not marked as EOG
-load: control token: 128017 '<|reserved_special_token_9|>' is not marked as EOG
-load: control token: 128050 '<|reserved_special_token_42|>' is not marked as EOG
-load: control token: 128205 '<|reserved_special_token_197|>' is not marked as EOG
-load: control token: 128047 '<|reserved_special_token_39|>' is not marked as EOG
-load: control token: 128164 '<|reserved_special_token_156|>' is not marked as EOG
-load: control token: 128020 '<|reserved_special_token_12|>' is not marked as EOG
-load: control token: 128069 '<|reserved_special_token_61|>' is not marked as EOG
-load: control token: 128245 '<|reserved_special_token_237|>' is not marked as EOG
-load: control token: 128121 '<|reserved_special_token_113|>' is not marked as EOG
-load: control token: 128079 '<|reserved_special_token_71|>' is not marked as EOG
-load: control token: 128037 '<|reserved_special_token_29|>' is not marked as EOG
-load: control token: 128244 '<|reserved_special_token_236|>' is not marked as EOG
-load: control token: 128029 '<|reserved_special_token_21|>' is not marked as EOG
-load: control token: 128221 '<|reserved_special_token_213|>' is not marked as EOG
-load: control token: 128066 '<|reserved_special_token_58|>' is not marked as EOG
-load: control token: 128120 '<|reserved_special_token_112|>' is not marked as EOG
-load: control token: 128014 '<|reserved_special_token_6|>' is not marked as EOG
-load: control token: 128025 '<|reserved_special_token_17|>' is not marked as EOG
-load: control token: 128126 '<|reserved_special_token_118|>' is not marked as EOG
-load: printing all EOG tokens:
-load:   - 128001 ('<|end_of_text|>')
-load:   - 128008 ('<|eom_id|>')
-load:   - 128009 ('<|eot_id|>')
-load: special tokens cache size = 256
-load: token to piece cache size = 0.7999 MB
-print_info: arch             = llama
-print_info: vocab_only       = 0
-print_info: n_ctx_train      = 131072
-print_info: n_embd           = 3072
-print_info: n_layer          = 28
-print_info: n_head           = 24
-print_info: n_head_kv        = 8
-print_info: n_rot            = 128
-print_info: n_swa            = 0
-print_info: is_swa_any       = 0
-print_info: n_embd_head_k    = 128
-print_info: n_embd_head_v    = 128
-print_info: n_gqa            = 3
-print_info: n_embd_k_gqa     = 1024
-print_info: n_embd_v_gqa     = 1024
-print_info: f_norm_eps       = 0.0e+00
-print_info: f_norm_rms_eps   = 1.0e-05
-print_info: f_clamp_kqv      = 0.0e+00
-print_info: f_max_alibi_bias = 0.0e+00
-print_info: f_logit_scale    = 0.0e+00
-print_info: f_attn_scale     = 0.0e+00
-print_info: n_ff             = 8192
-print_info: n_expert         = 0
-print_info: n_expert_used    = 0
-print_info: causal attn      = 1
-print_info: pooling type     = 0
-print_info: rope type        = 0
-print_info: rope scaling     = linear
-print_info: freq_base_train  = 500000.0
-print_info: freq_scale_train = 1
-print_info: n_ctx_orig_yarn  = 131072
-print_info: rope_finetuned   = unknown
-print_info: model type       = 3B
-print_info: model params     = 3.21 B
-print_info: general.name     = Llama 3.2 3B Instruct
-print_info: vocab type       = BPE
-print_info: n_vocab          = 128256
-print_info: n_merges         = 280147
-print_info: BOS token        = 128000 '<|begin_of_text|>'
-print_info: EOS token        = 128009 '<|eot_id|>'
-print_info: EOT token        = 128009 '<|eot_id|>'
-print_info: EOM token        = 128008 '<|eom_id|>'
-print_info: LF token         = 198 'Ċ'
-print_info: EOG token        = 128001 '<|end_of_text|>'
-print_info: EOG token        = 128008 '<|eom_id|>'
-print_info: EOG token        = 128009 '<|eot_id|>'
-print_info: max token length = 256
-load_tensors: loading model tensors, this can take a while... (mmap = true)
-load_tensors: layer   0 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   1 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   2 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   3 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   4 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   5 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   6 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   7 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   8 assigned to device CUDA0, is_swa = 0
-load_tensors: layer   9 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  10 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  11 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  12 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  13 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  14 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  15 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  16 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  17 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  18 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  19 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  20 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  21 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  22 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  23 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  24 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  25 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  26 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  27 assigned to device CUDA0, is_swa = 0
-load_tensors: layer  28 assigned to device CUDA0, is_swa = 0
-load_tensors: tensor 'token_embd.weight' (q6_K) (and 0 others) cannot be used with preferred buffer type CUDA_Host, using CPU instead
-load_tensors: offloading 28 repeating layers to GPU
-load_tensors: offloading output layer to GPU
-load_tensors: offloaded 29/29 layers to GPU
-load_tensors:        CUDA0 model buffer size =  2207.10 MiB
-load_tensors:   CPU_Mapped model buffer size =   308.23 MiB
-.............................................................................
-llama_context: constructing llama_context
-llama_context: n_seq_max     = 1
-llama_context: n_ctx         = 1024
-llama_context: n_ctx_per_seq = 1024
-llama_context: n_batch       = 128
-llama_context: n_ubatch      = 128
-llama_context: causal_attn   = 1
-llama_context: flash_attn    = 0
-llama_context: kv_unified    = false
-llama_context: freq_base     = 10000.0
-llama_context: freq_scale    = 1
-llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
-set_abort_callback: call
-llama_context:  CUDA_Host  output buffer size =     0.49 MiB
-create_memory: n_ctx = 1024 (padded)
-llama_kv_cache_unified: layer   0: dev = CUDA0
-llama_kv_cache_unified: layer   1: dev = CUDA0
-llama_kv_cache_unified: layer   2: dev = CUDA0
-llama_kv_cache_unified: layer   3: dev = CUDA0
-llama_kv_cache_unified: layer   4: dev = CUDA0
-llama_kv_cache_unified: layer   5: dev = CUDA0
-llama_kv_cache_unified: layer   6: dev = CUDA0
-llama_kv_cache_unified: layer   7: dev = CUDA0
-llama_kv_cache_unified: layer   8: dev = CUDA0
-llama_kv_cache_unified: layer   9: dev = CUDA0
-llama_kv_cache_unified: layer  10: dev = CUDA0
-llama_kv_cache_unified: layer  11: dev = CUDA0
-llama_kv_cache_unified: layer  12: dev = CUDA0
-llama_kv_cache_unified: layer  13: dev = CUDA0
-llama_kv_cache_unified: layer  14: dev = CUDA0
-llama_kv_cache_unified: layer  15: dev = CUDA0
-llama_kv_cache_unified: layer  16: dev = CUDA0
-llama_kv_cache_unified: layer  17: dev = CUDA0
-llama_kv_cache_unified: layer  18: dev = CUDA0
-llama_kv_cache_unified: layer  19: dev = CUDA0
-llama_kv_cache_unified: layer  20: dev = CUDA0
-llama_kv_cache_unified: layer  21: dev = CUDA0
-llama_kv_cache_unified: layer  22: dev = CUDA0
-llama_kv_cache_unified: layer  23: dev = CUDA0
-llama_kv_cache_unified: layer  24: dev = CUDA0
-llama_kv_cache_unified: layer  25: dev = CUDA0
-llama_kv_cache_unified: layer  26: dev = CUDA0
-llama_kv_cache_unified: layer  27: dev = CUDA0
-llama_kv_cache_unified:      CUDA0 KV buffer size =   112.00 MiB
-llama_kv_cache_unified: size =  112.00 MiB (  1024 cells,  28 layers,  1/1 seqs), K (f16):   56.00 MiB, V (f16):   56.00 MiB
-llama_context: enumerating backends
-llama_context: backend_ptrs.size() = 2
-llama_context: max_nodes = 2048
-llama_context: worst-case: n_tokens = 128, n_seqs = 1, n_outputs = 0
-graph_reserve: reserving a graph for ubatch with n_tokens =  128, n_seqs =  1, n_outputs =  128
-graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1
-graph_reserve: reserving a graph for ubatch with n_tokens =  128, n_seqs =  1, n_outputs =  128
-llama_context:      CUDA0 compute buffer size =    64.12 MiB
-llama_context:  CUDA_Host compute buffer size =     3.00 MiB
-llama_context: graph nodes  = 986
-llama_context: graph splits = 2
-CUDA : ARCHS = 890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
-Model metadata: {'llama.embedding_length': '3072', 'llama.feed_forward_length': '8192', 'general.license': 'llama3.2', 'llama.attention.value_length': '128', 'general.size_label': '3B', 'general.type': 'model', 'quantize.imatrix.chunks_count': '125', 'llama.context_length': '131072', 'general.name': 'Llama 3.2 3B Instruct', 'tokenizer.ggml.bos_token_id': '128000', 'general.basename': 'Llama-3.2', 'general.architecture': 'llama', 'llama.rope.freq_base': '500000.000000', 'llama.block_count': '28', 'llama.attention.head_count': '24', 'llama.attention.key_length': '128', 'general.finetune': 'Instruct', 'general.file_type': '17', 'tokenizer.ggml.pre': 'llama-bpe', 'llama.vocab_size': '128256', 'tokenizer.ggml.model': 'gpt2', 'general.quantization_version': '2', 'llama.attention.layer_norm_rms_epsilon': '0.000010', 'tokenizer.ggml.eos_token_id': '128009', 'tokenizer.chat_template': '{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now("%d %b %Y") %}\n    {%- else %}\n        {%- set date_string = "26 Jul 2024" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0][\'role\'] == \'system\' %}\n    {%- set system_message = messages[0][\'content\']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = "" %}\n{%- endif %}\n\n{#- System message #}\n{{- "<|start_header_id|>system<|end_header_id|>\\n\\n" }}\n{%- if tools is not none %}\n    {{- "Environment: ipython\\n" }}\n{%- endif %}\n{{- "Cutting Knowledge Date: December 2023\\n" }}\n{{- "Today Date: " + date_string + "\\n\\n" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- "You have access to the following functions. To call a function, please respond with JSON for a function call." }}\n    {{- \'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.\' }}\n    {{- "Do not use variables.\\n\\n" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- "\\n\\n" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- "<|eot_id|>" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0][\'content\']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception("Cannot put tools in the first user message when there\'s no first user message!") }}\n{%- endif %}\n    {{- \'<|start_header_id|>user<|end_header_id|>\\n\\n\' -}}\n    {{- "Given the following functions, please respond with a JSON for a function call " }}\n    {{- "with its proper arguments that best answers the given prompt.\\n\\n" }}\n    {{- \'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.\' }}\n    {{- "Do not use variables.\\n\\n" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- "\\n\\n" }}\n    {%- endfor %}\n    {{- first_user_message + "<|eot_id|>"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == \'ipython\' or message.role == \'tool\' or \'tool_calls\' in message) %}\n        {{- \'<|start_header_id|>\' + message[\'role\'] + \'<|end_header_id|>\\n\\n\'+ message[\'content\'] | trim + \'<|eot_id|>\' }}\n    {%- elif \'tool_calls\' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception("This model only supports single tool-calls at once!") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- \'<|start_header_id|>assistant<|end_header_id|>\\n\\n\' -}}\n        {{- \'{"name": "\' + tool_call.name + \'", \' }}\n        {{- \'"parameters": \' }}\n        {{- tool_call.arguments | tojson }}\n        {{- "}" }}\n        {{- "<|eot_id|>" }}\n    {%- elif message.role == "tool" or message.role == "ipython" %}\n        {{- "<|start_header_id|>ipython<|end_header_id|>\\n\\n" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- "<|eot_id|>" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- \'<|start_header_id|>assistant<|end_header_id|>\\n\\n\' }}\n{%- endif %}\n', 'llama.rope.dimension_count': '128', 'quantize.imatrix.file': '/models_out/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct.imatrix', 'quantize.imatrix.dataset': '/training_dir/calibration_datav3.txt', 'llama.attention.head_count_kv': '8', 'quantize.imatrix.entries_count': '196'}
-Available chat formats from metadata: chat_template.default
-Using gguf chat template: {{- bos_token }}
-{%- if custom_tools is defined %}
-    {%- set tools = custom_tools %}
-{%- endif %}
-{%- if not tools_in_user_message is defined %}
-    {%- set tools_in_user_message = true %}
-{%- endif %}
-{%- if not date_string is defined %}
-    {%- if strftime_now is defined %}
-        {%- set date_string = strftime_now("%d %b %Y") %}
-    {%- else %}
-        {%- set date_string = "26 Jul 2024" %}
-    {%- endif %}
-{%- endif %}
-{%- if not tools is defined %}
-    {%- set tools = none %}
-{%- endif %}
-
-{#- This block extracts the system message, so we can slot it into the right place. #}
-{%- if messages[0]['role'] == 'system' %}
-    {%- set system_message = messages[0]['content']|trim %}
-    {%- set messages = messages[1:] %}
-{%- else %}
-    {%- set system_message = "" %}
-{%- endif %}
-
-{#- System message #}
-{{- "<|start_header_id|>system<|end_header_id|>\n\n" }}
-{%- if tools is not none %}
-    {{- "Environment: ipython\n" }}
-{%- endif %}
-{{- "Cutting Knowledge Date: December 2023\n" }}
-{{- "Today Date: " + date_string + "\n\n" }}
-{%- if tools is not none and not tools_in_user_message %}
-    {{- "You have access to the following functions. To call a function, please respond with JSON for a function call." }}
-    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
-    {{- "Do not use variables.\n\n" }}
-    {%- for t in tools %}
-        {{- t | tojson(indent=4) }}
-        {{- "\n\n" }}
-    {%- endfor %}
-{%- endif %}
-{{- system_message }}
-{{- "<|eot_id|>" }}
-
-{#- Custom tools are passed in a user message with some extra guidance #}
-{%- if tools_in_user_message and not tools is none %}
-    {#- Extract the first user message so we can plug it in here #}
-    {%- if messages | length != 0 %}
-        {%- set first_user_message = messages[0]['content']|trim %}
-        {%- set messages = messages[1:] %}
-    {%- else %}
-        {{- raise_exception("Cannot put tools in the first user message when there's no first user message!") }}
-{%- endif %}
-    {{- '<|start_header_id|>user<|end_header_id|>\n\n' -}}
-    {{- "Given the following functions, please respond with a JSON for a function call " }}
-    {{- "with its proper arguments that best answers the given prompt.\n\n" }}
-    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
-    {{- "Do not use variables.\n\n" }}
-    {%- for t in tools %}
-        {{- t | tojson(indent=4) }}
-        {{- "\n\n" }}
-    {%- endfor %}
-    {{- first_user_message + "<|eot_id|>"}}
-{%- endif %}
-
-{%- for message in messages %}
-    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}
-        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' }}
-    {%- elif 'tool_calls' in message %}
-        {%- if not message.tool_calls|length == 1 %}
-            {{- raise_exception("This model only supports single tool-calls at once!") }}
-        {%- endif %}
-        {%- set tool_call = message.tool_calls[0].function %}
-        {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' -}}
-        {{- '{"name": "' + tool_call.name + '", ' }}
-        {{- '"parameters": ' }}
-        {{- tool_call.arguments | tojson }}
-        {{- "}" }}
-        {{- "<|eot_id|>" }}
-    {%- elif message.role == "tool" or message.role == "ipython" %}
-        {{- "<|start_header_id|>ipython<|end_header_id|>\n\n" }}
-        {%- if message.content is mapping or message.content is iterable %}
-            {{- message.content | tojson }}
-        {%- else %}
-            {{- message.content }}
-        {%- endif %}
-        {{- "<|eot_id|>" }}
-    {%- endif %}
-{%- endfor %}
-{%- if add_generation_prompt %}
-    {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' }}
-{%- endif %}
-
-Using chat eos_token: <|eot_id|>
-Using chat bos_token: <|begin_of_text|>
-GPU LLM loaded Successfully
-[DEBUG] Instance LLM initialization successfully
-Format Instructions:  
-Output valid JSON exactly like this example structure (replace with actual data):
-{
-  "events": [
-    {
-      "summary": "Example Meeting",
-      "date": "2025-10-10",
-      "startTime": "09:00",
-      "endTime": "10:00",
-      "duration_minutes": 60,
-      "timezone": "America/Los_Angeles",
-      "location": null,
-      "notes": null,
-      "displayTime": null
-    }
-  ],
-  "isComplete": true,
-  "fixes": null
-}
-
-format_instructions is found
-chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '2'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(client=<llama_cpp.llama.Llama object at 0x7fbf25937a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
-| ChatLlamaCpp(client=<llama_cpp.llama.Llama object at 0x7fbf25937a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
-| StrOutputParser())
-llama_perf_context_print:        load time =     433.10 ms
-llama_perf_context_print: prompt eval time =     432.93 ms /   689 tokens (    0.63 ms per token,  1591.48 tokens per second)
-llama_perf_context_print:        eval time =    7428.50 ms /   334 runs   (   22.24 ms per token,    44.96 tokens per second)
-llama_perf_context_print:       total time =    8667.03 ms /  1023 tokens
-llama_perf_context_print:    graphs reused =        323
-Llama.generate: 25 prefix-match hit, remaining 809 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =     103.59 ms /   394 tokens (    0.26 ms per token,  3803.49 tokens per second)
-llama_perf_context_print:        eval time =   10611.58 ms /   511 runs   (   20.77 ms per token,    48.15 tokens per second)
-llama_perf_context_print:       total time =   12091.11 ms /   905 tokens
-llama_perf_context_print:    graphs reused =        494
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-llama_perf_context_print:        load time =     433.10 ms
-llama_perf_context_print: prompt eval time =     339.77 ms /   809 tokens (    0.42 ms per token,  2381.02 tokens per second)
-llama_perf_context_print:        eval time =    3038.07 ms /   189 runs   (   16.07 ms per token,    62.21 tokens per second)
-llama_perf_context_print:       total time =    3803.10 ms /   998 tokens
-llama_perf_context_print:    graphs reused =        183
-Refinement error: Invalid json output: Here is the corrected JSON object:
-
-```
-{
-  "events": [
-    {
-      "summary":"",
-        date:null,
-          startTime:"10:00",
-            endTime":"11 AM America/Los_Angeles (America/Chicago) = -3)",
-              duration_minutes=Math.floor((new Date("2025-09-20T13:30") + new Day(-2)).getTime() / 1000.000)) *60,
-          "location":null
-        },
-    {
-      summary:"",
-       date:null, 
-         startTime:"12 PM to \u001b[31m\u200B\033[m (America/Los_Angeles) = -3)",
-           endTime":"1:00",
-              duration_minutes=Math.floor((new Date("2025-09-20T13:30") + new Day(-2)).getTime() / 1000.000)) *60,
-          "location":null
-For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
-[32mINFO[0m:     127.0.0.1:60668 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
-CODE REACH HERE 1️⃣
-[LOG] Condition 'add' met
-Llama.generate: 64 prefix-match hit, remaining 138 prompt tokens to eval
-llama_perf_context_print:        load time =      94.81 ms
-llama_perf_context_print: prompt eval time =      43.38 ms /   138 tokens (    0.31 ms per token,  3181.41 tokens per second)
-llama_perf_context_print:        eval time =     879.66 ms /    79 runs   (   11.13 ms per token,    89.81 tokens per second)
-llama_perf_context_print:       total time =    1004.03 ms /   217 tokens
-llama_perf_context_print:    graphs reused =         76
-[32mINFO[0m:     127.0.0.1:60660 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     Started server process [[36m93728[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
 ^C[32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m89130[0m]
-[32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Finished server process [[36m93725[0m]
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m93727[0m]
+[32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m93726[0m]
+[32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m89128[0m]
-[32mINFO[0m:     Finished server process [[36m89127[0m]
-[32mINFO[0m:     Finished server process [[36m89129[0m]
+[32mINFO[0m:     Finished server process [[36m93728[0m]
 [32mINFO[0m:     Received SIGINT, exiting.
-[32mINFO[0m:     Terminated child process [89129]
-[32mINFO[0m:     Terminated child process [89130]
-[32mINFO[0m:     Waiting for child process [89127]
-[32mINFO[0m:     Waiting for child process [89128]
-[32mINFO[0m:     Waiting for child process [89129]
-[32mINFO[0m:     Waiting for child process [89130]
-[32mINFO[0m:     Stopping parent process [[36m[1m89125[0m]
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key  && gfgp[39m[K[A[16C[1B
+[32mINFO[0m:     Terminated child process [93725]
+[32mINFO[0m:     Terminated child process [93726]
+[32mINFO[0m:     Terminated child process [93727]
+[32mINFO[0m:     Terminated child process [93728]
+[32mINFO[0m:     Waiting for child process [93725]
+[32mINFO[0m:     Waiting for child process [93726]
+[32mINFO[0m:     Waiting for child process [93727]
+[32mINFO[0m:     Waiting for child process [93728]
+[32mINFO[0m:     Stopping parent process [[36m[1m93723[0m]
+[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[1B
 [0;1;2mcommand[0m
 [0me                  echo                echotc       echoti       edit      
 edit-command-line  editor              editres      efibootdump  efibootmgr
@@ -1440,15 +62,254 @@ evince-previewer   evince-thumbnailer  evolution    ex           exch
 exec               exit                expand       expiry       export    
 expr               exr2aces            exrenvmap    exrheader    exrinfo   
 exrmakepreview     exrmaketiled        exrmanifest  exrmetrics   exrmultipart
-[Jexrmultiview       [Jexrstdattr          [Jexr_to_pq    [Jeyuvtoppm    [Jeza       [J[14A[0m[27m[24m[42C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key  && gfgp[39m[K[A[16C[32me[32mx[39m[K[1B[K[A[44C[90mit[39m[1B[J[0;1;2mcommand[0m
-[0mex              exch            exec            exit            expand        
-expiry          export          expr            exr2aces        exrenvmap     
-exrheader       exrinfo         exrmakepreview  exrmaketiled    exrmanifest   
-[Jexrmetrics      [Jexrmultipart    [Jexrmultiview    [Jexrstdattr      [Jexr_to_pq     [J[5A[0m[27m[24m[42C[32mex[39m[90mit[39m[K[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m
+[Jexrmultiview       [Jexrstdattr          [Jexr_to_pq    [Jeyuvtoppm    [Jeza       [J[14A[0m[27m[24m[42C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[32me[32mv[39m[1m[31me[1m[31mv[0m[39m[1B
 [J[0;1;2mcommand[0m
-[J[0mexit[J[A[A[0m[27m[24m[42C[1m[31mexi[0m[39m[90mt[39m[K[1m[31mi[1m[31mt[0m[39m[0m[32me[0m[32mx[0m[32mi[0m[32mt[39m
+[J[0meval   [Jevince   [Jevince-previewer   [Jevince-thumbnailer   [Jevolution   [J[3A[0m[27m[24m[42C[1m[31mev[0m[39m[90mal "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[25C[1m[31me[1m[31mv[1m[31ma[0m[39m[1B
 [J[0;1;2mcommand[0m
-[J[0mexit[J[A[A[0m[27m[24m[42C[32mexit[39m[K[?1l>[?2004l
-[J[A[46C
-[J]2;exit]1;exit
-Script done on 2025-10-14 22:14:24-07:00 [COMMAND_EXIT_CODE="0"]
+[J[0meval[J[3A[0m[27m[24m[42C[1m[31meva[0m[39m[90ml "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[26C[39ml[39m [39m"[39m$[39m([39ms[39ms[39mh[39m-[39ma[39mg[39me[39mn[39mt[39m [39m-[39ms[39m)[39m"[39m [39m&[39m&[39m [39ms[39ms[39mh[39m-[39ma[39md[39md[39m [39m/[39mh[39mo[39mm[39me[39m/[39mk[39myl[39me[39m/[39m.[39ms[39ms[39mh[39m/[39mg[39mi[39mt[39mh[39mu[39mb[39m-[39mk[39me[39my[K[1C[A[23C[0m[32me[0m[32mv[0m[32ma[32ml[39m [33m"[39m[35m$[35m([39m[4m[32ms[4m[32ms[4m[32mh[4m[32m-[4m[32ma[4m[32mg[4m[32me[4m[32mn[4m[32mt[24m[39m[3C[35m)[39m[33m"[39m[4C[32ms[32ms[32mh[32m-[32ma[32md[32md[39m [4m/[4mh[4mo[4mm[4me[4m/[4mk[4my[4ml[4me[4m/[4m.[4ms[4ms[4mh[4m/[4mg[4mi[4mt[4mh[4mu[4mb[4m-[4mk[4me[4my[24m[1C
+[J[0;1;2mdirectory[0m
+[01;34mgenerate_response[0m/   [01;34mintents[0m/   [01;34m__pycache__[0m/   [01;34mrefine[0m/   [01;34mutils[0m/   [01;34mvenv[0m/   
+[0;1;2mSSH identity file[0m
+[J[0mapp.log             [Jmain.py             [Jother_intents.log   [Jrequirements.txt  [J[5A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m[K[1C&
+[J[A[20C[90m& gfgp && yarn dev[39m[18D[39m&
+[J[A[21C[39m 
+[J[A[22C[39mg[32mg[39m[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mcommand[0m
+[0mgcc-ar-11              gcc-ar-12              gcc-ar-15            
+gcc-nm                 genccode               getpcaps             
+gif2webp               giftool                gjs                  
+gkbd-keyboard-display  gm2                    gnome-calculator     
+gnome-calendar         gnome-music            gnome-session-classic
+gnome-shell-perf-tool  gnome-system-monitor   gnome-terminal       
+gnome-thumbnail-font   gpg                    gpg-wks-server       
+gpg-zip                gpic                   grub-glue-efi        
+grub-kbdcomp           grub-mkfont            gs                   
+gsf                    gslj                   gslp                 
+gsnd                                                             
+[J[30m[104m(MORE)[39m[49m[14A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mg[39m[90mfgp && yarn dev[39m[K[15D[32mg[32mf[39m
+[J[0;1;2mcommand[0m
+[J[0mgf    [Jgfa    [Jgfg    [Jgfgp    [Jgfo    [Jgfortran    [Jgfortran-15    [J[3A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mgf[39m[90mgp && yarn dev[39m[K[14D[32mf[32mg[39m
+[J[0;1;2mcommand[0m
+[J[0mgfg   [Jgfgp[J[3A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mgfg[39m[90mp && yarn dev[39m[K[13D[32mg[32mp[39m
+[J[0;1;2mcommand[0m
+[J[0mgfgp[J[3A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mgfgp[39m[90m && yarn dev[39m[K[12D[K[?1l>[?2004l
+[J[A[26C
+[J]2;eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && ]1;evalAgent pid 94009
+Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
+remote: Enumerating objects: 15, done.[K
+remote: Counting objects:   6% (1/15)[Kremote: Counting objects:  13% (2/15)[Kremote: Counting objects:  20% (3/15)[Kremote: Counting objects:  26% (4/15)[Kremote: Counting objects:  33% (5/15)[Kremote: Counting objects:  40% (6/15)[Kremote: Counting objects:  46% (7/15)[Kremote: Counting objects:  53% (8/15)[Kremote: Counting objects:  60% (9/15)[Kremote: Counting objects:  66% (10/15)[Kremote: Counting objects:  73% (11/15)[Kremote: Counting objects:  80% (12/15)[Kremote: Counting objects:  86% (13/15)[Kremote: Counting objects:  93% (14/15)[Kremote: Counting objects: 100% (15/15)[Kremote: Counting objects: 100% (15/15), done.[K
+remote: Compressing objects: 100% (1/1)[Kremote: Compressing objects: 100% (1/1), done.[K
+remote: Total 8 (delta 5), reused 8 (delta 5), pack-reused 0 (from 0)[K
+Unpacking objects:  12% (1/8)Unpacking objects:  25% (2/8)Unpacking objects:  37% (3/8)Unpacking objects:  50% (4/8)Unpacking objects:  62% (5/8)Unpacking objects:  75% (6/8)Unpacking objects:  87% (7/8)Unpacking objects: 100% (8/8)Unpacking objects: 100% (8/8), 777 bytes | 97.00 KiB/s, done.
+From github.com:kylenguyen-cs30/mvp-llm-python-sever
+   4e7fc22..19df79d  main       -> origin/main
+Updating 4e7fc22..19df79d
+Fast-forward
+ generate_response/generate_natural_response.py | 13 [32m++++[m[31m---------[m
+ intents/classify_intent.py                     |  4 [32m+++[m[31m-[m
+ utils/utils.py                                 |  4 [32m++[m[31m--[m
+ 3 files changed, 9 insertions(+), 12 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hu[4mu[24m[4mu[24m[90mvicorn main:app --host 0.0.0.0 --port 800[90m0[90m --workers 4[39m[K[A[30C[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m[1B
+[0;1;2mcommand[0m
+[0mucf            ucfq                 ucfr                     uclampset         
+uconv          ucs2any              udevadm                  udisksctl         
+ul             ulimit               umask                    umax_pp           
+umount         unalias              uname                    uname26           
+uncompress     unexpand             unfunction               unhash            
+unicode_start  unicode_stop         uniq                     unity-scope-loader
+unlimit        unlink               unlz4                    unlzma            
+unmkinitramfs  unopkg               unset                    unsetopt          
+unshare        unxz                 unzip                    unzipsfx          
+unzstd         update-alternatives  update-desktop-database  update-mime-database
+upower         uptime               usb-devices              usbhid-dump       
+usbreset       users                utmpdump                 uuclient          
+uuidd          uuidgen              uuidparse                uuserver          
+uvicorn        uxterm                                                        
+[J[30m[104m(MORE)[39m[49m[17A[0m[27m[24m[42C[4mu[24m[90mvicorn main:app --host 0.0.0.0 --port 800[90m0[90m --workers 4[39m[K[A[30C[4mu[24m[39mv[39mi[39mc[39mo[39mr[39mn[39m [39mm[39ma[39mi[39mn[39m:[39ma[39mp[39mp[39m [39m-[39m-[39mh[39mo[39ms[39mt[39m [39m0[39m.[39m0[39m.[39m0[39m.[39m0[39m [39m-[39m-[39mp[39mo[39mr[39mt[39m [39m8[39m0[39m00[39m [39m-[39m-[39mw[39mo[39mr[39mk[39me[39mr[39ms[39m [39m4[A[29C[24m[32mu[32mv[32mi[32mc[32mo[32mr[32mn[39m[1B[36D
+[J[A[13C[?1l>[?2004l
+[J[A[13C
+[J]2;uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4]1;uvicorn[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started parent process [[36m[1m95272[0m]
+[32mINFO[0m:     Started server process [[36m95277[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Started server process [[36m95276[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Started server process [[36m95275[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Started server process [[36m95274[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+classify_intent_service reached
+MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
+Attempting GPU LLM with n_gpu_layers = -1
+llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+GPU LLM loaded Successfully
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--a35b1442-0527-4534-a8c0-83c4ae9c9f9a-0'
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+generate_natural_response_service reached1️⃣
+generate_natural_response_service reach other condition2️⃣
+[DEBUG] Server reach sub_classify_other_intent
+[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--922700c8-41d7-40fc-ba18-595b84702a54-0'
+[DEBUG] logic reach in isinstance condition
+[DEBUG] category: chit-chat
+[DEBUG] category: chit-chat
+SubType :  chit-chat
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+classify_intent_service reached
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--64af8c73-6c46-4d07-9e9b-bcad3e60caef-0'
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+generate_natural_response_service reached1️⃣
+generate_natural_response_service reach other condition2️⃣
+[DEBUG] Server reach sub_classify_other_intent
+[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--55488dd7-b99d-41d4-99d6-9477ea8a2771-0'
+[DEBUG] logic reach in isinstance condition
+[DEBUG] category: computational-math
+[DEBUG] category: computational-math
+SubType :  computational-math
+[DEBUG] result : t
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[DEBUG] Instance LLM initialization successfully
+Format Instructions:  
+Output valid JSON exactly like this example structure (replace with actual data):
+{
+  "events": [
+    {
+      "summary": "Example Meeting",
+      "date": "2025-10-10",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "duration_minutes": 60,
+      "timezone": "America/Los_Angeles",
+      "location": null,
+      "notes": null,
+      "displayTime": null
+    }
+  ],
+  "isComplete": true,
+  "fixes": null
+}
+
+format_instructions is found
+chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '1'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7fd737f67a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
+| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7fd737f67a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
+| StrOutputParser())
+Refined Result from LLM :  None
+Refinement error: 'NoneType' object is not subscriptable
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
+generate_natural_response_service reached1️⃣
+[LOG] Condition 'add' met
+MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
+Attempting GPU LLM with n_gpu_layers = -1
+Response validation failed. Retrying once.
+llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+GPU LLM loaded Successfully
+[DEBUG] Instance LLM initialization successfully
+Format Instructions:  
+Output valid JSON exactly like this example structure (replace with actual data):
+{
+  "events": [
+    {
+      "summary": "Example Meeting",
+      "date": "2025-10-10",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "duration_minutes": 60,
+      "timezone": "America/Los_Angeles",
+      "location": null,
+      "notes": null,
+      "displayTime": null
+    }
+  ],
+  "isComplete": true,
+  "fixes": null
+}
+
+format_instructions is found
+chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '7'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f3cbcd63a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
+| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f3cbcd63a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
+| StrOutputParser())
+Refinement error: Requested tokens (1488) exceed context window of 1024
+[32mINFO[0m:     127.0.0.1:59446 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
+generate_natural_response_service reached1️⃣
+[LOG] Condition 'add' met
+MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
+Attempting GPU LLM with n_gpu_layers = -1
+llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+GPU LLM loaded Successfully
+[DEBUG] Instance LLM initialization successfully
+Format Instructions:  
+Output valid JSON exactly like this example structure (replace with actual data):
+{
+  "events": [
+    {
+      "summary": "Example Meeting",
+      "date": "2025-10-10",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "duration_minutes": 60,
+      "timezone": "America/Los_Angeles",
+      "location": null,
+      "notes": null,
+      "displayTime": null
+    }
+  ],
+  "isComplete": true,
+  "fixes": null
+}
+
+format_instructions is found
+chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '2'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f5953b3fa10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
+| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f5953b3fa10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
+| StrOutputParser())
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+Refined Result from LLM :  {}
+Refinement error: 'events'
+[32mINFO[0m:     127.0.0.1:59458 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
+generate_natural_response_service reached1️⃣
+[LOG] Condition 'add' met
+[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:59446 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+e ^C[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m95276[0m]
+[32mINFO[0m:     Finished server process [[36m95274[0m]
+[32mINFO[0m:     Finished server process [[36m95277[0m]
+[32mINFO[0m:     Finished server process [[36m95275[0m]
+[32mINFO[0m:     Received SIGINT, exiting.
+[32mINFO[0m:     Terminated child process [95274]
+[32mINFO[0m:     Terminated child process [95275]
+[32mINFO[0m:     Terminated child process [95276]
+[32mINFO[0m:     Terminated child process [95277]
+[32mINFO[0m:     Waiting for child process [95274]
+[32mINFO[0m:     Waiting for child process [95275]
+[32mINFO[0m:     Waiting for child process [95276]
+[32mINFO[0m:     Waiting for child process [95277]
+e[32mINFO[0m:     Stopping parent process [[36m[1m95272[0m]
+[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[1B
+[0;1;2mcommand[0m
+[0me                  echo                echotc       echoti       edit      
+edit-command-line  editor              editres      efibootdump  efibootmgr
+egrep              eject               elfedit      elif         else      
+email_validator    emulate             enable       enc2xs       encguess  
+enchant-2          enchant-lsmod-2     end          enosys       env       
+env_default        envsubst            eog          eps2eps      eqn       
+esac               escapesrc           escp2topbm   eval         evince    
+evince-previewer   evince-thumbnailer  evolution    ex           exch      
+exec               exit                expand       expiry       export    
+expr               exr2aces            exrenvmap    exrheader    exrinfo   
+exrmakepreview     exrmaketiled        exrmanifest  exrmetrics   exrmultipart
+[Jexrmultiview       [Jexrstdattr          [Jexr_to_pq    [Jeyuvtoppm    [Jeza       [J[14A[0m[27m[24m[42C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[32me[39m[K[1B[K[A[43C[?1l>[?2004l[1B[J[A[43C[1B[J]2;exit]1;e
+Script done on 2025-10-15 00:22:40-07:00 [COMMAND_EXIT_CODE="0"]

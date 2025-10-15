@@ -1,24 +1,24 @@
-Script started on 2025-10-15 11:28:41-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules-bun.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="49"]
+Script started on 2025-10-15 11:33:52-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules-bun.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="49"]
 change directory to hono-server
 pull the latest code from github
-Agent pid 120543
+Agent pid 121362
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
 remote: Enumerating objects: 6, done.[K
 remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
-remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
-remote: Total 6 (delta 3), reused 6 (delta 3), pack-reused 0 (from 0)[K
-Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 846 bytes | 846.00 KiB/s, done.
+remote: Total 6 (delta 5), reused 6 (delta 5), pack-reused 0 (from 0)[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 559 bytes | 93.00 KiB/s, done.
 From github.com:kylenguyen-cs30/mcp-server-taskler
-   68d07d8..4b35d02  framework-change -> origin/framework-change
-Updating 68d07d8..4b35d02
+   4b35d02..e7f87a9  framework-change -> origin/framework-change
+Updating 4b35d02..e7f87a9
 Fast-forward
- src/tests/api/schedules-bun.test.ts | 21 [32m++++++++++++++++[m[31m-----[m
- 1 file changed, 16 insertions(+), 5 deletions(-)
+ .DS_Store                    | Bin [31m8196[m -> [32m8196[m bytes
+ src/intents/process-query.ts |   3 [32m++[m[31m-[m
+ 2 files changed, 2 insertions(+), 1 deletion(-)
 start the test
 [0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
 src/tests/api/schedules-bun.test.ts:
-[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops[0m
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com[0m
 Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 []
 User Input:  How are you doing?
@@ -49,7 +49,7 @@ Chunk 1 :  [object Object]
 Received: [31mundefined[0m
 [0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m63[0m[2m:[33m26[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1226.50ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1230.33ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
@@ -79,11 +79,11 @@ Chunk 1 :  [object Object]
 Received: [31mundefined[0m
 [0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m94[0m[2m:[33m26[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m187.55ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m156.63ms[0m[2m][0m
 
  0 pass[0m
 [0m[31m 2 fail[0m
  4 expect() calls
-Ran 2 tests across 1 file. [0m[2m[[1m1.50s[0m[2m][0m
+Ran 2 tests across 1 file. [0m[2m[[1m1.58s[0m[2m][0m
 
-Script done on 2025-10-15 11:28:46-07:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-10-15 11:33:57-07:00 [COMMAND_EXIT_CODE="1"]

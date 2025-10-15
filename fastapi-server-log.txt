@@ -1,22 +1,22 @@
-Script started on 2025-10-15 11:28:34-07:00 [COMMAND="echo 'change directory to fast api server' && cd /home/kyle/Deployments/mvp-llm-python-sever && echo 'pull latest change from git repo' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start fastapi server...' &&   . ./venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4    " TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="101" LINES="49"]
+Script started on 2025-10-15 11:33:46-07:00 [COMMAND="echo 'change directory to fast api server' && cd /home/kyle/Deployments/mvp-llm-python-sever && echo 'pull latest change from git repo' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start fastapi server...' &&   . ./venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4    " TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="101" LINES="49"]
 change directory to fast api server
 pull latest change from git repo
-Agent pid 120426
+Agent pid 121189
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
 Already up to date.
 start fastapi server...
 [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
-[32mINFO[0m:     Started parent process [[36m[1m120424[0m]
-[32mINFO[0m:     Started server process [[36m120477[0m]
-[32mINFO[0m:     Waiting for application startup.
-[32mINFO[0m:     Started server process [[36m120478[0m]
+[32mINFO[0m:     Started parent process [[36m[1m121187[0m]
+[32mINFO[0m:     Started server process [[36m121280[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m120479[0m]
+[32mINFO[0m:     Started server process [[36m121282[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m120476[0m]
+[32mINFO[0m:     Started server process [[36m121279[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Started server process [[36m121281[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
 classify_intent_service reached
@@ -24,55 +24,55 @@ MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3
 Attempting GPU LLM with n_gpu_layers = -1
 llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
 GPU LLM loaded Successfully
-Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--4bc12384-46eb-428a-8e44-22834465e144-0'
-[32mINFO[0m:     127.0.0.1:47716 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--164c1887-8309-41a6-a85c-aac8c3c579f4-0'
+[32mINFO[0m:     127.0.0.1:35068 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
 generate_natural_response_service reached1️⃣
 generate_natural_response_service reach other condition2️⃣
 [DEBUG] Server reach sub_classify_other_intent
-[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--caeef122-0568-4e25-a99b-9d583a92e804-0'
+[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--49d0b318-3667-45ef-a62f-fb3fe05d09fa-0'
 [DEBUG] logic reach in isinstance condition
 [DEBUG] category: chit-chat
 [DEBUG] category: chit-chat
 SubType :  chit-chat
-[32mINFO[0m:     127.0.0.1:47716 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:35068 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
 classify_intent_service reached
-Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--3eefd883-0315-4e07-9dd4-d59ecd4a2e9c-0'
-[32mINFO[0m:     127.0.0.1:47716 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--3b06a3ac-410c-4fbf-9e39-252ced239164-0'
+[32mINFO[0m:     127.0.0.1:35068 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
 generate_natural_response_service reached1️⃣
 generate_natural_response_service reach other condition2️⃣
 [DEBUG] Server reach sub_classify_other_intent
-[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--3b318e90-578f-4311-8392-60401b19bb86-0'
+[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--bc705278-f4e5-4225-a7e7-bebcb919d6c4-0'
 [DEBUG] logic reach in isinstance condition
 [DEBUG] category: computational-math
 [DEBUG] category: computational-math
 SubType :  computational-math
 [DEBUG] result : t
-[32mINFO[0m:     127.0.0.1:47716 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:35068 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
 ^C[32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m120479[0m]
+[32mINFO[0m:     Finished server process [[36m121281[0m]
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m120476[0m]
+[32mINFO[0m:     Finished server process [[36m121279[0m]
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m120477[0m]
-[32mINFO[0m:     Finished server process [[36m120478[0m]
+[32mINFO[0m:     Finished server process [[36m121282[0m]
+[32mINFO[0m:     Finished server process [[36m121280[0m]
 [32mINFO[0m:     Received SIGINT, exiting.
-[32mINFO[0m:     Terminated child process [120476]
-[32mINFO[0m:     Terminated child process [120477]
-[32mINFO[0m:     Terminated child process [120478]
-[32mINFO[0m:     Terminated child process [120479]
-[32mINFO[0m:     Waiting for child process [120476]
-[32mINFO[0m:     Waiting for child process [120477]
-[32mINFO[0m:     Waiting for child process [120478]
-[32mINFO[0m:     Waiting for child process [120479]
-[32mINFO[0m:     Stopping parent process [[36m[1m120424[0m]
+[32mINFO[0m:     Terminated child process [121279]
+[32mINFO[0m:     Terminated child process [121280]
+[32mINFO[0m:     Terminated child process [121281]
+[32mINFO[0m:     Terminated child process [121282]
+[32mINFO[0m:     Waiting for child process [121279]
+[32mINFO[0m:     Waiting for child process [121280]
+[32mINFO[0m:     Waiting for child process [121281]
+[32mINFO[0m:     Waiting for child process [121282]
+[32mINFO[0m:     Stopping parent process [[36m[1m121187[0m]
 
-Script done on 2025-10-15 11:29:09-07:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-10-15 11:35:59-07:00 [COMMAND_EXIT_CODE="0"]

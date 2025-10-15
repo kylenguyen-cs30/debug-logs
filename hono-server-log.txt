@@ -1,32 +1,24 @@
-Script started on 2025-10-15 11:19:16-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules-bun.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="49"]
+Script started on 2025-10-15 11:28:41-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules-bun.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="49"]
 change directory to hono-server
 pull the latest code from github
-Agent pid 120017
+Agent pid 120543
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
-remote: Enumerating objects: 12, done.[K
-remote: Counting objects:   8% (1/12)[Kremote: Counting objects:  16% (2/12)[Kremote: Counting objects:  25% (3/12)[Kremote: Counting objects:  33% (4/12)[Kremote: Counting objects:  41% (5/12)[Kremote: Counting objects:  50% (6/12)[Kremote: Counting objects:  58% (7/12)[Kremote: Counting objects:  66% (8/12)[Kremote: Counting objects:  75% (9/12)[Kremote: Counting objects:  83% (10/12)[Kremote: Counting objects:  91% (11/12)[Kremote: Counting objects: 100% (12/12)[Kremote: Counting objects: 100% (12/12), done.[K
-remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
-remote: Total 12 (delta 8), reused 12 (delta 8), pack-reused 0 (from 0)[K
-Unpacking objects:   8% (1/12)Unpacking objects:  16% (2/12)Unpacking objects:  25% (3/12)Unpacking objects:  33% (4/12)Unpacking objects:  41% (5/12)Unpacking objects:  50% (6/12)Unpacking objects:  58% (7/12)Unpacking objects:  66% (8/12)Unpacking objects:  75% (9/12)Unpacking objects:  83% (10/12)Unpacking objects:  91% (11/12)Unpacking objects: 100% (12/12)Unpacking objects: 100% (12/12), 1.38 KiB | 176.00 KiB/s, done.
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 6 (delta 3), reused 6 (delta 3), pack-reused 0 (from 0)[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 846 bytes | 846.00 KiB/s, done.
 From github.com:kylenguyen-cs30/mcp-server-taskler
-   eb63e4e..68d07d8  framework-change -> origin/framework-change
-Updating eb63e4e..68d07d8
+   68d07d8..4b35d02  framework-change -> origin/framework-change
+Updating 68d07d8..4b35d02
 Fast-forward
- .DS_Store                           | Bin [31m8196[m -> [32m8196[m bytes
- src/.DS_Store                       | Bin [31m6148[m -> [32m6148[m bytes
- src/scheduling/.DS_Store            | Bin [31m0[m -> [32m6148[m bytes
- src/tests/.DS_Store                 | Bin [31m0[m -> [32m6148[m bytes
- src/tests/api/.DS_Store             | Bin [31m0[m -> [32m6148[m bytes
- src/tests/api/schedules-bun.test.ts |  10 [32m+++++[m[31m-----[m
- 6 files changed, 5 insertions(+), 5 deletions(-)
- create mode 100644 src/scheduling/.DS_Store
- create mode 100644 src/tests/.DS_Store
- create mode 100644 src/tests/api/.DS_Store
+ src/tests/api/schedules-bun.test.ts | 21 [32m++++++++++++++++[m[31m-----[m
+ 1 file changed, 16 insertions(+), 5 deletions(-)
 start the test
 [0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
 src/tests/api/schedules-bun.test.ts:
-[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`[0m
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops[0m
 Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 []
 User Input:  How are you doing?
@@ -37,36 +29,27 @@ response from LLM SERVER :  {
 }
 Generated response:  I'm here to help with your schedule! What task can I assist with today?
 naturalResponse/other :  I'm here to help with your schedule! What task can I assist with today?
-Response (40 bytes) {
-  [0mok[2m:[0m [0m[33mtrue[0m[0m[2m,[0m
-  [0murl[2m:[0m "[0m[1mhttp://localhost:33619/mcp/tools/process-query[0m"[0m[2m,[0m
-  [0mstatus[2m:[0m [0m[33m200[0m[0m[2m,[0m
-  [0mstatusText[2m:[0m [0m"[1mOK[0m"[0m[2m,[0m
-  [0mheaders[2m:[0m [0mHeaders {
-    [0m[32m"access-control-allow-origin"[0m[2m:[0m [0m[32m[0m[32m"*"[0m[0m[0m[2m,[0m
-    [0m[32m"access-control-allow-credentials"[0m[2m:[0m [0m[32m[0m[32m"true"[0m[0m[0m[2m,[0m
-    [0m[32m"content-type"[0m[2m:[0m [0m[32m[0m[32m"text/plain; charset=UTF-8"[0m[0m[0m[2m,[0m
-    [0m[32m"x-content-type-options"[0m[2m:[0m [0m[32m[0m[32m"nosniff"[0m[0m[0m[2m,[0m
-    [0m[32m"date"[0m[2m:[0m [0m[32m[0m[32m"Wed, 15 Oct 2025 18:19:21 GMT"[0m[0m[0m[2m,[0m
-    [0m[32m"content-length"[0m[2m:[0m [0m[32m[0m[32m"40"[0m[0m[0m[2m,[0m
-  }[0m[2m,[0m
-  [0mredirected[2m:[0m [0m[33mfalse[0m[0m[2m,[0m
-  [0mbodyUsed[2m:[0m [0m[33mfalse[0m[0m[2m,[0m
-  [0mBlob[0m ([33m40 bytes[0m)
-}
-[0m[1m50 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
-[0m[1m51 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
-[0m[1m52 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
-[0m[1m53 |[0m 
-[0m[1m54 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
-[0m[1m55 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+Raw response status:  [0m[33m200[0m OK
+Raw response text:  "[object Object]\n"
+"[object Object]\n"
+
+Chunk 0 :  [object Object]
+
+Chunk 1 :  [object Object]
+
+[0m[1m58 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
+[0m[1m59 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
+[0m[1m60 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m61 |[0m 
+[0m[1m62 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m63 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
                               [31m[1m^[0m
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoBeDefined[2m([0m[2m)[0m
 
 Received: [31mundefined[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m55[0m[2m:[33m26[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1185.13ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m63[0m[2m:[33m26[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1226.50ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
@@ -76,40 +59,31 @@ response from LLM SERVER :  {
 }
 Generated response:  Result: t. How does this relate to your schedule ? 
 naturalResponse/other :  Result: t. How does this relate to your schedule ? 
-Response (40 bytes) {
-  [0mok[2m:[0m [0m[33mtrue[0m[0m[2m,[0m
-  [0murl[2m:[0m "[0m[1mhttp://localhost:36305/mcp/tools/process-query[0m"[0m[2m,[0m
-  [0mstatus[2m:[0m [0m[33m200[0m[0m[2m,[0m
-  [0mstatusText[2m:[0m [0m"[1mOK[0m"[0m[2m,[0m
-  [0mheaders[2m:[0m [0mHeaders {
-    [0m[32m"access-control-allow-origin"[0m[2m:[0m [0m[32m[0m[32m"*"[0m[0m[0m[2m,[0m
-    [0m[32m"access-control-allow-credentials"[0m[2m:[0m [0m[32m[0m[32m"true"[0m[0m[0m[2m,[0m
-    [0m[32m"content-type"[0m[2m:[0m [0m[32m[0m[32m"text/plain; charset=UTF-8"[0m[0m[0m[2m,[0m
-    [0m[32m"x-content-type-options"[0m[2m:[0m [0m[32m[0m[32m"nosniff"[0m[0m[0m[2m,[0m
-    [0m[32m"date"[0m[2m:[0m [0m[32m[0m[32m"Wed, 15 Oct 2025 18:19:21 GMT"[0m[0m[0m[2m,[0m
-    [0m[32m"content-length"[0m[2m:[0m [0m[32m[0m[32m"40"[0m[0m[0m[2m,[0m
-  }[0m[2m,[0m
-  [0mredirected[2m:[0m [0m[33mfalse[0m[0m[2m,[0m
-  [0mbodyUsed[2m:[0m [0m[33mfalse[0m[0m[2m,[0m
-  [0mBlob[0m ([33m40 bytes[0m)
-}
-[0m[1m79 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
-[0m[1m80 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
-[0m[1m81 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
-[0m[1m82 |[0m 
-[0m[1m83 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
-[0m[1m84 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+Raw response status:  [0m[33m200[0m OK
+Raw response text:  "[object Object]\n"
+"[object Object]\n"
+
+Chunk 0 :  [object Object]
+
+Chunk 1 :  [object Object]
+
+[0m[1m89 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
+[0m[1m90 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
+[0m[1m91 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m92 |[0m 
+[0m[1m93 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m94 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
                               [31m[1m^[0m
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoBeDefined[2m([0m[2m)[0m
 
 Received: [31mundefined[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m84[0m[2m:[33m26[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m171.66ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m94[0m[2m:[33m26[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m187.55ms[0m[2m][0m
 
  0 pass[0m
 [0m[31m 2 fail[0m
- 2 expect() calls
-Ran 2 tests across 1 file. [0m[2m[[1m1492.00ms[0m[2m][0m
+ 4 expect() calls
+Ran 2 tests across 1 file. [0m[2m[[1m1.50s[0m[2m][0m
 
-Script done on 2025-10-15 11:19:21-07:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-10-15 11:28:46-07:00 [COMMAND_EXIT_CODE="1"]

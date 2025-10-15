@@ -1,145 +1,22 @@
-Script started on 2025-10-15 00:19:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="84" LINES="54"]
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [Ks[1m[31ms[0m[39m[1m[31ms[0m[39m[90mcript /home/kyle/Deployments/debug-logs/fastapi-[90ms[90merver-log.txt[39m[K[A[22C[1m[31ms[1m[31mo[0m[39m[K[1B[K[A[37C[1B[0;1;2mcommand[0m
-[J[0msoelim  [Jsoffice  [Jsoftware-properties-gtk  [Jsol  [Jsort  [Jsotruss  [Jsource  [J[A[A[0m[27m[24m[35C[1m[31mso[0m[39m[K[90murce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[3C[1B
-[J[0;1;2mcommand[0m
-[J[0msoelim  [Jsoffice  [Jsoftware-properties-gtk  [Jsol  [Jsort  [Jsotruss  [Jsource  [J[3A[0m[27m[24m[35C[1m[31mso[0m[39m[90murce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[3C[1m[31ms[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mr[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0msource[J[3A[0m[27m[24m[35C[1m[31msour[0m[39m[90mce venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[5C[1m[31mr[1m[31mc[0m[39m[1m[31mc[1m[31me[0m[39m[0m[32ms[0m[32mo[0m[32mu[0m[32mr[0m[32mc[0m[32me[39m[1B
-[J[0;1;2mcommand[0m
-[J[0msource[J[3A[0m[27m[24m[35C[32msource[39m[90m venv/bin/activate && uvicorn main:app --ho[90ms[90mt 0.0.0.0 --port 8000 --workers 4[39m[K[A[7C[39m [39mv[39me[39mn[39mv[39m/[39mb[39mi[39mn[39m/[39ma[39mc[39mt[39mi[39mv[39ma[39mt[39me[39m [39m&[39m&[39m [39mu[39mv[39mi[39mc[39mo[39mr[39mn[39m [39mm[39ma[39mi[39mn[39m:[39ma[39mp[39mp[39m [39m-[39m-[39mh[39mos[39mt[39m [39m0[39m.[39m0[39m.[39m0[39m.[39m0[39m [39m-[39m-[39mp[39mo[39mr[39mt[39m [39m8[39m0[39m0[39m0[39m [39m-[39m-[39mw[39mo[39mr[39mk[39me[39mr[39ms[39m [39m4[A[8C[4mv[4me[4mn[4mv[4m/[4mb[4mi[4mn[4m/[4ma[4mc[4mt[4mi[4mv[4ma[4mt[4me[24m[4C[1m[31mu[1m[31mv[1m[31mi[1m[31mc[1m[31mo[1m[31mr[1m[31mn[0m[39m[1B[36D
-[J[A[34C[?1l>[?2004l
-[J[A[34C
-[J]2;source venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000  4]1;source[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
-[32mINFO[0m:     Started parent process [[36m[1m93723[0m]
-[32mINFO[0m:     Started server process [[36m93725[0m]
-[32mINFO[0m:     Waiting for application startup.
-[32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m93727[0m]
-[32mINFO[0m:     Waiting for application startup.
-[32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m93726[0m]
-[32mINFO[0m:     Waiting for application startup.
-[32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m93728[0m]
-[32mINFO[0m:     Waiting for application startup.
-[32mINFO[0m:     Application startup complete.
-^C[32mINFO[0m:     Shutting down
-[32mINFO[0m:     Shutting down
-[32mINFO[0m:     Shutting down
-[32mINFO[0m:     Shutting down
-[32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m93725[0m]
-[32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m93727[0m]
-[32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m93726[0m]
-[32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m93728[0m]
-[32mINFO[0m:     Received SIGINT, exiting.
-[32mINFO[0m:     Terminated child process [93725]
-[32mINFO[0m:     Terminated child process [93726]
-[32mINFO[0m:     Terminated child process [93727]
-[32mINFO[0m:     Terminated child process [93728]
-[32mINFO[0m:     Waiting for child process [93725]
-[32mINFO[0m:     Waiting for child process [93726]
-[32mINFO[0m:     Waiting for child process [93727]
-[32mINFO[0m:     Waiting for child process [93728]
-[32mINFO[0m:     Stopping parent process [[36m[1m93723[0m]
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[1B
-[0;1;2mcommand[0m
-[0me                  echo                echotc       echoti       edit      
-edit-command-line  editor              editres      efibootdump  efibootmgr
-egrep              eject               elfedit      elif         else      
-email_validator    emulate             enable       enc2xs       encguess  
-enchant-2          enchant-lsmod-2     end          enosys       env       
-env_default        envsubst            eog          eps2eps      eqn       
-esac               escapesrc           escp2topbm   eval         evince    
-evince-previewer   evince-thumbnailer  evolution    ex           exch      
-exec               exit                expand       expiry       export    
-expr               exr2aces            exrenvmap    exrheader    exrinfo   
-exrmakepreview     exrmaketiled        exrmanifest  exrmetrics   exrmultipart
-[Jexrmultiview       [Jexrstdattr          [Jexr_to_pq    [Jeyuvtoppm    [Jeza       [J[14A[0m[27m[24m[42C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[32me[32mv[39m[1m[31me[1m[31mv[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0meval   [Jevince   [Jevince-previewer   [Jevince-thumbnailer   [Jevolution   [J[3A[0m[27m[24m[42C[1m[31mev[0m[39m[90mal "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[25C[1m[31me[1m[31mv[1m[31ma[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0meval[J[3A[0m[27m[24m[42C[1m[31meva[0m[39m[90ml "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[26C[39ml[39m [39m"[39m$[39m([39ms[39ms[39mh[39m-[39ma[39mg[39me[39mn[39mt[39m [39m-[39ms[39m)[39m"[39m [39m&[39m&[39m [39ms[39ms[39mh[39m-[39ma[39md[39md[39m [39m/[39mh[39mo[39mm[39me[39m/[39mk[39myl[39me[39m/[39m.[39ms[39ms[39mh[39m/[39mg[39mi[39mt[39mh[39mu[39mb[39m-[39mk[39me[39my[K[1C[A[23C[0m[32me[0m[32mv[0m[32ma[32ml[39m [33m"[39m[35m$[35m([39m[4m[32ms[4m[32ms[4m[32mh[4m[32m-[4m[32ma[4m[32mg[4m[32me[4m[32mn[4m[32mt[24m[39m[3C[35m)[39m[33m"[39m[4C[32ms[32ms[32mh[32m-[32ma[32md[32md[39m [4m/[4mh[4mo[4mm[4me[4m/[4mk[4my[4ml[4me[4m/[4m.[4ms[4ms[4mh[4m/[4mg[4mi[4mt[4mh[4mu[4mb[4m-[4mk[4me[4my[24m[1C
-[J[0;1;2mdirectory[0m
-[01;34mgenerate_response[0m/   [01;34mintents[0m/   [01;34m__pycache__[0m/   [01;34mrefine[0m/   [01;34mutils[0m/   [01;34mvenv[0m/   
-[0;1;2mSSH identity file[0m
-[J[0mapp.log             [Jmain.py             [Jother_intents.log   [Jrequirements.txt  [J[5A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m[K[1C&
-[J[A[20C[90m& gfgp && yarn dev[39m[18D[39m&
-[J[A[21C[39m 
-[J[A[22C[39mg[32mg[39m[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
-[J[0;1;2mcommand[0m
-[0mgcc-ar-11              gcc-ar-12              gcc-ar-15            
-gcc-nm                 genccode               getpcaps             
-gif2webp               giftool                gjs                  
-gkbd-keyboard-display  gm2                    gnome-calculator     
-gnome-calendar         gnome-music            gnome-session-classic
-gnome-shell-perf-tool  gnome-system-monitor   gnome-terminal       
-gnome-thumbnail-font   gpg                    gpg-wks-server       
-gpg-zip                gpic                   grub-glue-efi        
-grub-kbdcomp           grub-mkfont            gs                   
-gsf                    gslj                   gslp                 
-gsnd                                                             
-[J[30m[104m(MORE)[39m[49m[14A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mg[39m[90mfgp && yarn dev[39m[K[15D[32mg[32mf[39m
-[J[0;1;2mcommand[0m
-[J[0mgf    [Jgfa    [Jgfg    [Jgfgp    [Jgfo    [Jgfortran    [Jgfortran-15    [J[3A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mgf[39m[90mgp && yarn dev[39m[K[14D[32mf[32mg[39m
-[J[0;1;2mcommand[0m
-[J[0mgfg   [Jgfgp[J[3A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mgfg[39m[90mp && yarn dev[39m[K[13D[32mg[32mp[39m
-[J[0;1;2mcommand[0m
-[J[0mgfgp[J[3A[0m[27m[24m[42C[32meval[39m [33m"[39m[35m$([39m[4m[32mssh-agent[24m[39m -s[35m)[39m[33m"[39m && [32mssh-add[39m [4m/home/ky[4ml[4me/.ssh/github-key[24m && [32mgfgp[39m[90m && yarn dev[39m[K[12D[K[?1l>[?2004l
-[J[A[26C
-[J]2;eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && ]1;evalAgent pid 94009
+Script started on 2025-10-15 09:34:42-07:00 [COMMAND="echo 'change directory to fast api server' && cd /home/kyle/Deployments/mvp-llm-python-sever && echo 'pull latest change from git repo' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start fastapi server...' &&   . ./venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4    " TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="67" LINES="49"]
+change directory to fast api server
+pull latest change from git repo
+Agent pid 113310
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
-remote: Enumerating objects: 15, done.[K
-remote: Counting objects:   6% (1/15)[Kremote: Counting objects:  13% (2/15)[Kremote: Counting objects:  20% (3/15)[Kremote: Counting objects:  26% (4/15)[Kremote: Counting objects:  33% (5/15)[Kremote: Counting objects:  40% (6/15)[Kremote: Counting objects:  46% (7/15)[Kremote: Counting objects:  53% (8/15)[Kremote: Counting objects:  60% (9/15)[Kremote: Counting objects:  66% (10/15)[Kremote: Counting objects:  73% (11/15)[Kremote: Counting objects:  80% (12/15)[Kremote: Counting objects:  86% (13/15)[Kremote: Counting objects:  93% (14/15)[Kremote: Counting objects: 100% (15/15)[Kremote: Counting objects: 100% (15/15), done.[K
-remote: Compressing objects: 100% (1/1)[Kremote: Compressing objects: 100% (1/1), done.[K
-remote: Total 8 (delta 5), reused 8 (delta 5), pack-reused 0 (from 0)[K
-Unpacking objects:  12% (1/8)Unpacking objects:  25% (2/8)Unpacking objects:  37% (3/8)Unpacking objects:  50% (4/8)Unpacking objects:  62% (5/8)Unpacking objects:  75% (6/8)Unpacking objects:  87% (7/8)Unpacking objects: 100% (8/8)Unpacking objects: 100% (8/8), 777 bytes | 97.00 KiB/s, done.
-From github.com:kylenguyen-cs30/mvp-llm-python-sever
-   4e7fc22..19df79d  main       -> origin/main
-Updating 4e7fc22..19df79d
-Fast-forward
- generate_response/generate_natural_response.py | 13 [32m++++[m[31m---------[m
- intents/classify_intent.py                     |  4 [32m+++[m[31m-[m
- utils/utils.py                                 |  4 [32m++[m[31m--[m
- 3 files changed, 9 insertions(+), 12 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hu[4mu[24m[4mu[24m[90mvicorn main:app --host 0.0.0.0 --port 800[90m0[90m --workers 4[39m[K[A[30C[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m[1B
-[0;1;2mcommand[0m
-[0mucf            ucfq                 ucfr                     uclampset         
-uconv          ucs2any              udevadm                  udisksctl         
-ul             ulimit               umask                    umax_pp           
-umount         unalias              uname                    uname26           
-uncompress     unexpand             unfunction               unhash            
-unicode_start  unicode_stop         uniq                     unity-scope-loader
-unlimit        unlink               unlz4                    unlzma            
-unmkinitramfs  unopkg               unset                    unsetopt          
-unshare        unxz                 unzip                    unzipsfx          
-unzstd         update-alternatives  update-desktop-database  update-mime-database
-upower         uptime               usb-devices              usbhid-dump       
-usbreset       users                utmpdump                 uuclient          
-uuidd          uuidgen              uuidparse                uuserver          
-uvicorn        uxterm                                                        
-[J[30m[104m(MORE)[39m[49m[17A[0m[27m[24m[42C[4mu[24m[90mvicorn main:app --host 0.0.0.0 --port 800[90m0[90m --workers 4[39m[K[A[30C[4mu[24m[39mv[39mi[39mc[39mo[39mr[39mn[39m [39mm[39ma[39mi[39mn[39m:[39ma[39mp[39mp[39m [39m-[39m-[39mh[39mo[39ms[39mt[39m [39m0[39m.[39m0[39m.[39m0[39m.[39m0[39m [39m-[39m-[39mp[39mo[39mr[39mt[39m [39m8[39m0[39m00[39m [39m-[39m-[39mw[39mo[39mr[39mk[39me[39mr[39ms[39m [39m4[A[29C[24m[32mu[32mv[32mi[32mc[32mo[32mr[32mn[39m[1B[36D
-[J[A[13C[?1l>[?2004l
-[J[A[13C
-[J]2;uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4]1;uvicorn[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
-[32mINFO[0m:     Started parent process [[36m[1m95272[0m]
-[32mINFO[0m:     Started server process [[36m95277[0m]
+Already up to date.
+start fastapi server...
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started parent process [[36m[1m113308[0m]
+[32mINFO[0m:     Started server process [[36m113324[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m95276[0m]
+[32mINFO[0m:     Started server process [[36m113326[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m95275[0m]
+[32mINFO[0m:     Started server process [[36m113327[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m95274[0m]
+[32mINFO[0m:     Started server process [[36m113325[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
 classify_intent_service reached
@@ -147,58 +24,38 @@ MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3
 Attempting GPU LLM with n_gpu_layers = -1
 llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
 GPU LLM loaded Successfully
-Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--a35b1442-0527-4534-a8c0-83c4ae9c9f9a-0'
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--1e3999f3-2879-4c3a-a88d-68adfa80b118-0'
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
 generate_natural_response_service reached1️⃣
 generate_natural_response_service reach other condition2️⃣
 [DEBUG] Server reach sub_classify_other_intent
-[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--922700c8-41d7-40fc-ba18-595b84702a54-0'
+[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--c8634812-b97e-4603-b893-ef1fd295b150-0'
 [DEBUG] logic reach in isinstance condition
 [DEBUG] category: chit-chat
 [DEBUG] category: chit-chat
 SubType :  chit-chat
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
 classify_intent_service reached
-Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--64af8c73-6c46-4d07-9e9b-bcad3e60caef-0'
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--16c6142b-2007-43fa-8c30-9d1fd0546d99-0'
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
 generate_natural_response_service reached1️⃣
 generate_natural_response_service reach other condition2️⃣
 [DEBUG] Server reach sub_classify_other_intent
-[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--55488dd7-b99d-41d4-99d6-9477ea8a2771-0'
+[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--f6353f02-beb4-4b37-9704-ad35ad3ce5da-0'
 [DEBUG] logic reach in isinstance condition
 [DEBUG] category: computational-math
 [DEBUG] category: computational-math
 SubType :  computational-math
 [DEBUG] result : t
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
 [DEBUG] Instance LLM initialization successfully
-Format Instructions:  
-Output valid JSON exactly like this example structure (replace with actual data):
-{
-  "events": [
-    {
-      "summary": "Example Meeting",
-      "date": "2025-10-10",
-      "startTime": "09:00",
-      "endTime": "10:00",
-      "duration_minutes": 60,
-      "timezone": "America/Los_Angeles",
-      "location": null,
-      "notes": null,
-      "displayTime": null
-    }
-  ],
-  "isComplete": true,
-  "fixes": null
-}
-
 format_instructions is found
-chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '1'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7fd737f67a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
-| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7fd737f67a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
+LLM Output:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '1'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f38f7b6ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
+| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f38f7b6ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
 | StrOutputParser())
 Refined Result from LLM :  None
 Refinement error: 'NoneType' object is not subscriptable
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
 generate_natural_response_service reached1️⃣
 [LOG] Condition 'add' met
 MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
@@ -207,32 +64,12 @@ Response validation failed. Retrying once.
 llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
 GPU LLM loaded Successfully
 [DEBUG] Instance LLM initialization successfully
-Format Instructions:  
-Output valid JSON exactly like this example structure (replace with actual data):
-{
-  "events": [
-    {
-      "summary": "Example Meeting",
-      "date": "2025-10-10",
-      "startTime": "09:00",
-      "endTime": "10:00",
-      "duration_minutes": 60,
-      "timezone": "America/Los_Angeles",
-      "location": null,
-      "notes": null,
-      "displayTime": null
-    }
-  ],
-  "isComplete": true,
-  "fixes": null
-}
-
 format_instructions is found
-chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '7'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f3cbcd63a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
-| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f3cbcd63a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
+LLM Output:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '7'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f081ff7ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
+| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f081ff7ba10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
 | StrOutputParser())
 Refinement error: Requested tokens (1488) exceed context window of 1024
-[32mINFO[0m:     127.0.0.1:59446 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     127.0.0.1:54942 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
 generate_natural_response_service reached1️⃣
 [LOG] Condition 'add' met
 MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf
@@ -240,76 +77,43 @@ Attempting GPU LLM with n_gpu_layers = -1
 llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
 GPU LLM loaded Successfully
 [DEBUG] Instance LLM initialization successfully
-Format Instructions:  
-Output valid JSON exactly like this example structure (replace with actual data):
-{
-  "events": [
-    {
-      "summary": "Example Meeting",
-      "date": "2025-10-10",
-      "startTime": "09:00",
-      "endTime": "10:00",
-      "duration_minutes": 60,
-      "timezone": "America/Los_Angeles",
-      "location": null,
-      "notes": null,
-      "displayTime": null
-    }
-  ],
-  "isComplete": true,
-  "fixes": null
-}
-
 format_instructions is found
-chain:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '2'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f5953b3fa10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
-| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f5953b3fa10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
+LLM Output:  first=ChatPromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={'format_instructions': '\nOutput valid JSON exactly like this example structure (replace with actual data):\n{\n  "events": [\n    {\n      "summary": "Example Meeting",\n      "date": "2025-10-10",\n      "startTime": "09:00",\n      "endTime": "10:00",\n      "duration_minutes": 60,\n      "timezone": "America/Los_Angeles",\n      "location": null,\n      "notes": null,\n      "displayTime": null\n    }\n  ],\n  "isComplete": true,\n  "fixes": null\n}\n', 'num_parsed': '2'}, messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=['format_instructions', 'num_parsed', 'timezone'], input_types={}, partial_variables={}, template='You are a precise event parser. Refine the partial parse using these rules. Do not repeat any input data. Output ONLY valid JSON matching the schema, fenced by ```json and ```. No explanations or additional text.\n\nRules:\n- Produce exactly {num_parsed} events (one per chunk).\n- Use parsed chunks for dates/times: Convert UTC stamps to local HH:mm in {timezone} (e.g., "2025-09-20T13:00:00.000Z" -> "13:00" for 1pm).\n- Summaries: concise, 3–5 words from input (e.g., "doctor appointment").\n- Location: extract after "at"/"tại"; null if absent.\n- Duration: Calculate from start/end if available, else default 60.\n- Set isComplete=true only if all events valid; else false with fixes string.\n- Use null for optional fields if absent (e.g., notes, fixes, endTime).\n- Ignore recurring hints.\n\n{format_instructions}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['input', 'parsed_results', 'partial', 'ref_date_str', 'timezone'], input_types={}, partial_variables={}, template='Input: {input}\nPartial (reference only): {partial}\nParsed chunks (use for times): {parsed_results}\nTimezone: {timezone}\nRef Date: {ref_date_str}'), additional_kwargs={})]) middle=[ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f1821777a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})] last=OutputFixingParser(parser=JsonOutputParser(), retry_chain=PromptTemplate(input_variables=['completion', 'error', 'instructions'], input_types={}, partial_variables={}, template='Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:')
+| ChatLlamaCpp(verbose=False, client=<llama_cpp.llama.Llama object at 0x7f1821777a10>, model_path='/home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q5_K_M.gguf', n_ctx=1024, n_threads=15, n_batch=128, n_gpu_layers=-1, max_tokens=512, temperature=0.0, top_p=0.5, repeat_penalty=1.5, model_kwargs={})
 | StrOutputParser())
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
 Refined Result from LLM :  {}
 Refinement error: 'events'
-[32mINFO[0m:     127.0.0.1:59458 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     127.0.0.1:54948 - "[1mPOST /refine-with-llm HTTP/1.1[0m" [91m500 Internal Server Error[0m
 generate_natural_response_service reached1️⃣
 [LOG] Condition 'add' met
-[32mINFO[0m:     127.0.0.1:59444 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     127.0.0.1:59446 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-e ^C[32mINFO[0m:     Shutting down
+[32mINFO[0m:     127.0.0.1:54940 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54942 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+^C[32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m113327[0m]
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m113326[0m]
+[32mINFO[0m:     Finished server process [[36m113324[0m]
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m95276[0m]
-[32mINFO[0m:     Finished server process [[36m95274[0m]
-[32mINFO[0m:     Finished server process [[36m95277[0m]
-[32mINFO[0m:     Finished server process [[36m95275[0m]
+[32mINFO[0m:     Finished server process [[36m113325[0m]
 [32mINFO[0m:     Received SIGINT, exiting.
-[32mINFO[0m:     Terminated child process [95274]
-[32mINFO[0m:     Terminated child process [95275]
-[32mINFO[0m:     Terminated child process [95276]
-[32mINFO[0m:     Terminated child process [95277]
-[32mINFO[0m:     Waiting for child process [95274]
-[32mINFO[0m:     Waiting for child process [95275]
-[32mINFO[0m:     Waiting for child process [95276]
-[32mINFO[0m:     Waiting for child process [95277]
-e[32mINFO[0m:     Stopping parent process [[36m[1m95272[0m]
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mvp-llm-python-sever]1;..-python-sever[0m[27m[24m[J(venv) [01;32m➜  [36mmvp-llm-python-sever[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[1B
-[0;1;2mcommand[0m
-[0me                  echo                echotc       echoti       edit      
-edit-command-line  editor              editres      efibootdump  efibootmgr
-egrep              eject               elfedit      elif         else      
-email_validator    emulate             enable       enc2xs       encguess  
-enchant-2          enchant-lsmod-2     end          enosys       env       
-env_default        envsubst            eog          eps2eps      eqn       
-esac               escapesrc           escp2topbm   eval         evince    
-evince-previewer   evince-thumbnailer  evolution    ex           exch      
-exec               exit                expand       expiry       export    
-expr               exr2aces            exrenvmap    exrheader    exrinfo   
-exrmakepreview     exrmaketiled        exrmanifest  exrmetrics   exrmultipart
-[Jexrmultiview       [Jexrstdattr          [Jexr_to_pq    [Jeyuvtoppm    [Jeza       [J[14A[0m[27m[24m[42C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /home/ky[90ml[90me/.ssh/github-key [39m[K[A[24C[32me[39m[K[1B[K[A[43C[?1l>[?2004l[1B[J[A[43C[1B[J]2;exit]1;e
-Script done on 2025-10-15 00:22:40-07:00 [COMMAND_EXIT_CODE="0"]
+[32mINFO[0m:     Terminated child process [113324]
+[32mINFO[0m:     Terminated child process [113325]
+[32mINFO[0m:     Terminated child process [113326]
+[32mINFO[0m:     Terminated child process [113327]
+[32mINFO[0m:     Waiting for child process [113324]
+e[32mINFO[0m:     Waiting for child process [113325]
+[32mINFO[0m:     Waiting for child process [113326]
+[32mINFO[0m:     Waiting for child process [113327]
+[32mINFO[0m:     Stopping parent process [[36m[1m113308[0m]
+x
+Script done on 2025-10-15 09:35:41-07:00 [COMMAND_EXIT_CODE="0"]

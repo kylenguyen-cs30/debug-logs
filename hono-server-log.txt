@@ -1,56 +1,11 @@
-Script started on 2025-10-15 00:20:40-07:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="84" LINES="54"]
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m) [33m✗[00m [Kb[1m[31mb[0m[39m[1m[31mb[0m[39m[90mun test src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[41C[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m[1B
-[0;1;2mcommand[0m
-[0mb2sum             baobab           base32         base64            basename    
-basenc            bash             bashbug        bc                bdftogd     
-bdftopcf          bdftruncate      benchmark_xl   bf_compact        bf_compact-bdb
-bf_copy           bf_copy-bdb      bf_tar         bf_tar-bdb        bin2c       
-bioradtopgm       bitmap           bits           blkdiscard        blkid       
-blkpr             blkzone          blockdev       bluemoon          bluetoothctl
-bluetooth-sendto  bmptopnm         bmptoppm       bmtoa             bogofilter  
-bogofilter-bdb    bogolexer        bogolexer-bdb  bogotune          bogotune-bdb
-bogoupgrade       bogoupgrade-bdb  bogoutil       bogoutil-bdb      boltctl     
-brew              broadwayd        brotli         brushtopbm        btattach    
-btmgmt            btmon            buildhash      bun               bunx        
-bunzip2           busctl           busybox        butteraugli_main  bwrap       
-bzcat             bzcmp            bzdiff         bzegrep           bzexe       
-bzfgrep           bzgrep           bzip2          bzip2recover      bzless      
-bzmore                                                                    
-[J[30m[104m(MORE)[39m[49m[18A[0m[27m[24m[47C[1m[31mb[0m[39m[90mun test src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[41C[1m[31mb[1m[31mu[0m[39m[1B
-[J[0;1;2mcommand[0m
-[J[0mbuildhash  [Jbuiltin  [Jbun  [Jbunx  [Jbunzip2  [Jbusctl  [Jbusybox  [Jbutteraugli_main  [J[3A[0m[27m[24m[47C[1m[31mbu[0m[39m[90mn test src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[42C[1m[31mb[1m[31mu[1m[31mn[0m[39m[0m[32mb[0m[32mu[0m[32mn[39m[1B
-[J[0;1;2mcommand[0m
-[J[0mbun      [Jbunx     [Jbunzip2[J[3A[0m[27m[24m[47C[32mbun[39m[90m test src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[43C[32mn[32m [39m[1B
-[J[A[A[51C[32mn[39m[39m [32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[30m[104m[39m[49m[32m[39m[32m[39m[30m[104m[39m[49m[32m[39m[32m[39m[30m[104m[39m[49m[1B
-[J[32m-- scripts --[39m
-[0mdev        start      typecheck
-[32m-- command --[39m
-[0madd       -- Add a dependency to package.json (bun a)
-create    -- Create a new project from a template (bun c)
-init      -- Start an empty Bun project from a blank template
-install   -- Install dependencies for a package.json (bun i)
-link      -- Link an npm package globally
-outdated  -- Display the latest versions of outdated dependencies
-remove    -- Remove a dependency from package.json (bun rm)
-repl      -- Start a REPL session with Bun
-run       -- Run JavaScript with Bun, a package.json script, or a bin
-test      -- Run unit tests with Bun
-unlink    -- Globally unlink an npm package
-update    -- Update outdated dependencies & save to package.json
-x         -- Install and execute a package bin (bunx)
-[J[30m[104m(MORE)[39m[49m[18A[0m[27m[24m[47C[32mbun[39m [90mtest src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[44C[39mt[4mt[24m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[32m[39m[1B
-[J[32m-- scripts --[39m
-[0mtypecheck
-[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[5A[0m[27m[24m[47C[32mbun[39m [4mt[24m[90mest src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[45C[4mt[39m[4me[24m[24mt[24me[39ms[32m[39m[32m[39m[32m[39m[32m[39m[1B
-[J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[3A[0m[27m[24m[47C[32mbun[39m tes[90mt src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[47C[39mt[32m[39m[32m[39m[32m[39m[32m[39m[1B
-[J[32m-- command --[39m
-[J[0mtest  -- Run unit tests with Bun[J[3A[0m[27m[24m[47C[32mbun[39m test[90m src/tests/api/schedules-bun.[90mt[90mest.ts[39m[K[A[48C[39m [39ms[39mr[39mc[39m/[39mt[39me[39ms[39mt[39ms[39m/[39ma[39mp[39mi[39m/[39ms[39mc[39mh[39me[39md[39mu[39ml[39me[39ms[39m-[39mb[39mu[39mn[39m.t[39me[39ms[39mt[39m.[39mt[39ms[A[49C[4ms[4mr[4mc[4m/[4mt[4me[4ms[4mt[4ms[4m/[4ma[4mp[4mi[4m/[4ms[4mc[4mh[4me[4md[4mu[4ml[4me[4ms[4m-[4mb[4mu[4mn[4m.[4mt[4me[4ms[4mt[4m.[4mt[4ms[24m
-[J[0;1;2mfile[0m
-[J[0mschedules-bun.test.ts[J[3A[0m[27m[24m[47C[32mbun[39m test [4msrc/tests/api/schedules-bun.[4mt[4mest.ts[24m[K[?1l>[?2004l
-[J[A[7C
-[J]2;bun test src/tests/api/schedules-bun.test.ts]1;bun[0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
+Script started on 2025-10-15 09:34:55-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules-bun.test.ts " TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="67" LINES="49"]
+change directory to hono-server
+pull the latest code from github
+Agent pid 113423
+Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
+Already up to date.
+start the test
+[0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
 src/tests/api/schedules-bun.test.ts:
 [dotenv@17.2.3] injecting env (0) from .env [2m-- tip: ⚙️  write to custom object with { processEnv: myObject }[0m
@@ -75,7 +30,7 @@ naturalResponse/other :  I'm here to help with your schedule! What task can I as
 `)', 'res.text.split' is undefined)[0m
 [0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m49[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1207.25ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1193.75ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
@@ -96,7 +51,7 @@ naturalResponse/other :  Result: t. How does this relate to your schedule ?
 `)', 'res.text.split' is undefined)[0m
 [0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m78[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m173.65ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m178.97ms[0m[2m][0m
 [{"text":"tomorrow at 10 AM","start":"2025-10-10T17:00:00.000Z","end":null}]
 User Input:  Schedule a meeting tomorrow at 10 AM in PDT
 classifyIntent is called
@@ -147,7 +102,7 @@ Refined from server:  {
   [0mconfirm[2m:[0m [0m[32m[0m[32m"Partial parse-confirm?"[0m[0m[0m[2m,[0m
 }
 Parsing Completed
-Time Completed Parsing:  [0m[33m3311.91868[0m
+Time Completed Parsing:  [0m[33m3308.52803[0m
 [0m[1m4 |[0m [0m[35mimport[0m { describe, expect, test, jest } [0m[35mfrom[0m [0m[32m"bun:test"[0m[0m[2m;[0m
 [0m[1m5 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
 [0m[1m6 |[0m 
@@ -159,7 +114,7 @@ Time Completed Parsing:  [0m[33m3311.91868[0m
 `)', 'res.text.split' is undefined)[0m
 [0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m107[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[1m3315.80ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle single event add query ("add" intent)[0m [0m[2m[[1m3312.90ms[0m[2m][0m
 [{"text":"October 1, 2025 from 10am to 11am","start":"2025-10-01T17:00:00.000Z","end":"2025-10-01T18:00:00.000Z"},{"text":"October 2, 2025 from 12pm to 1pm","start":"2025-10-02T19:00:00.000Z","end":"2025-10-02T20:00:00.000Z"},{"text":"October 3, 2025 from 2pm to 3pm","start":"2025-10-03T21:00:00.000Z","end":"2025-10-03T22:00:00.000Z"},{"text":"October 4, 2025 from 6am to 7am","start":"2025-10-04T13:00:00.000Z","end":"2025-10-04T14:00:00.000Z"},{"text":"October 5, 2025 from 8pm to 10pm","start":"2025-10-06T03:00:00.000Z","end":"2025-10-06T05:00:00.000Z"},{"text":"October 6, 2025 from 9am to 12pm","start":"2025-10-06T16:00:00.000Z","end":"2025-10-06T19:00:00.000Z"},{"text":"October 7, 2025 from 7pm to 8pm","start":"2025-10-08T02:00:00.000Z","end":"2025-10-08T03:00:00.000Z"}]
 User Input:  Add events: Meeting on October 1, 2025 from 10am to 11am at office; Lunch on October 2, 2025 from 12pm to 1pm at cafe; Call on October 3, 2025 from 2pm to 3pm; Workout on October 4, 2025 from 6am to 7am at gym; Movie on October 5, 2025 from 8pm to 10pm at theater; Hiking on October 6, 2025 from 9am to 12pm at park; Dinner on October 7, 2025 from 7pm to 8pm at home
 classifyIntent is called
@@ -402,7 +357,7 @@ Refined from server:  {
   [0mconfirm[2m:[0m [0m[32m[0m[32m"Partial parse-confirm?"[0m[0m[0m[2m,[0m
 }
 Parsing Completed
-Time Completed Parsing:  [0m[33m1053.051475[0m
+Time Completed Parsing:  [0m[33m1048.23894[0m
 [0m[1m4 |[0m [0m[35mimport[0m { describe, expect, test, jest } [0m[35mfrom[0m [0m[32m"bun:test"[0m[0m[2m;[0m
 [0m[1m5 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
 [0m[1m6 |[0m 
@@ -414,7 +369,7 @@ Time Completed Parsing:  [0m[33m1053.051475[0m
 `)', 'res.text.split' is undefined)[0m
 [0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m137[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-days events add query ("add" intent with refinement)[0m [0m[2m[[1m1055.91ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-days events add query ("add" intent with refinement)[0m [0m[2m[[1m1051.69ms[0m[2m][0m
 [{"text":"at 10 AM to 11 AM","start":"2025-10-10T17:00:00.000Z","end":"2025-10-10T18:00:00.000Z"},{"text":"at 12 PM to 1 PM","start":"2025-10-10T19:00:00.000Z","end":"2025-10-10T20:00:00.000Z"}]
 User Input:  Schedule meeting at 10 AM to 11 AM and lunch at 12 PM to 1 PM tomorrow
 classifyIntent is called
@@ -489,7 +444,7 @@ Date and Time Details:
 
 Duration of the Event:
 "The event will last for approximately {[duration_minutes]} minutes, starting from its scheduled start time on ([date]).
-Natural Response generated with intent add in 2342.649098 
+Natural Response generated with intent add in 2342.414919 
 Refined from server:  {
   [0mevents[2m:[0m [
     {
@@ -515,7 +470,7 @@ Refined from server:  {
   [0mconfirm[2m:[0m [0m[32m[0m[32m"Partial parse-confirm?"[0m[0m[0m[2m,[0m
 }
 Parsing Completed
-Time Completed Parsing:  [0m[33m4583.894299[0m
+Time Completed Parsing:  [0m[33m4628.695861[0m
 [0m[1m4 |[0m [0m[35mimport[0m { describe, expect, test, jest } [0m[35mfrom[0m [0m[32m"bun:test"[0m[0m[2m;[0m
 [0m[1m5 |[0m [0m[35mimport[0m { fileURLToPath } [0m[35mfrom[0m [0m[32m"url"[0m[0m[2m;[0m
 [0m[1m6 |[0m 
@@ -527,33 +482,10 @@ Time Completed Parsing:  [0m[33m4583.894299[0m
 `)', 'res.text.split' is undefined)[0m
 [0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m9[0m[2m:[33m26[0m[2m)[0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m169[0m[2m:[33m20[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-events in one day add query ("add" intent)[0m [0m[2m[[1m4589.26ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle multi-events in one day add query ("add" intent)[0m [0m[2m[[1m4633.41ms[0m[2m][0m
 
  0 pass[0m
 [0m[31m 5 fail[0m
-Ran 5 tests across 1 file. [0m[2m[[1m10.43s[0m[2m][0m
-[1m[7m%[27m[1m[0m                                                                                    ]2;kyle@kyle:~/Deployments/mcp-server-taskler]1;..erver-taskler[0m[27m[24m[J[01;31m➜  [36mmcp-server-taskler[00m [01;34mgit:([31mframework-change[34m) [33m✗[00m [K[?1h=[?2004he[32me[39m[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /ho[90mm[90me/kyle/.ssh/github-key [39m[K[A[24C[1B
-[0;1;2mcommand[0m
-[0me                    echo          echotc       echoti         edit           
-edit-command-line    editor        editres      efibootdump    efibootmgr     
-egrep                eject         elfedit      elif           else           
-emulate              enable        enc2xs       encguess       enchant-2      
-enchant-lsmod-2      end           enosys       env            env_default    
-envsubst             eog           eps2eps      eqn            esac           
-escapesrc            escp2topbm    eval         evince         evince-previewer
-evince-thumbnailer   evolution     ex           exch           exec           
-exit                 expand        expiry       export         expr           
-exr2aces             exrenvmap     exrheader    exrinfo        exrmakepreview 
-exrmaketiled         exrmanifest   exrmetrics   exrmultipart   exrmultiview   
-[Jexrstdattr           [Jexr_to_pq     [Jeyuvtoppm    [Jeza            [J               [14A[0m[27m[24m[47C[32me[39m[90mval "$(ssh-agent -s)" && ssh-add /ho[90mm[90me/kyle/.ssh/github-key [39m[K[A[24C[32me[32mx[39m[K[1B[K[A[49C[90mit[39m[1B[J[0;1;2mcommand[0m
-[0mex              exch            exec            exit            expand        
-expiry          export          expr            exr2aces        exrenvmap     
-exrheader       exrinfo         exrmakepreview  exrmaketiled    exrmanifest   
-[Jexrmetrics      [Jexrmultipart    [Jexrmultiview    [Jexrstdattr      [Jexr_to_pq     [J[5A[0m[27m[24m[47C[32mex[39m[90mit[39m[K[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m
-[J[0;1;2mcommand[0m
-[J[0mexit[J[A[A[0m[27m[24m[47C[1m[31mexi[0m[39m[90mt[39m[K[1m[31mi[1m[31mt[0m[39m[0m[32me[0m[32mx[0m[32mi[0m[32mt[39m
-[J[0;1;2mcommand[0m
-[J[0mexit[J[A[A[0m[27m[24m[47C[32mexit[39m[K[?1l>[?2004l
-[J[A[51C
-[J]2;exit]1;exit
-Script done on 2025-10-15 00:22:35-07:00 [COMMAND_EXIT_CODE="1"]
+Ran 5 tests across 1 file. [0m[2m[[1m10.48s[0m[2m][0m
+
+Script done on 2025-10-15 09:35:09-07:00 [COMMAND_EXIT_CODE="1"]

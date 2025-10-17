@@ -1,22 +1,32 @@
-Script started on 2025-10-16 22:43:16-07:00 [COMMAND="echo 'change directory to fast api server' && cd /home/kyle/Deployments/mvp-llm-python-sever && echo 'pull latest change from git repo' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start fastapi server...' &&   . ./venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4    " TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="127" LINES="54"]
+Script started on 2025-10-17 09:06:34-07:00 [COMMAND="echo 'change directory to fast api server' && cd /home/kyle/Deployments/mvp-llm-python-sever && echo 'pull latest change from git repo' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start fastapi server...' &&   . ./venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4    " TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="84" LINES="54"]
 change directory to fast api server
 pull latest change from git repo
-Agent pid 167548
+Agent pid 197327
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
-Already up to date.
+remote: Enumerating objects: 7, done.[K
+remote: Counting objects:  14% (1/7)[Kremote: Counting objects:  28% (2/7)[Kremote: Counting objects:  42% (3/7)[Kremote: Counting objects:  57% (4/7)[Kremote: Counting objects:  71% (5/7)[Kremote: Counting objects:  85% (6/7)[Kremote: Counting objects: 100% (7/7)[Kremote: Counting objects: 100% (7/7), done.[K
+remote: Compressing objects: 100% (1/1)[Kremote: Compressing objects: 100% (1/1), done.[K
+remote: Total 4 (delta 2), reused 4 (delta 2), pack-reused 0 (from 0)[K
+Unpacking objects:  25% (1/4)Unpacking objects:  50% (2/4)Unpacking objects:  75% (3/4)Unpacking objects: 100% (4/4)Unpacking objects: 100% (4/4), 1.00 KiB | 1.00 MiB/s, done.
+From github.com:kylenguyen-cs30/mvp-llm-python-sever
+   1e9ac91..d0854ab  main       -> origin/main
+Updating 1e9ac91..d0854ab
+Fast-forward
+ intents/classify_intent.py | 34 [32m++++++++++++++++++++++++++++++++[m[31m--[m
+ 1 file changed, 32 insertions(+), 2 deletions(-)
 start fastapi server...
 [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
-[32mINFO[0m:     Started parent process [[36m[1m167546[0m]
-[32mINFO[0m:     Started server process [[36m167564[0m]
+[32mINFO[0m:     Started parent process [[36m[1m197325[0m]
+[32mINFO[0m:     Started server process [[36m197446[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m167565[0m]
+[32mINFO[0m:     Started server process [[36m197445[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m167563[0m]
+[32mINFO[0m:     Started server process [[36m197443[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
-[32mINFO[0m:     Started server process [[36m167562[0m]
+[32mINFO[0m:     Started server process [[36m197444[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
 classify_intent_service reached
@@ -24,12 +34,12 @@ MODEL_PATH:  /home/kyle/.models/bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3
 Attempting GPU LLM with n_gpu_layers = -1
 llama_context: n_ctx_per_seq (1024) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
 GPU LLM loaded Successfully
-Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--293efb2a-adc8-4158-a51e-a16e6aeef938-0'
-[32mINFO[0m:     127.0.0.1:34754 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--6bd744ef-3fa9-40ba-84fe-50d5a751e8b1-0'
+[32mINFO[0m:     127.0.0.1:34552 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
 generate_natural_response_service reached1️⃣
 generate_natural_response_service reach other condition
 [DEBUG] Server reach sub_classify_other_intent
-[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--9753a633-52c2-4dd6-9a46-100f45717002-0'
+[DEBUG] Reponse from LLM :  content='Response: chit-chat' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--cf71de65-c7fa-47b5-bb62-4bee2b6eec79-0'
 [DEBUG] logic reach in isinstance condition
 [DEBUG] category: chit-chat
 [DEBUG] category: chit-chat
@@ -37,14 +47,14 @@ Sub type:  chit-chat
 generate_natural_response_service service concluded and natural_response is : I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?
 
 What's new and exciting in the world of scheduling around here
-[32mINFO[0m:     127.0.0.1:34754 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34552 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
 classify_intent_service reached
-Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--922d6840-59a9-48d9-9632-a42f29cdc5a4-0'
-[32mINFO[0m:     127.0.0.1:34754 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--ce0c5e3f-b26a-41a8-bb3a-51653f7e9892-0'
+[32mINFO[0m:     127.0.0.1:34552 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
 generate_natural_response_service reached1️⃣
 generate_natural_response_service reach other condition
 [DEBUG] Server reach sub_classify_other_intent
-[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--aabbe303-54d5-4e7f-86c4-386acdab7dc1-0'
+[DEBUG] Reponse from LLM :  content='Response: computational-math' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--48a3bd51-60db-44cd-8ca4-c642088d2628-0'
 [DEBUG] logic reach in isinstance condition
 [DEBUG] category: computational-math
 [DEBUG] category: computational-math
@@ -53,32 +63,45 @@ Sub type:  computational-math
 [DEBUG] result: t
 Math result : t
 generate_natural_response_service service concluded and natural_response is : The result is 14.
-[32mINFO[0m:     127.0.0.1:34754 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
-^C[32mINFO[0m:     Shutting down
+[32mINFO[0m:     127.0.0.1:34552 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+classify_intent_service reached
+Response from LLM : content='other' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--a520a996-0565-4f0b-8795-eb02f05076a9-0'
+[32mINFO[0m:     127.0.0.1:34552 - "[1mPOST /classify-intent HTTP/1.1[0m" [32m200 OK[0m
+generate_natural_response_service reached1️⃣
+generate_natural_response_service reach other condition
+[DEBUG] Server reach sub_classify_other_intent
+[DEBUG] Reponse from LLM :  content='Response: general-knowledge' additional_kwargs={} response_metadata={'finish_reason': 'stop'} id='run--a135b58d-2b2c-4238-9857-486e2ea6a7b3-0'
+[DEBUG] logic reach in isinstance condition
+[DEBUG] category: general-knowledge
+[DEBUG] category: general-knowledge
+Sub type:  general-knowledge
+generate_natural_response_service service concluded and natural_response is : I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?
+[32mINFO[0m:     127.0.0.1:34552 - "[1mPOST /generate-natural-response HTTP/1.1[0m" [32m200 OK[0m
+^C[32mINFO[0m:     Received SIGINT, exiting.
+[32mINFO[0m:     Terminated child process [197443]
+[32mINFO[0m:     Terminated child process [197444]
+[32mINFO[0m:     Terminated child process [197445]
+[32mINFO[0m:     Terminated child process [197446]
+[32mINFO[0m:     Waiting for child process [197443]
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
 [32mINFO[0m:     Shutting down
-[32mINFO[0m:     Received SIGINT, exiting.
-[32mINFO[0m:     Terminated child process [167562]
-[32mINFO[0m:     Terminated child process [167563]
-[32mINFO[0m:     Terminated child process [167564]
-[32mINFO[0m:     Terminated child process [167565]
-[32mINFO[0m:     Waiting for child process [167562]
+[32mINFO[0m:     Shutting down
 [32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m167565[0m]
 [32mINFO[0m:     Waiting for application shutdown.
-[32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m167563[0m]
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Waiting for application shutdown.
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m167562[0m]
 [32mINFO[0m:     Application shutdown complete.
-[32mINFO[0m:     Finished server process [[36m167564[0m]
-[32mINFO[0m:     Waiting for child process [167563]
-[32mINFO[0m:     Waiting for child process [167564]
-[32mINFO[0m:     Waiting for child process [167565]
-[32mINFO[0m:     Stopping parent process [[36m[1m167546[0m]
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m197443[0m]
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m197444[0m]
+[32mINFO[0m:     Finished server process [[36m197446[0m]
+[32mINFO[0m:     Finished server process [[36m197445[0m]
+[32mINFO[0m:     Waiting for child process [197444]
+[32mINFO[0m:     Waiting for child process [197445]
+[32mINFO[0m:     Waiting for child process [197446]
+[32mINFO[0m:     Stopping parent process [[36m[1m197325[0m]
 
-Script done on 2025-10-16 22:47:57-07:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-10-17 09:11:28-07:00 [COMMAND_EXIT_CODE="0"]

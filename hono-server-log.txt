@@ -1,101 +1,101 @@
-Script started on 2025-10-16 22:11:03-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules-bun.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="54"]
+Script started on 2025-10-16 22:29:38-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="54"]
 change directory to hono-server
 pull the latest code from github
-Agent pid 163966
+Agent pid 166915
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
 Already up to date.
 start the test
 [0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
-src/tests/api/schedules-bun.test.ts:
-[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops[0m
+src/tests/api/schedules.test.ts:
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 📡 add observability to secrets: https://dotenvx.com/ops[0m
 Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 []
 User Input:  How are you doing?
 classifyIntent is called
 Intent returned :  other
-Server Reach  other case 
+MCP Server Reach  other case 
 response from LLM SERVER :  {
   [0mnatural_response[2m:[0m [0m[32m[0m[32m"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"[0m[0m[0m[2m,[0m
 }
 Generated response:  I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?
 
 What's new and exciting in the world of scheduling around here
-naturalResponse/other :  I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?
-
-What's new and exciting in the world of scheduling around here
 Streaming chunk:  {"naturalResponse":"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"}
 Raw Response status:  [0m[33m200[0m OK
-raw response text:  "[object Object]\n"
-"[object Object]\n"
+raw response text:  {"naturalResponse":"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"}
 
-[0m[31mFailed to parse JSON:  [0m[1m14 |[0m     console[0m[3m[1m.log[0m([0m[32m"Empty response"[0m)[0m[2m;[0m
-[0m[1m15 |[0m     [0m[35mreturn[0m [][0m[2m;[0m
-[0m[1m16 |[0m   }
-[0m[1m17 |[0m   [0m[35mtry[0m {
-[0m[1m18 |[0m     [0m[2m// parse single JSON object adn map to expect format[0m
-[0m[1m19 |[0m     [0m[35mconst[0m json = JSON[0m[3m[1m.parse[0m(text[0m[3m[1m.trim[0m())[0m[2m;[0m
+{"status":"complete"}
+
+
+[0m[31mFailed to parse JSON:  [0m[1m13 |[0m     console[0m[3m[1m.log[0m([0m[32m"Empty response"[0m)[0m[2m;[0m
+[0m[1m14 |[0m     [0m[35mreturn[0m [][0m[2m;[0m
+[0m[1m15 |[0m   }
+[0m[1m16 |[0m   [0m[35mtry[0m {
+[0m[1m17 |[0m     [0m[2m// parse single JSON object adn map to expect format[0m
+[0m[1m18 |[0m     [0m[35mconst[0m json = JSON[0m[3m[1m.parse[0m(text[0m[3m[1m.trim[0m())[0m[2m;[0m
                            [31m[1m^[0m
 [0m[31mSyntaxError[0m[2m:[0m [1mJSON Parse error: Unable to parse JSON string[0m
-[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m19[0m[2m:[33m23[0m[2m)[0m
-[0m      [2mat [0m[0m[2masync <anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m59[0m[2m:[33m26[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m18[0m[2m:[33m23[0m[2m)[0m
+[0m      [2mat [0m[0m[2masync <anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m60[0m[2m:[33m26[0m[2m)[0m
 [0m
-[0m[1m59 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
-[0m[1m60 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
-[0m[1m61 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
-[0m[1m62 |[0m 
-[0m[1m63 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
-[0m[1m64 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m60 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
+[0m[1m61 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
+[0m[1m62 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m63 |[0m 
+[0m[1m64 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m65 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
                               [31m[1m^[0m
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoBeDefined[2m([0m[2m)[0m
 
 Received: [31mundefined[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m64[0m[2m:[33m26[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1817.78ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m65[0m[2m:[33m26[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1788.94ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
 Intent returned :  other
-Server Reach  other case 
+MCP Server Reach  other case 
 response from LLM SERVER :  {
   [0mnatural_response[2m:[0m [0m[32m[0m[32m"The result is 14."[0m[0m[0m[2m,[0m
 }
 Generated response:  The result is 14.
-naturalResponse/other :  The result is 14.
 Streaming chunk:  {"naturalResponse":"The result is 14."}
 Raw Response status:  [0m[33m200[0m OK
-raw response text:  "[object Object]\n"
-"[object Object]\n"
+raw response text:  {"naturalResponse":"The result is 14."}
 
-[0m[31mFailed to parse JSON:  [0m[1m14 |[0m     console[0m[3m[1m.log[0m([0m[32m"Empty response"[0m)[0m[2m;[0m
-[0m[1m15 |[0m     [0m[35mreturn[0m [][0m[2m;[0m
-[0m[1m16 |[0m   }
-[0m[1m17 |[0m   [0m[35mtry[0m {
-[0m[1m18 |[0m     [0m[2m// parse single JSON object adn map to expect format[0m
-[0m[1m19 |[0m     [0m[35mconst[0m json = JSON[0m[3m[1m.parse[0m(text[0m[3m[1m.trim[0m())[0m[2m;[0m
+{"status":"complete"}
+
+
+[0m[31mFailed to parse JSON:  [0m[1m13 |[0m     console[0m[3m[1m.log[0m([0m[32m"Empty response"[0m)[0m[2m;[0m
+[0m[1m14 |[0m     [0m[35mreturn[0m [][0m[2m;[0m
+[0m[1m15 |[0m   }
+[0m[1m16 |[0m   [0m[35mtry[0m {
+[0m[1m17 |[0m     [0m[2m// parse single JSON object adn map to expect format[0m
+[0m[1m18 |[0m     [0m[35mconst[0m json = JSON[0m[3m[1m.parse[0m(text[0m[3m[1m.trim[0m())[0m[2m;[0m
                            [31m[1m^[0m
 [0m[31mSyntaxError[0m[2m:[0m [1mJSON Parse error: Unable to parse JSON string[0m
-[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m19[0m[2m:[33m23[0m[2m)[0m
-[0m      [2mat [0m[0m[2masync <anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m90[0m[2m:[33m26[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mparseNdjsonResponse[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m18[0m[2m:[33m23[0m[2m)[0m
+[0m      [2mat [0m[0m[2masync <anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m91[0m[2m:[33m26[0m[2m)[0m
 [0m
-[0m[1m90 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
-[0m[1m91 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
-[0m[1m92 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
-[0m[1m93 |[0m 
-[0m[1m94 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
-[0m[1m95 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m91 |[0m     [0m[35mconst[0m chunks = [0m[35mawait[0m parseNdjsonResponse(res)[0m[2m;[0m
+[0m[1m92 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
+[0m[1m93 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m94 |[0m 
+[0m[1m95 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m96 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
                               [31m[1m^[0m
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoBeDefined[2m([0m[2m)[0m
 
 Received: [31mundefined[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules-bun.test.ts[0m[2m:[0m[33m95[0m[2m:[33m26[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m333.46ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m96[0m[2m:[33m26[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m327.25ms[0m[2m][0m
 
  0 pass[0m
 [0m[31m 2 fail[0m
  4 expect() calls
-Ran 2 tests across 1 file. [0m[2m[[1m2.30s[0m[2m][0m
+Ran 2 tests across 1 file. [0m[2m[[1m2.24s[0m[2m][0m
 
-Script done on 2025-10-16 22:11:09-07:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-10-16 22:29:43-07:00 [COMMAND_EXIT_CODE="1"]

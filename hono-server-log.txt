@@ -1,14 +1,24 @@
-Script started on 2025-10-18 01:16:35-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="54"]
+Script started on 2025-10-18 01:32:32-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="54"]
 change directory to hono-server
 pull the latest code from github
-Agent pid 224974
+Agent pid 226109
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
-Already up to date.
+remote: Enumerating objects: 11, done.[K
+remote: Counting objects:   9% (1/11)[Kremote: Counting objects:  18% (2/11)[Kremote: Counting objects:  27% (3/11)[Kremote: Counting objects:  36% (4/11)[Kremote: Counting objects:  45% (5/11)[Kremote: Counting objects:  54% (6/11)[Kremote: Counting objects:  63% (7/11)[Kremote: Counting objects:  72% (8/11)[Kremote: Counting objects:  81% (9/11)[Kremote: Counting objects:  90% (10/11)[Kremote: Counting objects: 100% (11/11)[Kremote: Counting objects: 100% (11/11), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 6 (delta 3), reused 6 (delta 3), pack-reused 0 (from 0)[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 664 bytes | 132.00 KiB/s, done.
+From github.com:kylenguyen-cs30/mcp-server-taskler
+   9e84fea..eee9b32  framework-change -> origin/framework-change
+Updating 9e84fea..eee9b32
+Fast-forward
+ src/tests/api/schedules.test.ts | 9 [32m+++++[m[31m----[m
+ 1 file changed, 5 insertions(+), 4 deletions(-)
 start the test
 [0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
 src/tests/api/schedules.test.ts:
-[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`[0m
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops[0m
 Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 []
 User Input:  How are you doing?
@@ -36,20 +46,20 @@ parsed line :  {
 parsed line :  {
   [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
 }
-[0m[1m70 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
-[0m[1m71 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
-[0m[1m72 |[0m 
-[0m[1m73 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
-[0m[1m74 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
-[0m[1m75 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"doing well"[0m)[0m[2m;[0m
+[0m[1m69 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
+[0m[1m70 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m71 |[0m 
+[0m[1m72 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m73 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m74 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"doing well"[0m)[0m[2m;[0m
                                                [31m[1m^[0m
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
 
 Expected to contain: [32m"doing well"[0m
 Received: [31m"Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.\n\nWhat about you? What brings a smile to your face today?\n\n(By the way, what can I help schedule for this day?)"[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m75[0m[2m:[33m43[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m2054.68ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m74[0m[2m:[33m43[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m2092.03ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
@@ -72,20 +82,20 @@ parsed line :  {
 parsed line :  {
   [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
 }
-[0m[1m100 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
-[0m[1m101 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
-[0m[1m102 |[0m 
-[0m[1m103 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
-[0m[1m104 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
-[0m[1m105 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"14"[0m)[0m[2m;[0m
+ [0m[1m99 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
+[0m[1m100 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m101 |[0m 
+[0m[1m102 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m103 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m104 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"14"[0m)[0m[2m;[0m
                                                 [31m[1m^[0m
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
 
 Expected to contain: [32m"14"[0m
 Received: [31m"The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome"[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m105[0m[2m:[33m43[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m812.40ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m104[0m[2m:[33m43[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m786.90ms[0m[2m][0m
 []
 User Input:  Can you speak Vietnamese?
 classifyIntent is called
@@ -108,39 +118,88 @@ parsed line :  {
 parsed line :  {
   [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
 }
-[0m[32m✓[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle Vietnamese language query ("other" intent)[0m [0m[2m[[1m698.11ms[0m[2m][0m
-[0m[1m156 |[0m         [0m[32m"Content-Type"[0m: [0m[32m"application/json"[0m,
-[0m[1m157 |[0m       },
-[0m[1m158 |[0m       body: JSON[0m[3m[1m.stringify[0m({ payload }),
-[0m[1m159 |[0m     })[0m[2m;[0m
-[0m[1m160 |[0m 
-[0m[1m161 |[0m     expect(res.status)[0m[3m[1m.toBe[0m([0m[33m200[0m)[0m[2m;[0m
-                             [31m[1m^[0m
-[0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoBe[2m([0m[32mexpected[0m[2m)[0m
+[0m[32m✓[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle Vietnamese language query ("other" intent)[0m [0m[2m[[1m695.09ms[0m[2m][0m
+[]
+User Input:  kết quả tính toán 12 - 5 là gì ?
+classifyIntent is called
+Intent returned :  other
+MCP Server Reach  other case 
+response from LLM SERVER :  {
+  [0mnatural_response[2m:[0m [0m[32m[0m[32m"Sub-type: computational-math\nQuery: kết quả tính toán 12 - 5 là gì ?\nComputed math result (invalid due to syntax error): Invalid\n\nResponse:\nXin lỗi, tôi không thể thực hiện phép tính này do có vấn đề về cấu trúc dữ liệu. Bạn cần giúp đỡ với việc sắp xếp lịch trình hay thông tin khác liên quan đến calendar?"[0m[0m[0m[2m,[0m
+}
+Generated response:  Sub-type: computational-math
+Query: kết quả tính toán 12 - 5 là gì ?
+Computed math result (invalid due to syntax error): Invalid
 
-Expected: [32m200[0m
-Received: [31m400[0m
-[0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m161[0m[2m:[33m24[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math with Vietnamese language query ("other" intent)[0m [0m[2m[3.30ms[0m[2m][0m
-[0m[1m189 |[0m         [0m[32m"Content-Type"[0m: [0m[32m"application/json"[0m,
-[0m[1m190 |[0m       },
-[0m[1m191 |[0m       body: JSON[0m[3m[1m.stringify[0m({ payload }),
-[0m[1m192 |[0m     })[0m[2m;[0m
-[0m[1m193 |[0m 
-[0m[1m194 |[0m     expect(res.status)[0m[3m[1m.toBe[0m([0m[33m200[0m)[0m[2m;[0m
-                             [31m[1m^[0m
-[0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoBe[2m([0m[32mexpected[0m[2m)[0m
+Response:
+Xin lỗi, tôi không thể thực hiện phép tính này do có vấn đề về cấu trúc dữ liệu. Bạn cần giúp đỡ với việc sắp xếp lịch trình hay thông tin khác liên quan đến calendar?
+Streaming chunk:  {"naturalResponse":"Sub-type: computational-math\nQuery: kết quả tính toán 12 - 5 là gì ?\nComputed math result (invalid due to syntax error): Invalid\n\nResponse:\nXin lỗi, tôi không thể thực hiện phép tính này do có vấn đề về cấu trúc dữ liệu. Bạn cần giúp đỡ với việc sắp xếp lịch trình hay thông tin khác liên quan đến calendar?"}
+Raw respons status :  [0m[33m200[0m OK
+raw response text:  {"naturalResponse":"Sub-type: computational-math\nQuery: kết quả tính toán 12 - 5 là gì ?\nComputed math result (invalid due to syntax error): Invalid\n\nResponse:\nXin lỗi, tôi không thể thực hiện phép tính này do có vấn đề về cấu trúc dữ liệu. Bạn cần giúp đỡ với việc sắp xếp lịch trình hay thông tin khác liên quan đến calendar?"}
 
-Expected: [32m200[0m
-Received: [31m400[0m
+{"status":"complete"}
+
+
+parsed line :  {
+  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"Sub-type: computational-math\nQuery: kết quả tính toán 12 - 5 là gì ?\nComputed math result (invalid due to syntax error): Invalid\n\nResponse:\nXin lỗi, tôi không thể thực hiện phép tính này do có vấn đề về cấu trúc dữ liệu. Bạn cần giúp đỡ với việc sắp xếp lịch trình hay thông tin khác liên quan đến calendar?"[0m[0m[0m[2m,[0m
+}
+parsed line :  {
+  [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
+}
+[0m[1m166 |[0m     )[0m[2m;[0m
+[0m[1m167 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m168 |[0m 
+[0m[1m169 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m170 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m171 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"7"[0m)[0m[2m;[0m
+                                                [31m[1m^[0m
+[0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
+
+Expected to contain: [32m"7"[0m
+Received: [31m"Sub-type: computational-math\nQuery: kết quả tính toán 12 - 5 là gì ?\nComputed math result (invalid due to syntax error): Invalid\n\nResponse:\nXin lỗi, tôi không thể thực hiện phép tính này do có vấn đề về cấu trúc dữ liệu. Bạn cần giúp đỡ với việc sắp xếp lịch trình hay thông tin khác liên quan đến calendar?"[0m
 [0m
-[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m194[0m[2m:[33m24[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle greeting with Vietnamese language query  "other" intent)[0m [0m[2m[2.66ms[0m[2m][0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m171[0m[2m:[33m43[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math with Vietnamese language query ("other" intent)[0m [0m[2m[[1m1328.90ms[0m[2m][0m
+[]
+User Input:  xin chào bạn, bạn khoẻ không?
+classifyIntent is called
+Intent returned :  other
+MCP Server Reach  other case 
+response from LLM SERVER :  {
+  [0mnatural_response[2m:[0m [0m[32m[0m[32m"Xin chào! Tôi đang hoạt động tốt, cảm ơn bạn đã hỏi. Bạn cần giúp gì về lịch trình hôm nay không?"[0m[0m[0m[2m,[0m
+}
+Generated response:  Xin chào! Tôi đang hoạt động tốt, cảm ơn bạn đã hỏi. Bạn cần giúp gì về lịch trình hôm nay không?
+Streaming chunk:  {"naturalResponse":"Xin chào! Tôi đang hoạt động tốt, cảm ơn bạn đã hỏi. Bạn cần giúp gì về lịch trình hôm nay không?"}
+Raw respons status :  [0m[33m200[0m OK
+raw response text:  {"naturalResponse":"Xin chào! Tôi đang hoạt động tốt, cảm ơn bạn đã hỏi. Bạn cần giúp gì về lịch trình hôm nay không?"}
+
+{"status":"complete"}
+
+
+parsed line :  {
+  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"Xin chào! Tôi đang hoạt động tốt, cảm ơn bạn đã hỏi. Bạn cần giúp gì về lịch trình hôm nay không?"[0m[0m[0m[2m,[0m
+}
+parsed line :  {
+  [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
+}
+[0m[1m200 |[0m     )[0m[2m;[0m
+[0m[1m201 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m202 |[0m 
+[0m[1m203 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m204 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m205 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"7"[0m)[0m[2m;[0m
+                                                [31m[1m^[0m
+[0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
+
+Expected to contain: [32m"7"[0m
+Received: [31m"Xin chào! Tôi đang hoạt động tốt, cảm ơn bạn đã hỏi. Bạn cần giúp gì về lịch trình hôm nay không?"[0m
+[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m205[0m[2m:[33m43[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle greeting with Vietnamese language query  "other" intent)[0m [0m[2m[[1m724.02ms[0m[2m][0m
 
 [0m[32m 1 pass[0m
 [0m[31m 4 fail[0m
- 11 expect() calls
-Ran 5 tests across 1 file. [0m[2m[[1m3.68s[0m[2m][0m
+ 15 expect() calls
+Ran 5 tests across 1 file. [0m[2m[[1m5.78s[0m[2m][0m
 
-Script done on 2025-10-18 01:16:42-07:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-10-18 01:32:41-07:00 [COMMAND_EXIT_CODE="1"]

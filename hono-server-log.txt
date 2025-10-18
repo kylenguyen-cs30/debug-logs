@@ -1,26 +1,14 @@
-Script started on 2025-10-17 09:10:28-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="84" LINES="54"]
+Script started on 2025-10-18 00:59:52-07:00 [COMMAND="  echo 'change directory to hono-server' &&   cd /home/kyle/Deployments/mcp-server-taskler &&   echo 'pull the latest code from github' &&   eval "$(ssh-agent -s)" && ssh-add /home/kyle/.ssh/github-key && git fetch && git pull &&   echo 'start the test' &&   bun test src/tests/api/schedules.test.ts " TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="54"]
 change directory to hono-server
 pull the latest code from github
-Agent pid 198704
+Agent pid 221211
 Identity added: /home/kyle/.ssh/github-key (knguyen1193@outlook.com)
-remote: Enumerating objects: 17, done.[K
-remote: Counting objects:   5% (1/17)[Kremote: Counting objects:  11% (2/17)[Kremote: Counting objects:  17% (3/17)[Kremote: Counting objects:  23% (4/17)[Kremote: Counting objects:  29% (5/17)[Kremote: Counting objects:  35% (6/17)[Kremote: Counting objects:  41% (7/17)[Kremote: Counting objects:  47% (8/17)[Kremote: Counting objects:  52% (9/17)[Kremote: Counting objects:  58% (10/17)[Kremote: Counting objects:  64% (11/17)[Kremote: Counting objects:  70% (12/17)[Kremote: Counting objects:  76% (13/17)[Kremote: Counting objects:  82% (14/17)[Kremote: Counting objects:  88% (15/17)[Kremote: Counting objects:  94% (16/17)[Kremote: Counting objects: 100% (17/17)[Kremote: Counting objects: 100% (17/17), done.[K
-remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
-remote: Total 9 (delta 5), reused 9 (delta 5), pack-reused 0 (from 0)[K
-Unpacking objects:  11% (1/9)Unpacking objects:  22% (2/9)Unpacking objects:  33% (3/9)Unpacking objects:  44% (4/9)Unpacking objects:  55% (5/9)Unpacking objects:  66% (6/9)Unpacking objects:  77% (7/9)Unpacking objects:  88% (8/9)Unpacking objects: 100% (9/9)Unpacking objects: 100% (9/9), 1.12 KiB | 163.00 KiB/s, done.
-From github.com:kylenguyen-cs30/mcp-server-taskler
-   bc75304..4aa2e8e  framework-change -> origin/framework-change
-Updating bc75304..4aa2e8e
-Fast-forward
- src/process/classifyIntent.ts   | 32 [32m++++++++[m[31m------------[m
- src/process/process-query.ts    |  2 [32m+[m[31m-[m
- src/tests/api/schedules.test.ts | 73 [32m+++++++++++++++++++++++++[m[31m--------------------[m
- 3 files changed, 55 insertions(+), 52 deletions(-)
+Already up to date.
 start the test
 [0m[1mbun test [0m[2mv1.3.0 (b0a6feca)[0m
 [0m
 src/tests/api/schedules.test.ts:
-[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit[0m
+[dotenv@17.2.3] injecting env (0) from .env [2m-- tip: 📡 add observability to secrets: https://dotenvx.com/ops[0m
 Loaded MODEL_PARSE: /home/kyle/.models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 []
 User Input:  How are you doing?
@@ -28,66 +16,94 @@ classifyIntent is called
 Intent returned :  other
 MCP Server Reach  other case 
 response from LLM SERVER :  {
-  [0mnatural_response[2m:[0m [0m[32m[0m[32m"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"[0m[0m[0m[2m,[0m
+  [0mnatural_response[2m:[0m [0m[32m[0m[32m"Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.\n\nWhat about you? What brings a smile to your face today?\n\n(By the way, what can I help schedule for this day?)"[0m[0m[0m[2m,[0m
 }
-Generated response:  I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?
+Generated response:  Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.
 
-What's new and exciting in the world of scheduling around here
-Streaming chunk:  {"naturalResponse":"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"}
+What about you? What brings a smile to your face today?
+
+(By the way, what can I help schedule for this day?)
+Streaming chunk:  {"naturalResponse":"Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.\n\nWhat about you? What brings a smile to your face today?\n\n(By the way, what can I help schedule for this day?)"}
 Raw respons status :  [0m[33m200[0m OK
-raw response text:  {"naturalResponse":"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"}
+raw response text:  {"naturalResponse":"Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.\n\nWhat about you? What brings a smile to your face today?\n\n(By the way, what can I help schedule for this day?)"}
 
 {"status":"complete"}
 
 
 parsed line :  {
-  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"I'm doing well, thanks for asking. How about you? Is there anything on your calendar that I can help with today?\n\nWhat's new and exciting in the world of scheduling around here"[0m[0m[0m[2m,[0m
+  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.\n\nWhat about you? What brings a smile to your face today?\n\n(By the way, what can I help schedule for this day?)"[0m[0m[0m[2m,[0m
 }
 parsed line :  {
   [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
 }
-[0m[32m✓[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m1838.42ms[0m[2m][0m
+[0m[1m69 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"chit-chat-response.json"[0m)[0m[2m;[0m
+[0m[1m70 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m71 |[0m 
+[0m[1m72 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m73 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m74 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"doing well"[0m)[0m[2m;[0m
+                                               [31m[1m^[0m
+[0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
+
+Expected to contain: [32m"doing well"[0m
+Received: [31m"Hi there! I'm doing great, thanks. It's always nice to chat with someone new and catch up on how things are going.\n\nWhat about you? What brings a smile to your face today?\n\n(By the way, what can I help schedule for this day?)"[0m
+[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m74[0m[2m:[33m43[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle chit-chat query ("other" intent)[0m [0m[2m[[1m2103.93ms[0m[2m][0m
 []
 User Input:  What is 2 + 3 * 4?
 classifyIntent is called
 Intent returned :  other
 MCP Server Reach  other case 
 response from LLM SERVER :  {
-  [0mnatural_response[2m:[0m [0m[32m[0m[32m"The result is 14."[0m[0m[0m[2m,[0m
+  [0mnatural_response[2m:[0m [0m[32m[0m[32m"The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome"[0m[0m[0m[2m,[0m
 }
-Generated response:  The result is 14.
-Streaming chunk:  {"naturalResponse":"The result is 14."}
+Generated response:  The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome
+Streaming chunk:  {"naturalResponse":"The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome"}
 Raw respons status :  [0m[33m200[0m OK
-raw response text:  {"naturalResponse":"The result is 14."}
+raw response text:  {"naturalResponse":"The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome"}
 
 {"status":"complete"}
 
 
 parsed line :  {
-  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"The result is 14."[0m[0m[0m[2m,[0m
+  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome"[0m[0m[0m[2m,[0m
 }
 parsed line :  {
   [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
 }
-[0m[32m✓[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m419.19ms[0m[2m][0m
+ [0m[1m99 |[0m     [0m[35mconst[0m outputFile = path[0m[3m[1m.join[0m(outputDir, [0m[32m"computational-math-response.json"[0m)[0m[2m;[0m
+[0m[1m100 |[0m     fs[0m[3m[1m.writeFileSync[0m(outputFile, JSON[0m[3m[1m.stringify[0m(chunks, [0m[33mnull[0m, [0m[33m2[0m))[0m[2m;[0m
+[0m[1m101 |[0m 
+[0m[1m102 |[0m     [0m[35mconst[0m naturalChunk = chunks[0m[3m[1m.find[0m((chunk) => chunk.naturalResponse)[0m[2m;[0m
+[0m[1m103 |[0m     expect(naturalChunk)[0m[3m[1m.toBeDefined[0m()[0m[2m;[0m
+[0m[1m104 |[0m     expect(naturalChunk?.naturalResponse)[0m[3m[1m.toContain[0m([0m[32m"14"[0m)[0m[2m;[0m [0m[2m// E.g., from sympy computation[0m
+                                                [31m[1m^[0m
+[0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
+
+Expected to contain: [32m"14"[0m
+Received: [31m"The result is t. If this calculation relates to scheduling, I can help you calculate the duration of an event or suggest optimal times for activities based on your input and desired outcome"[0m
+[0m
+[0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m104[0m[2m:[33m43[0m[2m)[0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle computational-math query ("other" intent)[0m [0m[2m[[1m787.89ms[0m[2m][0m
 []
 User Input:  Can you speak Vietnamese?
 classifyIntent is called
 Intent returned :  other
 MCP Server Reach  other case 
 response from LLM SERVER :  {
-  [0mnatural_response[2m:[0m [0m[32m[0m[32m"I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?"[0m[0m[0m[2m,[0m
+  [0mnatural_response[2m:[0m [0m[32m[0m[32m"I'm optimized for English, but I can handle basic Vietnamese queries related to scheduling. Bạn cần giúp gì về lịch trình hôm nay?"[0m[0m[0m[2m,[0m
 }
-Generated response:  I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?
-Streaming chunk:  {"naturalResponse":"I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?"}
+Generated response:  I'm optimized for English, but I can handle basic Vietnamese queries related to scheduling. Bạn cần giúp gì về lịch trình hôm nay?
+Streaming chunk:  {"naturalResponse":"I'm optimized for English, but I can handle basic Vietnamese queries related to scheduling. Bạn cần giúp gì về lịch trình hôm nay?"}
 Raw respons status :  [0m[33m200[0m OK
-raw response text:  {"naturalResponse":"I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?"}
+raw response text:  {"naturalResponse":"I'm optimized for English, but I can handle basic Vietnamese queries related to scheduling. Bạn cần giúp gì về lịch trình hôm nay?"}
 
 {"status":"complete"}
 
 
 parsed line :  {
-  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?"[0m[0m[0m[2m,[0m
+  [0mnaturalResponse[2m:[0m [0m[32m[0m[32m"I'm optimized for English, but I can handle basic Vietnamese queries related to scheduling. Bạn cần giúp gì về lịch trình hôm nay?"[0m[0m[0m[2m,[0m
 }
 parsed line :  {
   [0mstatus[2m:[0m [0m[32m[0m[32m"complete"[0m[0m[0m[2m,[0m
@@ -102,14 +118,14 @@ parsed line :  {
 [0m[31merror[0m[2m:[0m [1m[2mexpect([0m[31mreceived[0m[2m).[0mtoContain[2m([0m[32mexpected[0m[2m)[0m
 
 Expected to contain: [32m"tiếng việt"[0m
-Received: [31m"I'm afraid I can't engage in conversations or speak languages, including Vietnamese. My focus is on managing calendar events and tasks within my scheduling capabilities – if you have any questions about your schedule though?"[0m
+Received: [31m"I'm optimized for English, but I can handle basic Vietnamese queries related to scheduling. Bạn cần giúp gì về lịch trình hôm nay?"[0m
 [0m
 [0m      [2mat [0m[0m[2m<anonymous>[0m[2m ([0m[0m[36m[2m/home/kyle/Deployments/mcp-server-taskler/[0m[36msrc/tests/api/schedules.test.ts[0m[2m:[0m[33m137[0m[2m:[33m43[0m[2m)[0m
-[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle Vietnamese language query ("other" intent)[0m [0m[2m[[1m819.34ms[0m[2m][0m
+[0m[31m✗[0m [0mAPI Endpoint : POST /mcp/tools/process-query[2m >[0m[1m should handle Vietnamese language query ("other" intent)[0m [0m[2m[[1m700.11ms[0m[2m][0m
 
-[0m[32m 2 pass[0m
-[0m[31m 1 fail[0m
+ 0 pass[0m
+[0m[31m 3 fail[0m
  9 expect() calls
-Ran 3 tests across 1 file. [0m[2m[[1m3.16s[0m[2m][0m
+Ran 3 tests across 1 file. [0m[2m[[1m3.76s[0m[2m][0m
 
-Script done on 2025-10-17 09:10:35-07:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-10-18 01:00:00-07:00 [COMMAND_EXIT_CODE="1"]
